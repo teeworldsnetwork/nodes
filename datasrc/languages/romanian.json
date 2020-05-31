@@ -1,0 +1,1215 @@
+{
+"authors": {
+	"modified by": [
+		"kneekoo        2011-01-18 18:26:02",
+		"kneekoo        2011-02-09 12:23:47",
+		"kneekoo        2011-04-03 23:00:38",
+		"kneekoo        2011-05-25 18:36:32",
+		"kneekoo        2011-07-01 18:40:49",
+		"kneekoo        2011-07-05 23:34:34",
+		"kneekoo        2012-05-01 02:01:47",
+		"BilaPatrata, 2014 (Transifex)",
+		"Nicolae Crefelean, 2014-2015 (Transifex)"
+	],
+	"originally created by": "kneekoo"
+},
+"translated strings": [
+	{
+		"or": "%.3f KiB",
+		"tr": "%.3f KiO"
+	},
+	{
+		"or": "%d player left",
+		"tr": "%d jucător rămas"
+	},
+	{
+		"or": "%d player not ready",
+		"tr": "%d jucător nepregătit"
+	},
+	{
+		"or": "%d players left",
+		"tr": "jucători rămași: %d"
+	},
+	{
+		"or": "%d players not ready",
+		"tr": "%d jucători nepregătiți"
+	},
+	{
+		"or": "%d servers, %d players",
+		"tr": "%d servere, %d jucători"
+	},
+	{
+		"or": "%d%% loaded",
+		"tr": "%d%% încărcat"
+	},
+	{
+		"or": "%ds left",
+		"tr": "%ds a ieșit"
+	},
+	{
+		"or": "%i minute left",
+		"tr": "%i minut rămas"
+	},
+	{
+		"or": "%i minutes left",
+		"tr": "%i minutes rămase"
+	},
+	{
+		"or": "%i second left",
+		"tr": "%i secundă rămasă"
+	},
+	{
+		"or": "%i seconds left",
+		"tr": "%i secunde rămase"
+	},
+	{
+		"or": "%s wins!",
+		"tr": "%s câștigă!"
+	},
+	{
+		"or": "'%s' called for vote to kick '%s' (%s)",
+		"tr": "'%s' cere voturi pentru eliminarea lui '%s' (%s)"
+	},
+	{
+		"or": "'%s' called for vote to move '%s' to spectators (%s)",
+		"tr": "'%s' cere voturi pentru mutarea '%s' la spectatori (%s)"
+	},
+	{
+		"or": "'%s' called vote to change server option '%s' (%s)",
+		"tr": "'%s' cere voturi pentru modificarea opțiunii de server '%s' (%s)"
+	},
+	{
+		"or": "'%s' has left the game",
+		"tr": "'%s' a părăsit jocul"
+	},
+	{
+		"or": "'%s' has left the game (%s)",
+		"tr": "'%s' a ieșit din joc (%s)"
+	},
+	{
+		"or": "'%s' was added as a friend",
+		"tr": "'%s' a fost adăugat în lista de prieteni"
+	},
+	{
+		"or": "'%s' was removed as a friend",
+		"tr": "'%s' a fost scos din lista de prieteni. "
+	},
+	{
+		"or": "-Page %d-",
+		"tr": "-Pagina %d-"
+	},
+	{
+		"or": "Abort",
+		"tr": "Anulează"
+	},
+	{
+		"or": "Add",
+		"tr": "Adaugă"
+	},
+	{
+		"or": "Add friend",
+		"tr": "Adaugă prieten"
+	},
+	{
+		"or": "Address",
+		"tr": "Adresa"
+	},
+	{
+		"or": "Admin forced server option '%s' (%s)",
+		"tr": "Administratorul a forțat opțiunea de server '%s' (%s)"
+	},
+	{
+		"or": "Admin forced vote no",
+		"tr": "Administratorul a forțat votarea cu 'nu'"
+	},
+	{
+		"or": "Admin forced vote yes",
+		"tr": "Administratorul a forțat votarea cu 'da'"
+	},
+	{
+		"or": "Admin moved '%s' to spectator (%s)",
+		"tr": "'%s' a fost mutat de admin la spectatori (%s)"
+	},
+	{
+		"or": "All",
+		"tr": "Toți"
+	},
+	{
+		"or": "All players were moved to the blue team",
+		"tr": "Toți jucătorii au fost mutați la echipa albastră. "
+	},
+	{
+		"or": "All players were moved to the red team",
+		"tr": "Toți jucătorii au fost mutați la echipa roșie"
+	},
+	{
+		"or": "Alp:",
+		"tr": "Alf:"
+	},
+	{
+		"or": "Always show name plates",
+		"tr": "Afișează întotdeauna pseudonimele"
+	},
+	{
+		"or": "Anti Aliasing",
+		"tr": "Antialias"
+	},
+	{
+		"or": "Are you sure that you want to delete the demo?",
+		"tr": "Sigur vrei să ștergi demonstrația?"
+	},
+	{
+		"or": "Are you sure that you want to delete the skin?",
+		"tr": "Sigur vrei să ștergi acest costum?"
+	},
+	{
+		"or": "Are you sure that you want to quit?",
+		"tr": "Sigur vrei să ieși?"
+	},
+	{
+		"or": "Are you sure that you want to remove the player from your friends list?",
+		"tr": "Sigur vrei să ștergi jucătorul din lista ta de prieteni?"
+	},
+	{
+		"or": "Are you sure you want to rename the demo?",
+		"tr": "Sigur vrei să redenumești demonstrația?"
+	},
+	{
+		"or": "Are you sure you want to save your skin? If a skin with this name already exists, it will be replaced.",
+		"tr": "Sigur vrei să salvezi costumul? Dacă există un costum cu același nume, acela va fi înlocuit."
+	},
+	{
+		"or": "As this is the first time you launch the game, please enter your nick name below. It's recommended that you check the settings to adjust them to your liking before joining a server.",
+		"tr": "Aceasta fiind prima lansare a jocului, te rog introdu-ți pseudonimul mai jos. E recomandat să verifici setările și să le ajustezi cum vrei înainte să intri pe un server."
+	},
+	{
+		"or": "Automatically record demos",
+		"tr": "Înregistrează automat demonstrații"
+	},
+	{
+		"or": "Automatically take game over screenshot",
+		"tr": "Fă automat o captură de ecran la final"
+	},
+	{
+		"or": "Back",
+		"tr": "Înapoi"
+	},
+	{
+		"or": "Basic",
+		"tr": "Simplu"
+	},
+	{
+		"or": "Blue team",
+		"tr": "Echipa albastră"
+	},
+	{
+		"or": "Borderless window",
+		"tr": "Fereastră fără margini"
+	},
+	{
+		"or": "Browser",
+		"tr": "Browser"
+	},
+	{
+		"or": "Call vote",
+		"tr": "Votează"
+	},
+	{
+		"or": "Change settings",
+		"tr": "Modifică setările"
+	},
+	{
+		"or": "Chat",
+		"tr": "Chat"
+	},
+	{
+		"or": "Clan",
+		"tr": "Clanul"
+	},
+	{
+		"or": "Client",
+		"tr": "Clientul"
+	},
+	{
+		"or": "Close",
+		"tr": "Închide"
+	},
+	{
+		"or": "Compatible version",
+		"tr": "Versiune compatibilă"
+	},
+	{
+		"or": "Connect",
+		"tr": "Conectează"
+	},
+	{
+		"or": "Connecting to",
+		"tr": "Conectare la"
+	},
+	{
+		"or": "Connection Problems...",
+		"tr": "Probleme la conexiune..."
+	},
+	{
+		"or": "Console",
+		"tr": "Consolă"
+	},
+	{
+		"or": "Controls",
+		"tr": "Controale"
+	},
+	{
+		"or": "Count players only",
+		"tr": "Numără doar jucătorii"
+	},
+	{
+		"or": "Country",
+		"tr": "Țara"
+	},
+	{
+		"or": "Country:",
+		"tr": "Țară:"
+	},
+	{
+		"or": "Crc",
+		"tr": "Crc"
+	},
+	{
+		"or": "Created",
+		"tr": "Creat"
+	},
+	{
+		"or": "Custom",
+		"tr": "Personalizat"
+	},
+	{
+		"or": "Custom colors",
+		"tr": "Culori personalizate"
+	},
+	{
+		"or": "Customize",
+		"tr": "Personalizează"
+	},
+	{
+		"or": "Deaths",
+		"tr": "Morți"
+	},
+	{
+		"or": "Delete",
+		"tr": "Șterge"
+	},
+	{
+		"or": "Delete demo",
+		"tr": "Șterge demonstrația"
+	},
+	{
+		"or": "Delete skin",
+		"tr": "Șterge costumul"
+	},
+	{
+		"or": "Demo details",
+		"tr": "Detalii demonstrație"
+	},
+	{
+		"or": "Demofile: %s",
+		"tr": "Fișier demonstrație: %s"
+	},
+	{
+		"or": "Demos",
+		"tr": "Demonstrații"
+	},
+	{
+		"or": "Detail",
+		"tr": "Detalii"
+	},
+	{
+		"or": "Difficulty",
+		"tr": "Dificultate"
+	},
+	{
+		"or": "Disconnect",
+		"tr": "Deconectare"
+	},
+	{
+		"or": "Disconnected",
+		"tr": "Deconectat"
+	},
+	{
+		"or": "Downloading map",
+		"tr": "Se descarcă harta"
+	},
+	{
+		"or": "Draw!",
+		"tr": "Egalitate!"
+	},
+	{
+		"or": "Dynamic Camera",
+		"tr": "Cameră dinamică"
+	},
+	{
+		"or": "Editor",
+		"tr": "Editor"
+	},
+	{
+		"or": "Emoticon",
+		"tr": "Figurine"
+	},
+	{
+		"or": "Enter",
+		"tr": "Intră"
+	},
+	{
+		"or": "Error",
+		"tr": "Eroare"
+	},
+	{
+		"or": "Error loading demo",
+		"tr": "Eroare la încărcarea demonstrației"
+	},
+	{
+		"or": "Favorite",
+		"tr": "Favorit"
+	},
+	{
+		"or": "Favorites",
+		"tr": "Favorite"
+	},
+	{
+		"or": "Fire",
+		"tr": "Foc"
+	},
+	{
+		"or": "Folder",
+		"tr": "Dosar"
+	},
+	{
+		"or": "Force vote",
+		"tr": "Forțează votul"
+	},
+	{
+		"or": "Free-View",
+		"tr": "Vizualizare liberă"
+	},
+	{
+		"or": "Fullscreen",
+		"tr": "Ecran complet"
+	},
+	{
+		"or": "Game",
+		"tr": "Joc"
+	},
+	{
+		"or": "Game info",
+		"tr": "Informații joc"
+	},
+	{
+		"or": "Game over",
+		"tr": "Jocul s-a încheiat"
+	},
+	{
+		"or": "Game paused",
+		"tr": "Joc în pauză"
+	},
+	{
+		"or": "Game starts in",
+		"tr": "Jocul incepe în"
+	},
+	{
+		"or": "Game type",
+		"tr": "Tip de joc"
+	},
+	{
+		"or": "Game type:",
+		"tr": "Tip de joc:"
+	},
+	{
+		"or": "Game types:",
+		"tr": "Tipuri de joc:"
+	},
+	{
+		"or": "General",
+		"tr": "General"
+	},
+	{
+		"or": "Global",
+		"tr": "Global"
+	},
+	{
+		"or": "Graphics",
+		"tr": "Grafică"
+	},
+	{
+		"or": "Grenade",
+		"tr": "Grenadă"
+	},
+	{
+		"or": "Hammer",
+		"tr": "Ciocan"
+	},
+	{
+		"or": "Has people playing",
+		"tr": "Are jucători activi"
+	},
+	{
+		"or": "Hide bots",
+		"tr": "Ascunde boții"
+	},
+	{
+		"or": "High Detail",
+		"tr": "Detalii înalte"
+	},
+	{
+		"or": "Hook",
+		"tr": "Cârlig"
+	},
+	{
+		"or": "Host address:",
+		"tr": "Adresa gazdă:"
+	},
+	{
+		"or": "Hue:",
+		"tr": "Nuanță:"
+	},
+	{
+		"or": "Invalid Demo",
+		"tr": "Demonstrația nu este validă"
+	},
+	{
+		"or": "Join",
+		"tr": "Intră"
+	},
+	{
+		"context": "Join a server",
+		"or": "Join",
+		"tr": "Intră"
+	},
+	{
+		"or": "Join blue",
+		"tr": "La albaștri"
+	},
+	{
+		"or": "Join red",
+		"tr": "La roșii"
+	},
+	{
+		"or": "Joined",
+		"tr": "Intrat"
+	},
+	{
+		"or": "Joined blue",
+		"tr": "Te-ai alăturat albaștrilor"
+	},
+	{
+		"or": "Joined red",
+		"tr": "Te-ai alăturat roșilor"
+	},
+	{
+		"or": "Jump",
+		"tr": "Salt"
+	},
+	{
+		"or": "Kick player",
+		"tr": "Dă afară jucător"
+	},
+	{
+		"or": "Kick voting requires %d players on the server",
+		"tr": "Votarea eliminării necesită %d jucători pe server"
+	},
+	{
+		"or": "Language",
+		"tr": "Limba"
+	},
+	{
+		"or": "Laser",
+		"tr": "Laser"
+	},
+	{
+		"or": "Length",
+		"tr": "Lungime"
+	},
+	{
+		"or": "Lgt:",
+		"tr": "Lum:"
+	},
+	{
+		"or": "Loading",
+		"tr": "Se încarcă"
+	},
+	{
+		"or": "Local",
+		"tr": "Local"
+	},
+	{
+		"or": "Local server",
+		"tr": "Server local"
+	},
+	{
+		"or": "MOTD",
+		"tr": "Mesajul zilei"
+	},
+	{
+		"or": "Map",
+		"tr": "Hartă"
+	},
+	{
+		"context": "rounds (scoreboard)",
+		"or": "Match",
+		"tr": "Meci"
+	},
+	{
+		"or": "Max",
+		"tr": "Max"
+	},
+	{
+		"or": "Maximum ping:",
+		"tr": "Ping maxim:"
+	},
+	{
+		"or": "Misc",
+		"tr": "Diverse"
+	},
+	{
+		"or": "Move left",
+		"tr": "Mută la stânga"
+	},
+	{
+		"or": "Move player to spectators",
+		"tr": "Mută jucătorul la spectatori"
+	},
+	{
+		"or": "Move right",
+		"tr": "Mută la dreapta"
+	},
+	{
+		"or": "Movement",
+		"tr": "Mișcare"
+	},
+	{
+		"or": "Mute when not active",
+		"tr": "Oprește sunetul la inactivitate"
+	},
+	{
+		"or": "Name",
+		"tr": "Nume"
+	},
+	{
+		"or": "Netversion",
+		"tr": "Versiune rețea"
+	},
+	{
+		"or": "Next weapon",
+		"tr": "Arma următoare"
+	},
+	{
+		"or": "Nickname",
+		"tr": "Pseudonim"
+	},
+	{
+		"or": "Nickname is empty.",
+		"tr": "Numele este gol."
+	},
+	{
+		"or": "No",
+		"tr": "Nu"
+	},
+	{
+		"context": "Without/None",
+		"or": "No",
+		"tr": "Nu"
+	},
+	{
+		"or": "No password",
+		"tr": "Fără parolă"
+	},
+	{
+		"or": "No servers found",
+		"tr": "Nici un server găsit"
+	},
+	{
+		"or": "No servers match your filter criteria",
+		"tr": "Niciun server nu corespunde criteriilor"
+	},
+	{
+		"or": "Normal:",
+		"tr": "Normal:"
+	},
+	{
+		"or": "Ok",
+		"tr": "Bine"
+	},
+	{
+		"or": "Online players (%d)",
+		"tr": "Jucători online (%d) "
+	},
+	{
+		"or": "Only %d active players are allowed",
+		"tr": "Sunt permiși doar %d jucători activi"
+	},
+	{
+		"or": "Open",
+		"tr": "Deschide"
+	},
+	{
+		"or": "Parent Folder",
+		"tr": "Dosarul părinte"
+	},
+	{
+		"or": "Password",
+		"tr": "Parolă"
+	},
+	{
+		"or": "Password incorrect",
+		"tr": "Parolă incorectă"
+	},
+	{
+		"or": "Personal",
+		"tr": "Personal"
+	},
+	{
+		"or": "Ping",
+		"tr": "Ping"
+	},
+	{
+		"or": "Pistol",
+		"tr": "Pistol"
+	},
+	{
+		"or": "Play",
+		"tr": "Joacă"
+	},
+	{
+		"context": "DemoBrowser",
+		"or": "Play",
+		"tr": "Joacă"
+	},
+	{
+		"or": "Play background music",
+		"tr": "Redă muzică în fundal"
+	},
+	{
+		"or": "Player",
+		"tr": "Jucător"
+	},
+	{
+		"or": "Player options",
+		"tr": "Opțiuni jucător"
+	},
+	{
+		"or": "Players",
+		"tr": "Jucători"
+	},
+	{
+		"or": "Please balance teams!",
+		"tr": "Echilibrați echipele!"
+	},
+	{
+		"or": "Press Enter to confirm or Esc to cancel",
+		"tr": "Apasă Enter pentru a confirma sau Esc pentru a anula"
+	},
+	{
+		"or": "Prev. weapon",
+		"tr": "Arma precedentă"
+	},
+	{
+		"or": "Quality Textures",
+		"tr": "Texturi de înaltă calitate"
+	},
+	{
+		"or": "Quit",
+		"tr": "Ieșire"
+	},
+	{
+		"or": "REC %3d:%02d",
+		"tr": "REC %3d:%02d"
+	},
+	{
+		"or": "Ready",
+		"tr": "Pregătit"
+	},
+	{
+		"or": "Reason:",
+		"tr": "Motiv:"
+	},
+	{
+		"or": "Record",
+		"tr": "Înregistrează"
+	},
+	{
+		"or": "Recorded",
+		"tr": "Înregistrat"
+	},
+	{
+		"or": "Red team",
+		"tr": "Echipa roșie"
+	},
+	{
+		"or": "Refresh",
+		"tr": "Reîncarcă"
+	},
+	{
+		"or": "Refreshing master servers",
+		"tr": "Reîncarcă serverele principale"
+	},
+	{
+		"or": "Remote console",
+		"tr": "Consolă server"
+	},
+	{
+		"or": "Remove",
+		"tr": "Șterge"
+	},
+	{
+		"or": "Remove friend",
+		"tr": "Șterge prietenul"
+	},
+	{
+		"or": "Rename",
+		"tr": "Redenumește"
+	},
+	{
+		"or": "Rename demo",
+		"tr": "Redenumește demonstrația"
+	},
+	{
+		"or": "Reset",
+		"tr": "Resetează"
+	},
+	{
+		"or": "Reset filter",
+		"tr": "Filtru implicit"
+	},
+	{
+		"or": "Resolution",
+		"tr": "Rezoluție"
+	},
+	{
+		"or": "Respawn",
+		"tr": "Renaște"
+	},
+	{
+		"or": "Round over",
+		"tr": "Rundă încheiată"
+	},
+	{
+		"or": "Round over!",
+		"tr": "Rundă încheiată!"
+	},
+	{
+		"or": "Sample rate",
+		"tr": "Frecvența"
+	},
+	{
+		"or": "Sat:",
+		"tr": "Sat:"
+	},
+	{
+		"or": "Save",
+		"tr": "Salvează"
+	},
+	{
+		"or": "Save skin",
+		"tr": "Salvează costumul"
+	},
+	{
+		"or": "Score",
+		"tr": "Scor"
+	},
+	{
+		"or": "Score limit",
+		"tr": "Limita de scor"
+	},
+	{
+		"or": "Scoreboard",
+		"tr": "Scoruri"
+	},
+	{
+		"or": "Screen",
+		"tr": "Ecran"
+	},
+	{
+		"or": "Screenshot",
+		"tr": "Captură de ecran"
+	},
+	{
+		"or": "Search:",
+		"tr": "Caută:"
+	},
+	{
+		"or": "Server address:",
+		"tr": "Adresă server:"
+	},
+	{
+		"or": "Server details",
+		"tr": "Detalii server"
+	},
+	{
+		"or": "Server does not allow voting to kick players",
+		"tr": "Serverul nu permite voturile pentru eliminarea jucătorilor"
+	},
+	{
+		"or": "Server does not allow voting to move players to spectators",
+		"tr": "Serverul nu permite votarea mutării jucătorilor ca spectatori"
+	},
+	{
+		"or": "Server filter",
+		"tr": "Filtru servere:"
+	},
+	{
+		"or": "Server info",
+		"tr": "Info. server"
+	},
+	{
+		"or": "Server not full",
+		"tr": "Are locuri libere"
+	},
+	{
+		"or": "Servers",
+		"tr": "Servere"
+	},
+	{
+		"or": "Settings",
+		"tr": "Setări"
+	},
+	{
+		"or": "Shotgun",
+		"tr": "Pușcă"
+	},
+	{
+		"or": "Show chat",
+		"tr": "Afișare chat"
+	},
+	{
+		"or": "Show friends only",
+		"tr": "Arată prietenii"
+	},
+	{
+		"or": "Show ingame HUD",
+		"tr": "Arată scorul în joc"
+	},
+	{
+		"or": "Show name plates",
+		"tr": "Arată pseudonimele"
+	},
+	{
+		"or": "Size",
+		"tr": "Mărime"
+	},
+	{
+		"or": "Skin",
+		"tr": "Costum"
+	},
+	{
+		"or": "Skins",
+		"tr": "Costume"
+	},
+	{
+		"or": "Sound",
+		"tr": "Sunet"
+	},
+	{
+		"or": "Sound error",
+		"tr": "Eroare de sunet"
+	},
+	{
+		"or": "Spectate",
+		"tr": "Spectator"
+	},
+	{
+		"or": "Spectate next",
+		"tr": "Vezi următorul"
+	},
+	{
+		"or": "Spectate previous",
+		"tr": "Vezi anteriorul"
+	},
+	{
+		"or": "Spectating",
+		"tr": "Spectator"
+	},
+	{
+		"or": "Spectator mode",
+		"tr": "Mod spectator"
+	},
+	{
+		"or": "Spectators",
+		"tr": "Spectatori"
+	},
+	{
+		"or": "Spectators aren't allowed to start a vote.",
+		"tr": "Spectatorii nu au voie să inițieze un vot."
+	},
+	{
+		"or": "Standard gametype",
+		"tr": "Jocul standard"
+	},
+	{
+		"or": "Standard map",
+		"tr": "Hărți standard"
+	},
+	{
+		"or": "Stop record",
+		"tr": "Stop înreg."
+	},
+	{
+		"or": "Sudden Death",
+		"tr": "Moarte subită"
+	},
+	{
+		"or": "Switch weapon on pickup",
+		"tr": "Schimbă arma la găsire"
+	},
+	{
+		"or": "Team",
+		"tr": "Echipa"
+	},
+	{
+		"or": "Team chat",
+		"tr": "Chat cu echipa"
+	},
+	{
+		"or": "Team:",
+		"tr": "Echipa:"
+	},
+	{
+		"or": "Teams are locked",
+		"tr": "Echipele au fost stabilite"
+	},
+	{
+		"or": "Teams are locked. Time to wait before changing team: %02d:%02d",
+		"tr": "Echipele sunt stabilite. Timp de așteptare până poți schimba echipa: %02d:%02d"
+	},
+	{
+		"or": "Teams were locked",
+		"tr": "Echipele au fost blocate"
+	},
+	{
+		"or": "Teams were unlocked",
+		"tr": "Echipele au fost deblocate"
+	},
+	{
+		"or": "Tee",
+		"tr": "Tee"
+	},
+	{
+		"or": "Teeworlds %s is out! Download it at www.teeworlds.com!",
+		"tr": "Teeworlds %s este lansat! Descarcă-l de la www.teeworlds.com!"
+	},
+	{
+		"or": "Texture",
+		"tr": "Textura"
+	},
+	{
+		"or": "Texture Compression",
+		"tr": "Compresie texturi"
+	},
+	{
+		"or": "The audio device couldn't be initialised.",
+		"tr": "Dispozitivul audio nu a putut fi inițializat."
+	},
+	{
+		"or": "The blue flag was captured by '%s' (%.2f seconds)",
+		"tr": "Steagul albastru a fost capturat de '%s'(%.2f secunde) "
+	},
+	{
+		"or": "The server is running a non-standard tuning on a pure game type.",
+		"tr": "Serverul folosește parametri non-standard într-un joc standard."
+	},
+	{
+		"or": "Theme",
+		"tr": "Temă"
+	},
+	{
+		"or": "There's an unsaved map in the editor, you might want to save it before you quit the game.",
+		"tr": "Există o hartă nesalvată în editor. Probabil vrei să o salvezi înainte să ieși din joc."
+	},
+	{
+		"or": "Time limit",
+		"tr": "Timp limită"
+	},
+	{
+		"or": "Time limit: %d min",
+		"tr": "Timp limită : %d min"
+	},
+	{
+		"or": "Try again",
+		"tr": "Reîncearcă"
+	},
+	{
+		"or": "Type",
+		"tr": "Tip"
+	},
+	{
+		"or": "Unable to delete the demo",
+		"tr": "Nu pot șterge demonstrația"
+	},
+	{
+		"or": "Unable to delete the skin",
+		"tr": "Nu s-a putut șterge costumul"
+	},
+	{
+		"or": "Unable to rename the demo",
+		"tr": "Nu pot redenumi demonstrația"
+	},
+	{
+		"or": "Use sounds",
+		"tr": "Folosește sunetele"
+	},
+	{
+		"or": "Use team colors for name plates",
+		"tr": "Folosește culorile echipelor pe etichetele de nume"
+	},
+	{
+		"or": "V-Sync",
+		"tr": "Sincronizare verticală (V-Sync)"
+	},
+	{
+		"or": "Version",
+		"tr": "Versiune"
+	},
+	{
+		"or": "Volume",
+		"tr": "Volum"
+	},
+	{
+		"or": "Vote aborted",
+		"tr": "Votare abandonată"
+	},
+	{
+		"or": "Vote command:",
+		"tr": "Comandă votare:"
+	},
+	{
+		"or": "Vote description:",
+		"tr": "Descriere vot:"
+	},
+	{
+		"or": "Vote failed",
+		"tr": "Votul a eșuat"
+	},
+	{
+		"or": "Vote no",
+		"tr": "Votează nu"
+	},
+	{
+		"or": "Vote passed",
+		"tr": "Votul a trecut"
+	},
+	{
+		"or": "Vote yes",
+		"tr": "Votează da"
+	},
+	{
+		"or": "Voting",
+		"tr": "Votare"
+	},
+	{
+		"or": "Wait for current vote to end before calling a new one.",
+		"tr": "Așteaptă finalul votului curent înainte să ceri unul nou."
+	},
+	{
+		"or": "Wait for next round",
+		"tr": "Așteaptă runda următoare"
+	},
+	{
+		"or": "Warmup",
+		"tr": "Încălzire"
+	},
+	{
+		"or": "Weapon",
+		"tr": "Arme"
+	},
+	{
+		"or": "Welcome to Teeworlds",
+		"tr": "Bun venit în Teeworlds"
+	},
+	{
+		"or": "When ready, press <%s>",
+		"tr": "Când ești pregătit, apasă <%s>"
+	},
+	{
+		"or": "Whisper",
+		"tr": "Șoaptă"
+	},
+	{
+		"or": "Yes",
+		"tr": "Da"
+	},
+	{
+		"context": "With",
+		"or": "Yes",
+		"tr": "Da"
+	},
+	{
+		"or": "You have to wait %1.0f seconds to change identity.",
+		"tr": "Trebuie să aștepți %1.0f de secunde pentru a îți schimba indentitatea. "
+	},
+	{
+		"or": "You must reconnect to change identity.",
+		"tr": "Trebuie să te reconectezi pentru a îți schimba indentitatea."
+	},
+	{
+		"or": "You must restart the game for all settings to take effect.",
+		"tr": "Trebuie să repornești jocul pentru aplicarea setărilor."
+	},
+	{
+		"or": "You must wait %d seconds before making another vote",
+		"tr": "Trebuie să aștepți %d secunde înaintă să votezi din nou"
+	},
+	{
+		"or": "You were moved to the red team due to team balancing",
+		"tr": "Ai fost mutat în echipa roșie datorită balansării echipelor"
+	},
+	{
+		"context": "skins",
+		"or": "body",
+		"tr": "corp"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "everyone",
+		"tr": "toată lumea"
+	},
+	{
+		"context": "skins",
+		"or": "eyes",
+		"tr": "ochi"
+	},
+	{
+		"context": "skins",
+		"or": "feet",
+		"tr": "picioare"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "friends only",
+		"tr": "numai prieteni"
+	},
+	{
+		"context": "skins",
+		"or": "hands",
+		"tr": "Mâini"
+	},
+	{
+		"or": "locked",
+		"tr": "blocat"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "no one",
+		"tr": "nimeni"
+	},
+	{
+		"context": "server browser message",
+		"or": "no players",
+		"tr": "nu sunt jucători"
+	},
+	{
+		"or": "red flag",
+		"tr": "steagul roșu"
+	},
+	{
+		"or": "wait for more players",
+		"tr": "așteaptă mai mulți jucători"
+	}
+]
+}

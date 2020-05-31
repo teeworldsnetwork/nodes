@@ -1,0 +1,989 @@
+{
+"authors": {
+	"modified by": [
+		"Martin Pola        2011-04-02 11:17:09",
+		"Kottizen        2011-07-02 00:34:54",
+		"Elinor Bratt, 2016 (Transifex)"
+	],
+	"originally created by": "matricks"
+},
+"translated strings": [
+	{
+		"or": "%.3f KiB",
+		"tr": "%.3fKiB"
+	},
+	{
+		"or": "%d player left",
+		"tr": "%d spelaren lämnade"
+	},
+	{
+		"or": "%d player not ready",
+		"tr": "%d spelaren är inte redo"
+	},
+	{
+		"or": "%d players left",
+		"tr": "%dspelare kvar"
+	},
+	{
+		"or": "%d%% loaded",
+		"tr": "%d%% laddat"
+	},
+	{
+		"or": "%ds left",
+		"tr": "%d sekunder kvar"
+	},
+	{
+		"or": "%i minute left",
+		"tr": "%i minut kvar"
+	},
+	{
+		"or": "%i minutes left",
+		"tr": "%i minuter kvar"
+	},
+	{
+		"or": "%i second left",
+		"tr": "%i sekund kvar"
+	},
+	{
+		"or": "%i seconds left",
+		"tr": "%i sekunder kvar"
+	},
+	{
+		"or": "%s wins!",
+		"tr": "%s vinner!"
+	},
+	{
+		"or": "'%s' has left the game",
+		"tr": "'%s' har lämnat spelet"
+	},
+	{
+		"or": "'%s' has left the game (%s)",
+		"tr": "'%s' har lämnat spelet (%s)"
+	},
+	{
+		"or": "'%s' was removed as a friend",
+		"tr": "%stogs bort som vän"
+	},
+	{
+		"or": "-Page %d-",
+		"tr": "-Sida %d-"
+	},
+	{
+		"or": "Abort",
+		"tr": "Avbryt"
+	},
+	{
+		"or": "Add",
+		"tr": "Lägg till"
+	},
+	{
+		"or": "Address",
+		"tr": "Adress"
+	},
+	{
+		"or": "Admin moved '%s' to spectator (%s)",
+		"tr": "Admin flyttade '%s' till åskådare (%s)"
+	},
+	{
+		"or": "All",
+		"tr": "Alla"
+	},
+	{
+		"or": "All players were moved to the blue team",
+		"tr": "Alla spel förflyttades till det blå laget"
+	},
+	{
+		"or": "Always show name plates",
+		"tr": "Visa alltid namnskyltar"
+	},
+	{
+		"or": "Anti Aliasing",
+		"tr": "Anti Aliasing"
+	},
+	{
+		"or": "Are you sure that you want to delete the demo?",
+		"tr": "Är du säker på att du vill ta bort detta demo?"
+	},
+	{
+		"or": "Are you sure that you want to delete the skin?",
+		"tr": "Är du säker på att du vill ta bort detta skin?"
+	},
+	{
+		"or": "Are you sure that you want to quit?",
+		"tr": "Är du säker på att du vill avsluta?"
+	},
+	{
+		"or": "Are you sure that you want to remove the player from your friends list?",
+		"tr": "Är du säker på att du vill ta bort denna spelaren från din kompislista?"
+	},
+	{
+		"or": "Are you sure you want to rename the demo?",
+		"tr": "Är du säker på att du vill döpa om denna demo?"
+	},
+	{
+		"or": "Are you sure you want to save your skin? If a skin with this name already exists, it will be replaced.",
+		"tr": "Är du säker på att du vill spara ditt skin? Om ett skin med detta namn redan existerar så kommer det att ersättas."
+	},
+	{
+		"or": "As this is the first time you launch the game, please enter your nick name below. It's recommended that you check the settings to adjust them to your liking before joining a server.",
+		"tr": "Detta är första gången du startar spelet, var vänligen skriv in ditt smeknamn här nedanför. Det är rekommenderat att du kontrollera inställningarna och justerar dom till din preferens innan du börjar spela."
+	},
+	{
+		"or": "Automatically record demos",
+		"tr": "Spela in demon automatiskt"
+	},
+	{
+		"or": "Automatically take game over screenshot",
+		"tr": "Ta skärmdumpar vid matchslut"
+	},
+	{
+		"or": "Back",
+		"tr": "Tillbaka"
+	},
+	{
+		"or": "Basic",
+		"tr": "Vanlig"
+	},
+	{
+		"or": "Blue team",
+		"tr": "Blå laget"
+	},
+	{
+		"or": "Borderless window",
+		"tr": "Kantlöst fönster"
+	},
+	{
+		"or": "Call vote",
+		"tr": "Röstning"
+	},
+	{
+		"or": "Change settings",
+		"tr": "Ändra inställningar"
+	},
+	{
+		"or": "Chat",
+		"tr": "Chatt"
+	},
+	{
+		"or": "Clan",
+		"tr": "Klan"
+	},
+	{
+		"or": "Client",
+		"tr": "Klient"
+	},
+	{
+		"or": "Close",
+		"tr": "Stäng"
+	},
+	{
+		"or": "Compatible version",
+		"tr": "Kompatibel version"
+	},
+	{
+		"or": "Configure statboard",
+		"tr": "Ändra statistiken"
+	},
+	{
+		"or": "Connect",
+		"tr": "Anslut"
+	},
+	{
+		"or": "Connecting to",
+		"tr": "Ansluter till"
+	},
+	{
+		"or": "Connection Problems...",
+		"tr": "Anslutningsproblem..."
+	},
+	{
+		"or": "Console",
+		"tr": "Konsol"
+	},
+	{
+		"or": "Controls",
+		"tr": "Kontroller"
+	},
+	{
+		"or": "Count players only",
+		"tr": "Räkna endast spelare"
+	},
+	{
+		"or": "Country",
+		"tr": "Land"
+	},
+	{
+		"or": "Created",
+		"tr": "Skapad"
+	},
+	{
+		"or": "Custom",
+		"tr": "Eget val"
+	},
+	{
+		"or": "Custom colors",
+		"tr": "Egna färger"
+	},
+	{
+		"or": "Delete",
+		"tr": "Ta bort"
+	},
+	{
+		"or": "Delete demo",
+		"tr": "Ta bort demo"
+	},
+	{
+		"or": "Delete skin",
+		"tr": "Radera skin"
+	},
+	{
+		"or": "Demo details",
+		"tr": "Demoinformation"
+	},
+	{
+		"or": "Demofile: %s",
+		"tr": "Demofil: %s"
+	},
+	{
+		"or": "Demos",
+		"tr": "Demon"
+	},
+	{
+		"or": "Detail",
+		"tr": "Detalj"
+	},
+	{
+		"or": "Difficulty",
+		"tr": "Svårighetsgrad"
+	},
+	{
+		"or": "Disconnect",
+		"tr": "Avsluta"
+	},
+	{
+		"or": "Disconnected",
+		"tr": "Frånkopplad"
+	},
+	{
+		"or": "Downloading map",
+		"tr": "Laddar ner karta"
+	},
+	{
+		"or": "Draw!",
+		"tr": "Oavgjort!"
+	},
+	{
+		"or": "Dynamic Camera",
+		"tr": "Dynamisk kamera"
+	},
+	{
+		"or": "Emoticon",
+		"tr": "Känsloikon"
+	},
+	{
+		"or": "Enter",
+		"tr": "Fortsätt"
+	},
+	{
+		"or": "Error",
+		"tr": "Fel"
+	},
+	{
+		"or": "Error loading demo",
+		"tr": "Kunde inte ladda demot"
+	},
+	{
+		"or": "Favorite",
+		"tr": "Favorit"
+	},
+	{
+		"or": "Favorites",
+		"tr": "Favoriter"
+	},
+	{
+		"or": "Fire",
+		"tr": "Skjuta"
+	},
+	{
+		"or": "Flag captures",
+		"tr": "Fångade flaggor"
+	},
+	{
+		"or": "Folder",
+		"tr": "Mapp"
+	},
+	{
+		"or": "Force vote",
+		"tr": "Tvinga omröstning"
+	},
+	{
+		"or": "Free-View",
+		"tr": "Friläge"
+	},
+	{
+		"or": "Fullscreen",
+		"tr": "Fullskärm"
+	},
+	{
+		"or": "Game",
+		"tr": "Spel"
+	},
+	{
+		"or": "Game info",
+		"tr": "Spelinfo"
+	},
+	{
+		"or": "Game over",
+		"tr": "Slutspelat"
+	},
+	{
+		"or": "Game paused",
+		"tr": "Spelet pausat"
+	},
+	{
+		"or": "Game starts in",
+		"tr": "Spelet startar om"
+	},
+	{
+		"or": "Game type",
+		"tr": "Speltyp"
+	},
+	{
+		"or": "Game types:",
+		"tr": "Speltyper:"
+	},
+	{
+		"or": "General",
+		"tr": "Generellt"
+	},
+	{
+		"or": "Graphics",
+		"tr": "Grafik"
+	},
+	{
+		"or": "Grenade",
+		"tr": "Granater"
+	},
+	{
+		"or": "Hammer",
+		"tr": "Hammare"
+	},
+	{
+		"or": "Has people playing",
+		"tr": "Inte tom"
+	},
+	{
+		"or": "High Detail",
+		"tr": "Extra detaljer"
+	},
+	{
+		"or": "Hook",
+		"tr": "Haken"
+	},
+	{
+		"or": "Invalid Demo",
+		"tr": "Ogiltigt deo"
+	},
+	{
+		"or": "Join blue",
+		"tr": "Spela i blått"
+	},
+	{
+		"or": "Join red",
+		"tr": "Spela i rött"
+	},
+	{
+		"or": "Joined",
+		"tr": "Gick in"
+	},
+	{
+		"or": "Joined blue",
+		"tr": "Gick in i blått"
+	},
+	{
+		"or": "Joined red",
+		"tr": "Gick med i rött"
+	},
+	{
+		"or": "Jump",
+		"tr": "Hoppa"
+	},
+	{
+		"or": "Kick player",
+		"tr": "Kicka spelare"
+	},
+	{
+		"or": "Language",
+		"tr": "Språk"
+	},
+	{
+		"or": "Laser",
+		"tr": "Laser"
+	},
+	{
+		"or": "Loading",
+		"tr": "Laddar"
+	},
+	{
+		"or": "Local",
+		"tr": "Lokal"
+	},
+	{
+		"or": "Local server",
+		"tr": "Lokal server"
+	},
+	{
+		"or": "MOTD",
+		"tr": "Meddelande"
+	},
+	{
+		"or": "Map",
+		"tr": "Bana"
+	},
+	{
+		"or": "Maximum ping:",
+		"tr": "Högsta ping:"
+	},
+	{
+		"or": "Misc",
+		"tr": "Annat"
+	},
+	{
+		"or": "Move left",
+		"tr": "Gå vänster"
+	},
+	{
+		"or": "Move player to spectators",
+		"tr": "Flytta till åskådarna"
+	},
+	{
+		"or": "Move right",
+		"tr": "Gå höger"
+	},
+	{
+		"or": "Movement",
+		"tr": "Förflyttning"
+	},
+	{
+		"or": "Mute when not active",
+		"tr": "Stäng av ljudet när spelet inte är aktivt"
+	},
+	{
+		"or": "Name",
+		"tr": "Namn"
+	},
+	{
+		"or": "Next weapon",
+		"tr": "Nästa vapen"
+	},
+	{
+		"or": "Nickname",
+		"tr": "Smeknamn"
+	},
+	{
+		"or": "Nickname is empty.",
+		"tr": "Smeknamn tomt."
+	},
+	{
+		"or": "No",
+		"tr": "Nej"
+	},
+	{
+		"context": "Without/None",
+		"or": "No",
+		"tr": "Nej"
+	},
+	{
+		"or": "No password",
+		"tr": "Inget lösenord"
+	},
+	{
+		"or": "No servers found",
+		"tr": "Inga servrar hittade"
+	},
+	{
+		"or": "No servers match your filter criteria",
+		"tr": "Inga servrar matchar dina filterkriterer"
+	},
+	{
+		"or": "Normal:",
+		"tr": "Normal:"
+	},
+	{
+		"or": "Ok",
+		"tr": "Ok"
+	},
+	{
+		"or": "Open",
+		"tr": "Öppna"
+	},
+	{
+		"or": "Parent Folder",
+		"tr": "Uppliggande mapp"
+	},
+	{
+		"or": "Password",
+		"tr": "Lösenord"
+	},
+	{
+		"or": "Password incorrect",
+		"tr": "Felaktigt lösenord"
+	},
+	{
+		"or": "Ping",
+		"tr": "Ping"
+	},
+	{
+		"or": "Pistol",
+		"tr": "Pistol"
+	},
+	{
+		"or": "Play",
+		"tr": "Spela"
+	},
+	{
+		"context": "DemoBrowser",
+		"or": "Play",
+		"tr": "Spela"
+	},
+	{
+		"or": "Play background music",
+		"tr": "Aktivera bakgrundsmusik"
+	},
+	{
+		"or": "Player",
+		"tr": "Spelare"
+	},
+	{
+		"or": "Player options",
+		"tr": "Spelaralternativ"
+	},
+	{
+		"or": "Players",
+		"tr": "Spelare"
+	},
+	{
+		"or": "Please balance teams!",
+		"tr": "Balansera lagen!"
+	},
+	{
+		"or": "Prev. weapon",
+		"tr": "Föregående vapen"
+	},
+	{
+		"or": "Quality Textures",
+		"tr": "Kvalitetstexturer"
+	},
+	{
+		"or": "Quit",
+		"tr": "Avsluta"
+	},
+	{
+		"or": "REC %3d:%02d",
+		"tr": "REC %3d:%02d"
+	},
+	{
+		"or": "Ready",
+		"tr": "Redo"
+	},
+	{
+		"or": "Reason:",
+		"tr": "Anledning:"
+	},
+	{
+		"or": "Record",
+		"tr": "Inspelning"
+	},
+	{
+		"or": "Recorded",
+		"tr": "Inspelat"
+	},
+	{
+		"or": "Red team",
+		"tr": "Röda laget"
+	},
+	{
+		"or": "Refresh",
+		"tr": "Uppdatera"
+	},
+	{
+		"or": "Refreshing master servers",
+		"tr": "Uppdaterar huvudservrar"
+	},
+	{
+		"or": "Remote console",
+		"tr": "Serverkonsol"
+	},
+	{
+		"or": "Remove",
+		"tr": "Ta bort"
+	},
+	{
+		"or": "Remove friend",
+		"tr": "Ta bort kompis"
+	},
+	{
+		"or": "Rename",
+		"tr": "Byt namn"
+	},
+	{
+		"or": "Rename demo",
+		"tr": "Byt namn på demo"
+	},
+	{
+		"or": "Reset",
+		"tr": "Återställ"
+	},
+	{
+		"or": "Reset filter",
+		"tr": "Återställ filter"
+	},
+	{
+		"or": "Sample rate",
+		"tr": "Samplingsfrekvens"
+	},
+	{
+		"or": "Save",
+		"tr": "Spara"
+	},
+	{
+		"or": "Save skin",
+		"tr": "Spara skin"
+	},
+	{
+		"or": "Score",
+		"tr": "Poäng"
+	},
+	{
+		"or": "Score limit",
+		"tr": "Poängmål"
+	},
+	{
+		"or": "Scoreboard",
+		"tr": "Poänglista"
+	},
+	{
+		"or": "Screen",
+		"tr": "Skärm"
+	},
+	{
+		"or": "Screenshot",
+		"tr": "Skärmdump"
+	},
+	{
+		"or": "Search:",
+		"tr": "Sök:"
+	},
+	{
+		"or": "Server",
+		"tr": "Server"
+	},
+	{
+		"or": "Server address:",
+		"tr": "Serveradress"
+	},
+	{
+		"or": "Server details",
+		"tr": "Serverdetaljer"
+	},
+	{
+		"or": "Server does not allow voting to kick players",
+		"tr": "Servern tillåter inte röstning för att sparka spelare"
+	},
+	{
+		"or": "Server does not allow voting to move players to spectators",
+		"tr": "Server tillåter inte röstning för att flytta spelare till åskådare."
+	},
+	{
+		"or": "Server filter",
+		"tr": "Serverfilter"
+	},
+	{
+		"or": "Server info",
+		"tr": "Serverinfo"
+	},
+	{
+		"or": "Server not full",
+		"tr": "Lediga platser"
+	},
+	{
+		"or": "Settings",
+		"tr": "Inställningar"
+	},
+	{
+		"or": "Shotgun",
+		"tr": "Hagelgevär"
+	},
+	{
+		"or": "Show chat",
+		"tr": "Visa chatten"
+	},
+	{
+		"or": "Show friends only",
+		"tr": "Visa kompisar"
+	},
+	{
+		"or": "Show ingame HUD",
+		"tr": "Visa HUD i spel"
+	},
+	{
+		"or": "Show name plates",
+		"tr": "Visa namnskyltar"
+	},
+	{
+		"or": "Size",
+		"tr": "Storlek"
+	},
+	{
+		"or": "Skins",
+		"tr": "Utseende"
+	},
+	{
+		"or": "Skip the main menu",
+		"tr": "Hoppa över huvudmenyn"
+	},
+	{
+		"or": "Sound",
+		"tr": "Ljud"
+	},
+	{
+		"or": "Sound error",
+		"tr": "Ljudfel"
+	},
+	{
+		"or": "Spectate",
+		"tr": "Åskåda"
+	},
+	{
+		"or": "Spectate next",
+		"tr": "Se på nästa"
+	},
+	{
+		"or": "Spectate previous",
+		"tr": "Se på föregående"
+	},
+	{
+		"or": "Spectator mode",
+		"tr": "Åskådarläge"
+	},
+	{
+		"or": "Spectators",
+		"tr": "Åskådare"
+	},
+	{
+		"or": "Spectators aren't allowed to start a vote.",
+		"tr": "Åskådare har inte tillåtelse att starta en röstning"
+	},
+	{
+		"or": "Standard gametype",
+		"tr": "Standard speltyp"
+	},
+	{
+		"or": "Standard map",
+		"tr": "Standardkarta"
+	},
+	{
+		"or": "Stop record",
+		"tr": "Sluta spela in"
+	},
+	{
+		"or": "Sudden Death",
+		"tr": "Plötslig död"
+	},
+	{
+		"or": "Suicides",
+		"tr": "Självmord"
+	},
+	{
+		"or": "Switch weapon on pickup",
+		"tr": "Byt vapen vid anskaffning"
+	},
+	{
+		"or": "Team",
+		"tr": "Lag"
+	},
+	{
+		"or": "Team chat",
+		"tr": "Lagchatt"
+	},
+	{
+		"or": "Team:",
+		"tr": "Lag:"
+	},
+	{
+		"or": "Teams are locked",
+		"tr": "Lagen är låsta"
+	},
+	{
+		"or": "Teams are locked. Time to wait before changing team: %02d:%02d",
+		"tr": "Lag är låsta. Tid att vänta innan lagbyte: %02d:%02d"
+	},
+	{
+		"or": "Teams were locked",
+		"tr": "Lagen är låsta"
+	},
+	{
+		"or": "Teams were unlocked",
+		"tr": "Lagen är upplåsta"
+	},
+	{
+		"or": "Teeworlds %s is out! Download it at www.teeworlds.com!",
+		"tr": "Teeworlds %s är ute nu! Ladda ner det från www.teeworlds.com."
+	},
+	{
+		"or": "Texture Compression",
+		"tr": "Texturkompression"
+	},
+	{
+		"or": "The audio device couldn't be initialised.",
+		"tr": "Ljudet kunde inte startas"
+	},
+	{
+		"or": "The server is running a non-standard tuning on a pure game type.",
+		"tr": "Denna server kör inte standardinställningar på en reserverad speltyp."
+	},
+	{
+		"or": "There's an unsaved map in the editor, you might want to save it before you quit the game.",
+		"tr": "Det finns en osparad bana i redigeraden, du kanske vill spara den innan du avslutar."
+	},
+	{
+		"or": "Time limit",
+		"tr": "Tidsbegränsning"
+	},
+	{
+		"or": "Time limit: %d min",
+		"tr": "Tidsgräns: %d min"
+	},
+	{
+		"or": "Try again",
+		"tr": "Försök igen"
+	},
+	{
+		"or": "Type",
+		"tr": "Typ"
+	},
+	{
+		"or": "Unable to delete the demo",
+		"tr": "Kunde inte ta bort demot"
+	},
+	{
+		"or": "Unable to delete the skin",
+		"tr": "Skin går ej att ta bort"
+	},
+	{
+		"or": "Unable to rename the demo",
+		"tr": "Kunde inte byta namn på demot"
+	},
+	{
+		"or": "Use sounds",
+		"tr": "Aktivera ljudeffekter"
+	},
+	{
+		"or": "Use team colors for name plates",
+		"tr": "Använd lagfärger i namnskyltar"
+	},
+	{
+		"or": "V-Sync",
+		"tr": "V-Synk"
+	},
+	{
+		"or": "Version",
+		"tr": "Version"
+	},
+	{
+		"or": "Volume",
+		"tr": "Volym"
+	},
+	{
+		"or": "Vote aborted",
+		"tr": "Röstning avbruten"
+	},
+	{
+		"or": "Vote command:",
+		"tr": "Omröstningskommando:"
+	},
+	{
+		"or": "Vote description:",
+		"tr": "Beskrivning:"
+	},
+	{
+		"or": "Vote failed",
+		"tr": "Röstning misslyckades"
+	},
+	{
+		"or": "Vote no",
+		"tr": "Rösta nej"
+	},
+	{
+		"or": "Vote passed",
+		"tr": "Röstning passerad"
+	},
+	{
+		"or": "Vote yes",
+		"tr": "Rösta ja"
+	},
+	{
+		"or": "Voting",
+		"tr": "Röstning"
+	},
+	{
+		"or": "Wait for next round",
+		"tr": "Vänta på nästa runda"
+	},
+	{
+		"or": "Warmup",
+		"tr": "Uppvärmning"
+	},
+	{
+		"or": "Weapon",
+		"tr": "Vapen"
+	},
+	{
+		"or": "Welcome to Teeworlds",
+		"tr": "Välkommen till Teeworlds"
+	},
+	{
+		"or": "Whisper",
+		"tr": "Viskning"
+	},
+	{
+		"or": "Yes",
+		"tr": "Ja"
+	},
+	{
+		"context": "With",
+		"or": "Yes",
+		"tr": "Ja"
+	},
+	{
+		"or": "You have to wait %1.0f seconds to change identity.",
+		"tr": "Du måste vänta %1.0f sekunder för att kunna byta identitet."
+	},
+	{
+		"or": "You must restart the game for all settings to take effect.",
+		"tr": "Du måste starta om spelet för att ändringarna skall verkställas."
+	},
+	{
+		"or": "You were moved to the red team due to team balancing",
+		"tr": "Du blev förflyttade till det röda laget för utjämning"
+	},
+	{
+		"or": "locked",
+		"tr": "låst"
+	},
+	{
+		"context": "skins",
+		"or": "marking",
+		"tr": "märkning"
+	},
+	{
+		"context": "server browser message",
+		"or": "no players",
+		"tr": "inga spelare"
+	},
+	{
+		"or": "wait for more players",
+		"tr": "vänta på fler spelare"
+	}
+]
+}

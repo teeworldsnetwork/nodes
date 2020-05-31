@@ -1,0 +1,1481 @@
+{
+"authors": {
+	"modified by": [
+		"vezerr05, 2014 (Transifex)",
+		"Tamás Kullai, 2018 (Transifex)"
+	],
+	"originally created by": "Feca"
+},
+"translated strings": [
+	{
+		"or": "%.3f KiB",
+		"tr": "%.3f KiB"
+	},
+	{
+		"or": "%d other players",
+		"tr": "%d másik játékos"
+	},
+	{
+		"or": "%d player left",
+		"tr": "%d játékos kilépett"
+	},
+	{
+		"or": "%d player not ready",
+		"tr": "%d játékos még nem áll készen"
+	},
+	{
+		"or": "%d players",
+		"tr": "%d játékos"
+	},
+	{
+		"or": "%d players left",
+		"tr": "%d játékos kilépett"
+	},
+	{
+		"or": "%d players not ready",
+		"tr": "%d játékosok még nem állnak készen"
+	},
+	{
+		"or": "%d servers",
+		"tr": "%d szerver"
+	},
+	{
+		"or": "%d servers, %d players",
+		"tr": "%d szerver, %d játékos"
+	},
+	{
+		"or": "%d%% loaded",
+		"tr": "%d%% betöltve"
+	},
+	{
+		"or": "%ds left",
+		"tr": "%d másodperc van hátra"
+	},
+	{
+		"or": "%i minute left",
+		"tr": "%i perc maradt"
+	},
+	{
+		"or": "%i minutes left",
+		"tr": "%i perc maradt"
+	},
+	{
+		"or": "%i second left",
+		"tr": "%i másodperc maradt"
+	},
+	{
+		"or": "%i seconds left",
+		"tr": "%i másodperc maradt"
+	},
+	{
+		"or": "%s wins!",
+		"tr": "%s nyert!"
+	},
+	{
+		"or": "'%s' called for vote to kick '%s' (%s)",
+		"tr": "%s szavazást indított %s kirúgása érdekében (%s)"
+	},
+	{
+		"or": "'%s' called for vote to move '%s' to spectators (%s)",
+		"tr": "%s szavazást indított %s nézők közé helyezése érdekében (%s)"
+	},
+	{
+		"or": "'%s' called vote to change server option '%s' (%s)",
+		"tr": "%s szavazást indított hogy megváltoztassa a szerver beállításait '%s' (%s)"
+	},
+	{
+		"or": "'%s' entered and joined the blue team",
+		"tr": "%s belépett és csatlakozott a kék csapathoz"
+	},
+	{
+		"or": "'%s' entered and joined the game",
+		"tr": "%s belépett és csatlakozott a játékhoz"
+	},
+	{
+		"or": "'%s' entered and joined the red team",
+		"tr": "%s belépett és csatlakozott a piros csapathoz"
+	},
+	{
+		"or": "'%s' entered and joined the spectators",
+		"tr": "%s belépett és csatlakozott a nézőkhöz"
+	},
+	{
+		"or": "'%s' has left the game",
+		"tr": "%s elhagyta a játékot"
+	},
+	{
+		"or": "'%s' has left the game (%s)",
+		"tr": "%s elhagyta a játékot (%s)"
+	},
+	{
+		"or": "'%s' initiated a pause",
+		"tr": "%s szünetet kezdeményezett"
+	},
+	{
+		"or": "'%s' joined the blue team",
+		"tr": "%s csatlakozott a kék csapathoz"
+	},
+	{
+		"or": "'%s' joined the game",
+		"tr": "%s csatlakozott a játékhoz"
+	},
+	{
+		"or": "'%s' joined the red team",
+		"tr": "%s csatlakozott a piros csapathoz"
+	},
+	{
+		"or": "'%s' joined the spectators",
+		"tr": "%s csatlakozott a nézőkhöz"
+	},
+	{
+		"or": "'%s' was added as a friend",
+		"tr": "%s hozzáadva barátként"
+	},
+	{
+		"or": "'%s' was muted",
+		"tr": "%s le lett némítva"
+	},
+	{
+		"or": "'%s' was removed as a friend",
+		"tr": "%s törölve a barátok közül"
+	},
+	{
+		"or": "'%s' was unmuted",
+		"tr": "%s némítása feloldva"
+	},
+	{
+		"or": "-Page %d-",
+		"tr": "-%d. oldal-"
+	},
+	{
+		"or": "Abort",
+		"tr": "Mégse"
+	},
+	{
+		"or": "Add",
+		"tr": "Hozzáad"
+	},
+	{
+		"or": "Add clan",
+		"tr": "Klán hozzáadása"
+	},
+	{
+		"or": "Add demo marker",
+		"tr": "\"Könyvjelző\" hozzáadása a demóhoz"
+	},
+	{
+		"or": "Add friend",
+		"tr": "Barát hozzáadása"
+	},
+	{
+		"or": "Add friend/clan",
+		"tr": "Barát/klán hozzáadása"
+	},
+	{
+		"or": "Address",
+		"tr": "Cím"
+	},
+	{
+		"or": "Admin forced server option '%s' (%s)",
+		"tr": "Admin átállította a szerver beállításait %s (%s)"
+	},
+	{
+		"or": "Admin forced vote no",
+		"tr": "Admin nemmel zárta a szavazást"
+	},
+	{
+		"or": "Admin forced vote yes",
+		"tr": "Admin igennel zárta a szavazást"
+	},
+	{
+		"or": "Admin moved '%s' to spectator (%s)",
+		"tr": "Admin %s-t a nézők közé helyezte (%s)"
+	},
+	{
+		"or": "All",
+		"tr": "Mindenki"
+	},
+	{
+		"or": "All players were moved to the blue team",
+		"tr": "Minden játékos át lett helyezve a kék csapatba"
+	},
+	{
+		"or": "All players were moved to the game",
+		"tr": "Minden játékos át lett helyezve a játékba"
+	},
+	{
+		"or": "All players were moved to the red team",
+		"tr": "Minden játékos át lett helyezve a piros csapatba"
+	},
+	{
+		"or": "All players were moved to the spectators",
+		"tr": "Minden játékos át lett helyezve a nézőkhöz"
+	},
+	{
+		"or": "Alp:",
+		"tr": "Alp:"
+	},
+	{
+		"or": "Always show name plates",
+		"tr": "Mindig mutassa a játékosok nevét"
+	},
+	{
+		"or": "Anti Aliasing",
+		"tr": "Elsimítás"
+	},
+	{
+		"or": "Are you sure that you want to delete the demo?",
+		"tr": "Biztosan törölni akarod a demót?"
+	},
+	{
+		"or": "Are you sure that you want to delete the skin?",
+		"tr": "Biztosan törölni akarod a kinézetet?"
+	},
+	{
+		"or": "Are you sure that you want to quit?",
+		"tr": "Biztosan ki akarsz lépni?"
+	},
+	{
+		"or": "Are you sure that you want to remove the filter from the server browser?",
+		"tr": "Biztosan törölni akarod a szűrőt a szerverböngészőből?"
+	},
+	{
+		"or": "Are you sure that you want to remove the player from your friends list?",
+		"tr": "Biztos vagy benne, hogy ki akarod törölni a játékost a barátlistádról?"
+	},
+	{
+		"or": "Are you sure you want to rename the demo?",
+		"tr": "Biztosan át akarod nevezni a demót?"
+	},
+	{
+		"or": "Are you sure you want to save your skin? If a skin with this name already exists, it will be replaced.",
+		"tr": "Biztosan el akarod menteni a kinézeted? Ha egy kinézet már mentve van ezzel a névvel, akkor az felül lesz írva."
+	},
+	{
+		"or": "As this is the first time you launch the game, please enter your nick name below. It's recommended that you check the settings to adjust them to your liking before joining a server.",
+		"tr": "Mivel ez az első alkalom hogy elindítottad ezt a játékot, kérlek adj meg egy becenevet! Ajánlott ellenőrizni a beállításokat, hogy tetszésed szerint állíthasd be őket mielőtt belépsz egy szerverre."
+	},
+	{
+		"or": "Automatically record demos",
+		"tr": "Demók rögzítése automatikusan"
+	},
+	{
+		"or": "Automatically take game over screenshot",
+		"tr": "Automatikusan készítsen képernyőképet a játék végén"
+	},
+	{
+		"or": "Back",
+		"tr": "Vissza"
+	},
+	{
+		"or": "Basic",
+		"tr": "Alap"
+	},
+	{
+		"or": "Blue team",
+		"tr": "Kék csapat"
+	},
+	{
+		"or": "Borderless window",
+		"tr": "Keret nélküli ablak"
+	},
+	{
+		"or": "Browser",
+		"tr": "Böngésző"
+	},
+	{
+		"or": "Call vote",
+		"tr": "Szavazás"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Casual",
+		"tr": "Alkalmi"
+	},
+	{
+		"or": "Change settings",
+		"tr": "Beállítások módosítása"
+	},
+	{
+		"or": "Chat",
+		"tr": "Chat"
+	},
+	{
+		"or": "Clan",
+		"tr": "Klán"
+	},
+	{
+		"context": "clear gametype filters",
+		"or": "Clear",
+		"tr": "Törlés"
+	},
+	{
+		"or": "Click on a player or a flag to follow it",
+		"tr": "Kattints egy játékosra vagy zászlóra, hogy kövesd!"
+	},
+	{
+		"or": "Client",
+		"tr": "Kliens"
+	},
+	{
+		"or": "Close",
+		"tr": "Bezárás"
+	},
+	{
+		"or": "Compatible version",
+		"tr": "Kompatibilis Verzió"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Competitive",
+		"tr": "Kompetitív"
+	},
+	{
+		"or": "Connect",
+		"tr": "Csatlakozás"
+	},
+	{
+		"or": "Connecting to",
+		"tr": "Csatlakozás ide:"
+	},
+	{
+		"or": "Connection Problems...",
+		"tr": "Csatlakozási problémák..."
+	},
+	{
+		"or": "Console",
+		"tr": "Konzol"
+	},
+	{
+		"or": "Controls",
+		"tr": "Irányítás"
+	},
+	{
+		"or": "Count players only",
+		"tr": "Csak számontartott játékosok"
+	},
+	{
+		"or": "Country",
+		"tr": "Ország"
+	},
+	{
+		"or": "Country:",
+		"tr": "Ország:"
+	},
+	{
+		"or": "Crc",
+		"tr": "Crc"
+	},
+	{
+		"or": "Created",
+		"tr": "Elkészült"
+	},
+	{
+		"or": "Current: %dx%d (%d:%d)",
+		"tr": "Jelenlegi: %dx%d (%d:%d)"
+	},
+	{
+		"or": "Custom",
+		"tr": "Egyedi"
+	},
+	{
+		"or": "Custom colors",
+		"tr": "Egyéni színek"
+	},
+	{
+		"or": "Customize",
+		"tr": "Testreszabás"
+	},
+	{
+		"or": "Deaths",
+		"tr": "Halálok"
+	},
+	{
+		"or": "Delete",
+		"tr": "Törlés"
+	},
+	{
+		"or": "Delete demo",
+		"tr": "Demó törlése"
+	},
+	{
+		"or": "Delete skin",
+		"tr": "Kinézet törlése"
+	},
+	{
+		"or": "Demo details",
+		"tr": "Demó részletei"
+	},
+	{
+		"or": "Demofile: %s",
+		"tr": "Demófájl: %s"
+	},
+	{
+		"or": "Demos",
+		"tr": "Demók"
+	},
+	{
+		"or": "Detail",
+		"tr": "Részlet"
+	},
+	{
+		"or": "Difficulty",
+		"tr": "Nehézség"
+	},
+	{
+		"or": "Difficulty:",
+		"tr": "Nehézség:"
+	},
+	{
+		"or": "Disconnect",
+		"tr": "Szerver elhagyása"
+	},
+	{
+		"or": "Disconnected",
+		"tr": "Kilépett"
+	},
+	{
+		"or": "Downloading map",
+		"tr": "Pálya letöltése"
+	},
+	{
+		"or": "Draw!",
+		"tr": "Döntetlen!"
+	},
+	{
+		"or": "Dynamic Camera",
+		"tr": "Dinamikus kamera"
+	},
+	{
+		"or": "Editor",
+		"tr": "Szerkesztő"
+	},
+	{
+		"or": "Emoticon",
+		"tr": "Hangulatjel"
+	},
+	{
+		"or": "Enable colored server broadcasts",
+		"tr": "Színes játékon belüli adások engedélyezése"
+	},
+	{
+		"or": "Enter",
+		"tr": "Belépés"
+	},
+	{
+		"or": "Error",
+		"tr": "Hiba"
+	},
+	{
+		"or": "Error loading demo",
+		"tr": "Hiba a demó betöltésében"
+	},
+	{
+		"or": "Favorite",
+		"tr": "Kedvenc"
+	},
+	{
+		"or": "Favorites",
+		"tr": "Kedvencek"
+	},
+	{
+		"or": "Fire",
+		"tr": "Tűz"
+	},
+	{
+		"or": "Flag captures",
+		"tr": "Bevitt zászlók"
+	},
+	{
+		"or": "Flag grabs",
+		"tr": "Megszerzett zászlók"
+	},
+	{
+		"or": "Folder",
+		"tr": "Mappa"
+	},
+	{
+		"or": "Force vote",
+		"tr": "Különleges szavazás"
+	},
+	{
+		"or": "Free-View",
+		"tr": "Szabad-nézet"
+	},
+	{
+		"or": "Fullscreen",
+		"tr": "Teljes képernyő"
+	},
+	{
+		"or": "Game",
+		"tr": "Játék"
+	},
+	{
+		"or": "Game info",
+		"tr": "Játék infó"
+	},
+	{
+		"or": "Game options",
+		"tr": "Játékbeállítások"
+	},
+	{
+		"or": "Game over",
+		"tr": "Játék vége"
+	},
+	{
+		"or": "Game paused",
+		"tr": "Játék megállítva"
+	},
+	{
+		"or": "Game starts in",
+		"tr": "A játék kezdődik:"
+	},
+	{
+		"or": "Game type",
+		"tr": "Játékfajta"
+	},
+	{
+		"or": "Game type:",
+		"tr": "Játékfajta:"
+	},
+	{
+		"or": "Game types:",
+		"tr": "Játékfajták:"
+	},
+	{
+		"or": "General",
+		"tr": "Általános"
+	},
+	{
+		"or": "Global",
+		"tr": "Globális"
+	},
+	{
+		"or": "Graphics",
+		"tr": "Grafika"
+	},
+	{
+		"or": "Grenade",
+		"tr": "Gránát"
+	},
+	{
+		"or": "Hammer",
+		"tr": "Kalapács"
+	},
+	{
+		"or": "Has people playing",
+		"tr": "Játékos játszik"
+	},
+	{
+		"or": "Hide bots",
+		"tr": "Botok elrejtése"
+	},
+	{
+		"or": "High Detail",
+		"tr": "Jó részletek"
+	},
+	{
+		"or": "Hook",
+		"tr": "Horog"
+	},
+	{
+		"or": "Host address:",
+		"tr": "Megosztó címe:"
+	},
+	{
+		"or": "Hue:",
+		"tr": "Árnyalat"
+	},
+	{
+		"or": "Ingame mouse sens.",
+		"tr": "Egér érzékenysége játékban"
+	},
+	{
+		"or": "Invalid Demo",
+		"tr": "Érvénytelen demó"
+	},
+	{
+		"or": "Join",
+		"tr": "Csatlakozás"
+	},
+	{
+		"context": "Join a server",
+		"or": "Join",
+		"tr": "Csatlakozás"
+	},
+	{
+		"or": "Join blue",
+		"tr": "Kékhez lépés"
+	},
+	{
+		"or": "Join red",
+		"tr": "Piroshoz lépés"
+	},
+	{
+		"or": "Joined",
+		"tr": "Csatlakozva"
+	},
+	{
+		"or": "Joined blue",
+		"tr": "Kékhez lépve"
+	},
+	{
+		"or": "Joined red",
+		"tr": "Piroshoz lépve"
+	},
+	{
+		"or": "Jump",
+		"tr": "Ugrás"
+	},
+	{
+		"or": "Kick player",
+		"tr": "Játékos kirúgása"
+	},
+	{
+		"or": "Kick voting requires %d players on the server",
+		"tr": "A kirúgás miatt indított szavazáshoz legalább %d aktív játékos szükséges"
+	},
+	{
+		"or": "Language",
+		"tr": "Nyelv"
+	},
+	{
+		"or": "Laser",
+		"tr": "Lézer"
+	},
+	{
+		"or": "Length",
+		"tr": "Hossz"
+	},
+	{
+		"or": "Lgt:",
+		"tr": "Lgt:"
+	},
+	{
+		"or": "Limit Fps",
+		"tr": "Fps korlátozása"
+	},
+	{
+		"or": "Load the sound system",
+		"tr": "Hangosítás betöltése"
+	},
+	{
+		"or": "Loading",
+		"tr": "Betöltés"
+	},
+	{
+		"or": "Local",
+		"tr": "Helyi"
+	},
+	{
+		"or": "Local server",
+		"tr": "Helyi szerver"
+	},
+	{
+		"or": "MOTD",
+		"tr": "Napi üzenet"
+	},
+	{
+		"or": "Map",
+		"tr": "Pálya"
+	},
+	{
+		"or": "Map:",
+		"tr": "Pálya:"
+	},
+	{
+		"or": "Markers",
+		"tr": "\"Könyvjelzők\""
+	},
+	{
+		"context": "rounds (scoreboard)",
+		"or": "Match",
+		"tr": "Meccs"
+	},
+	{
+		"or": "Max",
+		"tr": "Maximum"
+	},
+	{
+		"or": "Max fps",
+		"tr": "Maximum fps"
+	},
+	{
+		"or": "Maximum ping:",
+		"tr": "Maximum Ping:"
+	},
+	{
+		"or": "Menu background transparency",
+		"tr": "Menü háttér átlátszósága"
+	},
+	{
+		"or": "Menu mouse sens.",
+		"tr": "Egér érzékenysége menüben"
+	},
+	{
+		"or": "Misc",
+		"tr": "Egyéb"
+	},
+	{
+		"or": "Move left",
+		"tr": "Balra lépés"
+	},
+	{
+		"or": "Move player to spectators",
+		"tr": "Játékos áthelyezése a nézőkhöz"
+	},
+	{
+		"or": "Move right",
+		"tr": "Jobbra lépés"
+	},
+	{
+		"or": "Movement",
+		"tr": "Mozgás"
+	},
+	{
+		"or": "Mute broadcasts",
+		"tr": "Adások némítása"
+	},
+	{
+		"or": "Mute when not active",
+		"tr": "Letiltás ha nem aktív"
+	},
+	{
+		"or": "Name",
+		"tr": "Név"
+	},
+	{
+		"or": "Netversion",
+		"tr": "Netverzió"
+	},
+	{
+		"or": "New filter",
+		"tr": "Új szűrő"
+	},
+	{
+		"or": "Next weapon",
+		"tr": "Következő fegyver"
+	},
+	{
+		"or": "Nickname",
+		"tr": "Becenév"
+	},
+	{
+		"or": "Nickname is empty.",
+		"tr": "A becenév üres."
+	},
+	{
+		"or": "No",
+		"tr": "Nem"
+	},
+	{
+		"context": "Without/None",
+		"or": "No",
+		"tr": "Nem"
+	},
+	{
+		"or": "No password",
+		"tr": "Jelszó nélküli"
+	},
+	{
+		"or": "No servers found",
+		"tr": "Nem talált szervereket"
+	},
+	{
+		"or": "No servers match your filter criteria",
+		"tr": "Nincs szerver a szűrőfeltételeidhez"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Normal",
+		"tr": "Normális"
+	},
+	{
+		"or": "Normal:",
+		"tr": "Normális:"
+	},
+	{
+		"context": "friends (server browser)",
+		"or": "Offline (%d)",
+		"tr": "Nem elérhető (%d)"
+	},
+	{
+		"or": "Ok",
+		"tr": "Oké"
+	},
+	{
+		"or": "Online clanmates (%d)",
+		"tr": "Elérhető klán tagok (%d)"
+	},
+	{
+		"or": "Online players (%d)",
+		"tr": "Elérhető játékosok (%d)"
+	},
+	{
+		"or": "Only %d active players are allowed",
+		"tr": "csak %d aktív játékos engedélyezett"
+	},
+	{
+		"or": "Open",
+		"tr": "Megnyitás"
+	},
+	{
+		"or": "Option",
+		"tr": "Opciók"
+	},
+	{
+		"or": "Other",
+		"tr": "Más"
+	},
+	{
+		"or": "Parent Folder",
+		"tr": "Szülő mappa"
+	},
+	{
+		"or": "Password",
+		"tr": "Jelszó"
+	},
+	{
+		"or": "Password incorrect",
+		"tr": "Helytelen jelszó"
+	},
+	{
+		"or": "Personal",
+		"tr": "Személyes"
+	},
+	{
+		"or": "Ping",
+		"tr": "Ping"
+	},
+	{
+		"or": "Pistol",
+		"tr": "Pisztoly"
+	},
+	{
+		"or": "Play",
+		"tr": "Játék"
+	},
+	{
+		"context": "DemoBrowser",
+		"or": "Play",
+		"tr": "Lejátszás"
+	},
+	{
+		"or": "Play background music",
+		"tr": "Háttérzene lejátszása"
+	},
+	{
+		"or": "Player",
+		"tr": "Játékos"
+	},
+	{
+		"or": "Player options",
+		"tr": "Játékos beállításai"
+	},
+	{
+		"or": "Players",
+		"tr": "Játékosok"
+	},
+	{
+		"context": "Playing '(gametype)' on '(map)'",
+		"or": "Playing '%s' on '%s'",
+		"tr": "Játékban: '%s' itt: '%s'"
+	},
+	{
+		"or": "Please balance teams!",
+		"tr": "Kérlek egyenlítsd ki a csapatokat!"
+	},
+	{
+		"or": "Press Enter to confirm or Esc to cancel",
+		"tr": "Folytatáshoz nyomd meg az Entert, kilépéshez az Esc-t"
+	},
+	{
+		"or": "Prev. weapon",
+		"tr": "Előző fegyver"
+	},
+	{
+		"or": "Quality Textures",
+		"tr": "Jó minőségű textúrák"
+	},
+	{
+		"or": "Quit",
+		"tr": "Kilépés"
+	},
+	{
+		"or": "REC %3d:%02d",
+		"tr": "FELVÉTEL %3d:%02d"
+	},
+	{
+		"or": "Ready",
+		"tr": "Kész"
+	},
+	{
+		"or": "Reason:",
+		"tr": "Indok:"
+	},
+	{
+		"or": "Recommended",
+		"tr": "Ajánlott"
+	},
+	{
+		"or": "Record",
+		"tr": "Felvétel"
+	},
+	{
+		"or": "Recorded",
+		"tr": "Felvéve"
+	},
+	{
+		"or": "Red team",
+		"tr": "Piros csapat"
+	},
+	{
+		"or": "Refresh",
+		"tr": "Frissítés"
+	},
+	{
+		"or": "Refreshing master servers",
+		"tr": "A mester szerverek frissítése"
+	},
+	{
+		"or": "Remote console",
+		"tr": "Távoli konzol"
+	},
+	{
+		"or": "Remove",
+		"tr": "Eltávolítás"
+	},
+	{
+		"or": "Remove filter",
+		"tr": "Szűrő eltávolítása"
+	},
+	{
+		"or": "Remove friend",
+		"tr": "Barát eltávolítása"
+	},
+	{
+		"or": "Rename",
+		"tr": "Átnevezés"
+	},
+	{
+		"or": "Rename demo",
+		"tr": "Demó átnevezése"
+	},
+	{
+		"or": "Reset",
+		"tr": "Visszaállítás"
+	},
+	{
+		"or": "Reset filter",
+		"tr": "Szűrő visszaállítása"
+	},
+	{
+		"or": "Resolution",
+		"tr": "Felbontás"
+	},
+	{
+		"or": "Respawn",
+		"tr": "Újraéledés"
+	},
+	{
+		"or": "Round over",
+		"tr": "Kör vége"
+	},
+	{
+		"or": "Round over!",
+		"tr": "Kör vége!"
+	},
+	{
+		"or": "Sample rate",
+		"tr": "Mintavételi frekvencia"
+	},
+	{
+		"or": "Sat:",
+		"tr": "Telítettség:"
+	},
+	{
+		"or": "Save",
+		"tr": "Mentés"
+	},
+	{
+		"or": "Save skin",
+		"tr": "Kinézet mentése"
+	},
+	{
+		"or": "Score",
+		"tr": "Pont"
+	},
+	{
+		"or": "Score limit",
+		"tr": "Ponthatár"
+	},
+	{
+		"or": "Scoreboard",
+		"tr": "Pontszámtábla"
+	},
+	{
+		"or": "Screen",
+		"tr": "Képernyő"
+	},
+	{
+		"or": "Screen:",
+		"tr": "Képernyő:"
+	},
+	{
+		"or": "Screenshot",
+		"tr": "Pillanatkép"
+	},
+	{
+		"or": "Search:",
+		"tr": "Keresés:"
+	},
+	{
+		"or": "Server",
+		"tr": "Szerver"
+	},
+	{
+		"or": "Server address:",
+		"tr": "Szerver címe:"
+	},
+	{
+		"or": "Server details",
+		"tr": "Szerver részletei"
+	},
+	{
+		"or": "Server does not allow voting to kick players",
+		"tr": "A szerver nem engedélyezi a játékosok kirúgásának érdekében indított szavazásokat"
+	},
+	{
+		"or": "Server does not allow voting to move players to spectators",
+		"tr": "A szerver nem engedélyezi a nézőkhöz állítás érdekében indított szavazásokat"
+	},
+	{
+		"or": "Server filter",
+		"tr": "Szerver szűrő"
+	},
+	{
+		"or": "Server info",
+		"tr": "Szerver infó"
+	},
+	{
+		"or": "Server not full",
+		"tr": "Szerver nincs tele"
+	},
+	{
+		"or": "Servers",
+		"tr": "Szerverek"
+	},
+	{
+		"or": "Settings",
+		"tr": "Beállítások"
+	},
+	{
+		"or": "Shotgun",
+		"tr": "Sörétes puska"
+	},
+	{
+		"or": "Show chat",
+		"tr": "Chat mutatása"
+	},
+	{
+		"or": "Show chat messages from:",
+		"tr": "Chat üzenetek mutatása tőle:"
+	},
+	{
+		"or": "Show friends only",
+		"tr": "Csak barátok mutatása"
+	},
+	{
+		"or": "Show ingame HUD",
+		"tr": "Játék közbeni HUD mutatása"
+	},
+	{
+		"or": "Show name plates",
+		"tr": "Játékosok nevének mutatása"
+	},
+	{
+		"or": "Show social",
+		"tr": "Chat, játékosnevek mutatása"
+	},
+	{
+		"or": "Show user IDs",
+		"tr": "Felhasználó ID-k mutatása"
+	},
+	{
+		"or": "Size",
+		"tr": "Méret"
+	},
+	{
+		"or": "Skin",
+		"tr": "Kinézet"
+	},
+	{
+		"or": "Skins",
+		"tr": "Kinézetek"
+	},
+	{
+		"or": "Skip the main menu",
+		"tr": "Főmenü átugrása"
+	},
+	{
+		"or": "Sound",
+		"tr": "Hang"
+	},
+	{
+		"or": "Sound error",
+		"tr": "Hang hiba"
+	},
+	{
+		"or": "Spectate",
+		"tr": "Megfigyelés"
+	},
+	{
+		"or": "Spectate next",
+		"tr": "A következő megfigyelése"
+	},
+	{
+		"or": "Spectate previous",
+		"tr": "Az előző megfigyelése"
+	},
+	{
+		"or": "Spectating",
+		"tr": "Megfigyelés"
+	},
+	{
+		"or": "Spectator mode",
+		"tr": "Néző mód"
+	},
+	{
+		"or": "Spectators",
+		"tr": "Nézők"
+	},
+	{
+		"or": "Spectators aren't allowed to start a vote.",
+		"tr": "A nézők nem indíthatnak szavazást"
+	},
+	{
+		"or": "Standard gametype",
+		"tr": "Általános játékfajta"
+	},
+	{
+		"or": "Standard map",
+		"tr": "Általános pálya"
+	},
+	{
+		"or": "Stop record",
+		"tr": "Felvétel leállítása"
+	},
+	{
+		"or": "Sudden Death",
+		"tr": "Gyors halál"
+	},
+	{
+		"or": "Suicides",
+		"tr": "Öngyilkosságok"
+	},
+	{
+		"or": "Switch weapon on pickup",
+		"tr": "Fegyverváltás felvételnél"
+	},
+	{
+		"or": "Team",
+		"tr": "Csapat"
+	},
+	{
+		"or": "Team chat",
+		"tr": "Csapat chat"
+	},
+	{
+		"or": "Team:",
+		"tr": "Csapat:"
+	},
+	{
+		"or": "Teams are locked",
+		"tr": "A csapatok le vannak zárva"
+	},
+	{
+		"or": "Teams are locked. Time to wait before changing team: %02d:%02d",
+		"tr": "A csapatok kiválasztva. %02d:%02d idő múlva válthatsz csapatot."
+	},
+	{
+		"or": "Teams were locked",
+		"tr": "A csapatok véglegesítődtek"
+	},
+	{
+		"or": "Teams were unlocked",
+		"tr": "A csapatok feloldódtak"
+	},
+	{
+		"or": "Tee",
+		"tr": "Tee"
+	},
+	{
+		"or": "Teeworlds %s is out! Download it at www.teeworlds.com!",
+		"tr": "Teeworlds %s kijött! Töltsd le a www.teeworlds.com oldalon!"
+	},
+	{
+		"or": "Texture",
+		"tr": "Textúra"
+	},
+	{
+		"or": "Texture Compression",
+		"tr": "Textúra tömörítés"
+	},
+	{
+		"or": "The audio device couldn't be initialised.",
+		"tr": "A hangeszköz nem kezdeményezhető."
+	},
+	{
+		"or": "The blue flag was captured by '%s'",
+		"tr": "%s bevitte a kék zászlót"
+	},
+	{
+		"or": "The blue flag was captured by '%s' (%.2f seconds)",
+		"tr": "%s bevitte a kék zászlót (%.2f másodperc)"
+	},
+	{
+		"or": "The red flag was captured by '%s'",
+		"tr": "%s bevitte a piros zászlót"
+	},
+	{
+		"or": "The red flag was captured by '%s' (%.2f seconds)",
+		"tr": "%s bevitte a zászlót (%.2f másodperc)"
+	},
+	{
+		"or": "The server is running a non-standard tuning on a pure game type.",
+		"tr": "A szerver egy nem szabványos hangolást futtat a tiszta játék típuson."
+	},
+	{
+		"or": "Theme",
+		"tr": "Háttér"
+	},
+	{
+		"or": "There's an unsaved map in the editor, you might want to save it before you quit the game.",
+		"tr": "Van egy mentetlen pálya a szerkesztőben, talán akarod menteni, mielőtt kilépsz a játékból."
+	},
+	{
+		"or": "Time limit",
+		"tr": "Időhatár"
+	},
+	{
+		"or": "Time limit: %d min",
+		"tr": "Időhatár: %d perc"
+	},
+	{
+		"or": "Try again",
+		"tr": "Próbáld újra"
+	},
+	{
+		"or": "Type",
+		"tr": "Típus"
+	},
+	{
+		"or": "Unable to delete the demo",
+		"tr": "A demó törlése nem lehetséges"
+	},
+	{
+		"or": "Unable to delete the skin",
+		"tr": "A kinézet törlése nem lehetséges"
+	},
+	{
+		"or": "Unable to rename the demo",
+		"tr": "A demó átnevezése nem lehetséges"
+	},
+	{
+		"or": "Use OS mouse acceleration",
+		"tr": "OS egér gyorsítás használata"
+	},
+	{
+		"or": "Use sounds",
+		"tr": "Hangok használata"
+	},
+	{
+		"or": "Use team colors for name plates",
+		"tr": "Csapatszín használata játékosok nevénél"
+	},
+	{
+		"or": "V-Sync",
+		"tr": "V-Sync"
+	},
+	{
+		"or": "Version",
+		"tr": "Verzió"
+	},
+	{
+		"or": "Version:",
+		"tr": "Verzió:"
+	},
+	{
+		"or": "Volume",
+		"tr": "Hangerő"
+	},
+	{
+		"or": "Vote aborted",
+		"tr": "Szavazás megszakítva"
+	},
+	{
+		"or": "Vote command:",
+		"tr": "Szavazás parancsa:"
+	},
+	{
+		"or": "Vote description:",
+		"tr": "Szavazás leírása:"
+	},
+	{
+		"or": "Vote failed",
+		"tr": "A szavazás elbukott"
+	},
+	{
+		"or": "Vote no",
+		"tr": "Nem"
+	},
+	{
+		"or": "Vote passed",
+		"tr": "Szavazás sikeres"
+	},
+	{
+		"or": "Vote yes",
+		"tr": "Igen"
+	},
+	{
+		"or": "Voting",
+		"tr": "Szavazás"
+	},
+	{
+		"or": "Wait for current vote to end before calling a new one.",
+		"tr": "Várj míg az aktuális szavazás le nem zárul, utána indíthatsz újat."
+	},
+	{
+		"or": "Wait for next round",
+		"tr": "Várakozás a következő körre"
+	},
+	{
+		"or": "Warmup",
+		"tr": "Kezdés"
+	},
+	{
+		"context": "Watching '(gametype)' on '(map)'",
+		"or": "Watching '%s' on '%s'",
+		"tr": "Nézi: '%s' itt: '%s'"
+	},
+	{
+		"or": "Weapon",
+		"tr": "Fegyver"
+	},
+	{
+		"or": "Weapons stats",
+		"tr": "Fegyverek statisztikái"
+	},
+	{
+		"or": "Welcome to Teeworlds",
+		"tr": "Üdvözlünk a Teeworlds-ben"
+	},
+	{
+		"or": "When ready, press <%s>",
+		"tr": "Ha készen állsz, nyomd meg a <%s> billentyűt!"
+	},
+	{
+		"or": "Whisper",
+		"tr": "Suttogás"
+	},
+	{
+		"or": "Yes",
+		"tr": "Igen"
+	},
+	{
+		"context": "With",
+		"or": "Yes",
+		"tr": "Igen"
+	},
+	{
+		"or": "You have to wait %1.0f seconds to change identity.",
+		"tr": "Identitás megváltoztatásához várnod kell %1.0f másodpercet."
+	},
+	{
+		"or": "You must reconnect to change identity.",
+		"tr": "Identitás megváltoztatásához újra kell csatlakoznod."
+	},
+	{
+		"or": "You must restart the game for all settings to take effect.",
+		"tr": "Újra kell indítani a játékot a beállítások érvénybelépéséhez."
+	},
+	{
+		"or": "You must wait %d seconds before making another vote",
+		"tr": "Várnod kell %d másodpercet új szavazás indítása előtt"
+	},
+	{
+		"or": "You were moved to the blue team due to team balancing",
+		"tr": "Át lettél helyezve a kék csapatba a csapatok kiegyenlítése érdekében"
+	},
+	{
+		"or": "You were moved to the red team due to team balancing",
+		"tr": "Át lettél helyezve a piros csapatba a csapatok kiegyenlítése érdekében"
+	},
+	{
+		"or": "blue flag",
+		"tr": "kék zászlót"
+	},
+	{
+		"context": "skins",
+		"or": "body",
+		"tr": "test"
+	},
+	{
+		"context": "skins",
+		"or": "decoration",
+		"tr": "dekoráció"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "everyone",
+		"tr": "mindenki"
+	},
+	{
+		"context": "skins",
+		"or": "eyes",
+		"tr": "szemek"
+	},
+	{
+		"context": "skins",
+		"or": "feet",
+		"tr": "lábak"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "friends only",
+		"tr": "csak barátok"
+	},
+	{
+		"context": "skins",
+		"or": "hands",
+		"tr": "kezek"
+	},
+	{
+		"or": "locked",
+		"tr": "lezárva"
+	},
+	{
+		"context": "skins",
+		"or": "marking",
+		"tr": "mintázat"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "no one",
+		"tr": "senki"
+	},
+	{
+		"context": "server browser message",
+		"or": "no players",
+		"tr": "nincsenek játékosok"
+	},
+	{
+		"or": "red flag",
+		"tr": "piros zászlót"
+	},
+	{
+		"or": "wait for more players",
+		"tr": "várakozás további játékosokra"
+	}
+]
+}

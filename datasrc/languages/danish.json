@@ -1,0 +1,717 @@
+{
+"authors": {
+	"modified by": [
+		"matiasmunk        2011-08-06 22:49:11"
+	],
+	"originally created by": "SnOrKilll"
+},
+"translated strings": [
+	{
+		"or": "%d%% loaded",
+		"tr": "%d%% indlæst"
+	},
+	{
+		"or": "%ds left",
+		"tr": "%d sekunder tilbage"
+	},
+	{
+		"or": "%i minute left",
+		"tr": "%i minut tilbage"
+	},
+	{
+		"or": "%i minutes left",
+		"tr": "%i minutter tilbage"
+	},
+	{
+		"or": "%i second left",
+		"tr": "%i sekund tilbage"
+	},
+	{
+		"or": "%i seconds left",
+		"tr": "%i sekunder tilbage"
+	},
+	{
+		"or": "%s wins!",
+		"tr": "%s vinder!"
+	},
+	{
+		"or": "-Page %d-",
+		"tr": "-Side %d-"
+	},
+	{
+		"or": "Abort",
+		"tr": "Afbryd"
+	},
+	{
+		"or": "Add",
+		"tr": "Tilføj"
+	},
+	{
+		"or": "Address",
+		"tr": "Adresse"
+	},
+	{
+		"or": "All",
+		"tr": "Alle"
+	},
+	{
+		"or": "Always show name plates",
+		"tr": "Vis altid navneskilte"
+	},
+	{
+		"or": "Are you sure that you want to delete the demo?",
+		"tr": "Er du sikker på at du vil slette denne demo?"
+	},
+	{
+		"or": "Are you sure that you want to quit?",
+		"tr": "Er du sikker på at du vil afslutte?"
+	},
+	{
+		"or": "Are you sure that you want to remove the player from your friends list?",
+		"tr": "Er du sikker på at du vil fjerne denne spiller fra din venneliste?"
+	},
+	{
+		"or": "As this is the first time you launch the game, please enter your nick name below. It's recommended that you check the settings to adjust them to your liking before joining a server.",
+		"tr": "Siden dette er første gang du starter spillet, så vær så venlig at skrive dit navn nedenunder. Det anbefales at du kigger på indstillingerne så du kan tilpasse dem inden du kobler dig på en server."
+	},
+	{
+		"or": "Automatically record demos",
+		"tr": "Optag automatisk demoer"
+	},
+	{
+		"or": "Automatically take game over screenshot",
+		"tr": "Tag  automatisk et game over screenshot"
+	},
+	{
+		"or": "Blue team",
+		"tr": "Blå hold"
+	},
+	{
+		"or": "Call vote",
+		"tr": " Lav afstemning"
+	},
+	{
+		"or": "Change settings",
+		"tr": "Ændre indstillinger"
+	},
+	{
+		"or": "Chat",
+		"tr": "Chat"
+	},
+	{
+		"or": "Clan",
+		"tr": "Klan"
+	},
+	{
+		"or": "Client",
+		"tr": "Klient"
+	},
+	{
+		"or": "Close",
+		"tr": "Luk"
+	},
+	{
+		"or": "Compatible version",
+		"tr": "Kompatibel version"
+	},
+	{
+		"or": "Connect",
+		"tr": "Tilslut"
+	},
+	{
+		"or": "Connecting to",
+		"tr": "Forbinder til"
+	},
+	{
+		"or": "Connection Problems...",
+		"tr": "Forbindelsesproblemer..."
+	},
+	{
+		"or": "Console",
+		"tr": "Konsol"
+	},
+	{
+		"or": "Controls",
+		"tr": "Taster"
+	},
+	{
+		"or": "Count players only",
+		"tr": "Tæl kun spillere"
+	},
+	{
+		"or": "Country",
+		"tr": "Land"
+	},
+	{
+		"or": "Custom colors",
+		"tr": "Brugerdefinerede farver"
+	},
+	{
+		"or": "Delete",
+		"tr": "Slet"
+	},
+	{
+		"or": "Delete demo",
+		"tr": "Slet demo"
+	},
+	{
+		"or": "Demo details",
+		"tr": "Demoinformation"
+	},
+	{
+		"or": "Demofile: %s",
+		"tr": "Demo fil: %s"
+	},
+	{
+		"or": "Demos",
+		"tr": "Demoer"
+	},
+	{
+		"or": "Disconnect",
+		"tr": "Frakoble"
+	},
+	{
+		"or": "Disconnected",
+		"tr": "Frakoblet"
+	},
+	{
+		"or": "Downloading map",
+		"tr": "Downloader bane"
+	},
+	{
+		"or": "Draw!",
+		"tr": "Uafgjort!"
+	},
+	{
+		"or": "Dynamic Camera",
+		"tr": "Dynamisk kamera"
+	},
+	{
+		"or": "Emoticon",
+		"tr": "Humørikoner"
+	},
+	{
+		"or": "Enter",
+		"tr": "Fortsæt"
+	},
+	{
+		"or": "Error",
+		"tr": "Fejl"
+	},
+	{
+		"or": "Error loading demo",
+		"tr": "Kunne ikke ikke indlæse demoen"
+	},
+	{
+		"or": "Favorite",
+		"tr": "Favorit"
+	},
+	{
+		"or": "Favorites",
+		"tr": "Favoritter"
+	},
+	{
+		"or": "Fire",
+		"tr": "Skyd"
+	},
+	{
+		"or": "Folder",
+		"tr": "Mappe"
+	},
+	{
+		"or": "Force vote",
+		"tr": "Tving afstemning"
+	},
+	{
+		"or": "Free-View",
+		"tr": "Free-View"
+	},
+	{
+		"or": "Fullscreen",
+		"tr": "Fuldskærm"
+	},
+	{
+		"or": "Game",
+		"tr": "Spil"
+	},
+	{
+		"or": "Game info",
+		"tr": "Spil info"
+	},
+	{
+		"or": "Game over",
+		"tr": "Game over"
+	},
+	{
+		"or": "Game type",
+		"tr": "Spiltype"
+	},
+	{
+		"or": "Game types:",
+		"tr": "Spiltyper:"
+	},
+	{
+		"or": "General",
+		"tr": "Generelt"
+	},
+	{
+		"or": "Graphics",
+		"tr": "Grafik"
+	},
+	{
+		"or": "Grenade",
+		"tr": "Granatkaster"
+	},
+	{
+		"or": "Hammer",
+		"tr": "Hammer"
+	},
+	{
+		"or": "Has people playing",
+		"tr": "Har folk som spiller"
+	},
+	{
+		"or": "High Detail",
+		"tr": "Extra detaljer"
+	},
+	{
+		"or": "Hook",
+		"tr": "Krog"
+	},
+	{
+		"or": "Invalid Demo",
+		"tr": "Ugyldig demo"
+	},
+	{
+		"or": "Join blue",
+		"tr": "Spil for blå"
+	},
+	{
+		"or": "Join red",
+		"tr": "Spil for rød"
+	},
+	{
+		"or": "Jump",
+		"tr": "Hop"
+	},
+	{
+		"or": "Kick player",
+		"tr": "Udsmid spiller"
+	},
+	{
+		"or": "Language",
+		"tr": "Sprog"
+	},
+	{
+		"or": "Loading",
+		"tr": "Indlæser"
+	},
+	{
+		"or": "MOTD",
+		"tr": "MOTD"
+	},
+	{
+		"or": "Map",
+		"tr": "Kort"
+	},
+	{
+		"or": "Maximum ping:",
+		"tr": "Højeste ping:"
+	},
+	{
+		"or": "Move left",
+		"tr": "Gå til venstre"
+	},
+	{
+		"or": "Move player to spectators",
+		"tr": "Flyt spilleren til tilskuerne"
+	},
+	{
+		"or": "Move right",
+		"tr": "Gå til højre"
+	},
+	{
+		"or": "Movement",
+		"tr": "Bevægelse"
+	},
+	{
+		"or": "Mute when not active",
+		"tr": "Ingen lyd når du ikke er aktiv"
+	},
+	{
+		"or": "Name",
+		"tr": "Navn"
+	},
+	{
+		"or": "Next weapon",
+		"tr": "Næste våben"
+	},
+	{
+		"or": "Nickname",
+		"tr": "Navn"
+	},
+	{
+		"or": "No",
+		"tr": "Nej"
+	},
+	{
+		"context": "Without/None",
+		"or": "No",
+		"tr": "Nej"
+	},
+	{
+		"or": "No password",
+		"tr": "Ingen adgangskode"
+	},
+	{
+		"or": "No servers found",
+		"tr": "Ingen servere fundet"
+	},
+	{
+		"or": "No servers match your filter criteria",
+		"tr": "Ingen servere matcher din filterkriterier"
+	},
+	{
+		"or": "Ok",
+		"tr": "Ok"
+	},
+	{
+		"or": "Open",
+		"tr": "Åben"
+	},
+	{
+		"or": "Parent Folder",
+		"tr": "Overmappe"
+	},
+	{
+		"or": "Password",
+		"tr": "Adgangskode"
+	},
+	{
+		"or": "Password incorrect",
+		"tr": "Forkert adgangskode"
+	},
+	{
+		"or": "Ping",
+		"tr": "Ping"
+	},
+	{
+		"or": "Pistol",
+		"tr": "Pistol"
+	},
+	{
+		"or": "Play",
+		"tr": "Spil"
+	},
+	{
+		"context": "DemoBrowser",
+		"or": "Play",
+		"tr": "Spil"
+	},
+	{
+		"or": "Play background music",
+		"tr": "Spil baggrunds musik"
+	},
+	{
+		"or": "Player",
+		"tr": "Spiller"
+	},
+	{
+		"or": "Player options",
+		"tr": "Spillermuligheder"
+	},
+	{
+		"or": "Players",
+		"tr": "Spillere"
+	},
+	{
+		"or": "Please balance teams!",
+		"tr": "Balancer venligst holdet!"
+	},
+	{
+		"or": "Prev. weapon",
+		"tr": "Foregående våben"
+	},
+	{
+		"or": "Quality Textures",
+		"tr": "Kvalitetsteksturer"
+	},
+	{
+		"or": "Quit",
+		"tr": "Afslut"
+	},
+	{
+		"or": "REC %3d:%02d",
+		"tr": "REC %3d:%02d"
+	},
+	{
+		"or": "Reason:",
+		"tr": "Grund:"
+	},
+	{
+		"or": "Red team",
+		"tr": "Rødt hold"
+	},
+	{
+		"or": "Refresh",
+		"tr": "Opdater"
+	},
+	{
+		"or": "Refreshing master servers",
+		"tr": "Opdaterer masterservere"
+	},
+	{
+		"or": "Remote console",
+		"tr": "Serverkonsol"
+	},
+	{
+		"or": "Remove",
+		"tr": "Fjern"
+	},
+	{
+		"or": "Remove friend",
+		"tr": "Fjern ven"
+	},
+	{
+		"or": "Rename",
+		"tr": "Omdøb navn"
+	},
+	{
+		"or": "Rename demo",
+		"tr": "Omdøb navn på demoen"
+	},
+	{
+		"or": "Reset filter",
+		"tr": "Nulstil filter"
+	},
+	{
+		"or": "Sample rate",
+		"tr": "Sample frekvens"
+	},
+	{
+		"or": "Score",
+		"tr": "Score"
+	},
+	{
+		"or": "Score limit",
+		"tr": "Score grænse"
+	},
+	{
+		"or": "Scoreboard",
+		"tr": "Resultatliste"
+	},
+	{
+		"or": "Screenshot",
+		"tr": "Skærmbillede"
+	},
+	{
+		"or": "Server address:",
+		"tr": "Serveradresse"
+	},
+	{
+		"or": "Server details",
+		"tr": "Serverdetaljer"
+	},
+	{
+		"or": "Server filter",
+		"tr": "Serverfilter"
+	},
+	{
+		"or": "Server info",
+		"tr": "Serverinfo"
+	},
+	{
+		"or": "Server not full",
+		"tr": "Ikke fuld server"
+	},
+	{
+		"or": "Settings",
+		"tr": "Indstillinger"
+	},
+	{
+		"or": "Shotgun",
+		"tr": "Haglgevær"
+	},
+	{
+		"or": "Show chat",
+		"tr": "Vis chat"
+	},
+	{
+		"or": "Show friends only",
+		"tr": "Vis venner"
+	},
+	{
+		"or": "Show ingame HUD",
+		"tr": "Vis HUD i spillet"
+	},
+	{
+		"or": "Show name plates",
+		"tr": "Vis navneskilte"
+	},
+	{
+		"or": "Skins",
+		"tr": "Udseende"
+	},
+	{
+		"or": "Sound",
+		"tr": "Lyd"
+	},
+	{
+		"or": "Sound error",
+		"tr": "Lyd fejl"
+	},
+	{
+		"or": "Spectate",
+		"tr": "Kig på"
+	},
+	{
+		"or": "Spectate next",
+		"tr": "Kig på næste"
+	},
+	{
+		"or": "Spectate previous",
+		"tr": "Kig på forrige"
+	},
+	{
+		"or": "Spectator mode",
+		"tr": "Tilskuer mode"
+	},
+	{
+		"or": "Spectators",
+		"tr": "Tilskuer"
+	},
+	{
+		"or": "Standard gametype",
+		"tr": "Standard spilletype"
+	},
+	{
+		"or": "Standard map",
+		"tr": "Standard map"
+	},
+	{
+		"or": "Stop record",
+		"tr": "Stop optagelse"
+	},
+	{
+		"or": "Sudden Death",
+		"tr": "Sudden Death"
+	},
+	{
+		"or": "Switch weapon on pickup",
+		"tr": "Byt våben ved anskafning"
+	},
+	{
+		"or": "Team",
+		"tr": "Hold"
+	},
+	{
+		"or": "Team chat",
+		"tr": "Holdchat"
+	},
+	{
+		"or": "Teeworlds %s is out! Download it at www.teeworlds.com!",
+		"tr": "Teeworld %s er ude nu! Download den på www.teeworlds.com!"
+	},
+	{
+		"or": "Texture Compression",
+		"tr": "Teksturkompression"
+	},
+	{
+		"or": "The audio device couldn't be initialised.",
+		"tr": "Lydenheden kunne ikke startes"
+	},
+	{
+		"or": "The server is running a non-standard tuning on a pure game type.",
+		"tr": "Denne server kører på en ikke-standard tuning på en ren spilletype."
+	},
+	{
+		"or": "There's an unsaved map in the editor, you might want to save it before you quit the game.",
+		"tr": "Der er en ikke-gemt bane i editoren, vil du gemme den før du afslutter?"
+	},
+	{
+		"or": "Time limit",
+		"tr": "Tidsbegrænsning"
+	},
+	{
+		"or": "Time limit: %d min",
+		"tr": "Tidsbegrænsning: %d min"
+	},
+	{
+		"or": "Try again",
+		"tr": "Forsøg igen"
+	},
+	{
+		"or": "Type",
+		"tr": "Type"
+	},
+	{
+		"or": "Unable to delete the demo",
+		"tr": "Kunne ikke slette demoen"
+	},
+	{
+		"or": "Unable to rename the demo",
+		"tr": "Kunne ikke omdøbe demoen"
+	},
+	{
+		"or": "Use sounds",
+		"tr": "Anvend lydeffekter"
+	},
+	{
+		"or": "Use team colors for name plates",
+		"tr": "Anvend holdfarver til navneskilte"
+	},
+	{
+		"or": "V-Sync",
+		"tr": "V-Sync"
+	},
+	{
+		"or": "Version",
+		"tr": "Version"
+	},
+	{
+		"or": "Vote command:",
+		"tr": "Afstemningsordre:"
+	},
+	{
+		"or": "Vote description:",
+		"tr": "Afstemningsbeskrivelse:"
+	},
+	{
+		"or": "Vote no",
+		"tr": "Stem nej"
+	},
+	{
+		"or": "Vote yes",
+		"tr": "Stem ja"
+	},
+	{
+		"or": "Voting",
+		"tr": "Afstemning"
+	},
+	{
+		"or": "Warmup",
+		"tr": "Opvarmning"
+	},
+	{
+		"or": "Weapon",
+		"tr": "Våben"
+	},
+	{
+		"or": "Welcome to Teeworlds",
+		"tr": "Velkommen til Teeworlds"
+	},
+	{
+		"or": "Yes",
+		"tr": "Ja"
+	},
+	{
+		"context": "With",
+		"or": "Yes",
+		"tr": "Ja"
+	},
+	{
+		"or": "You must restart the game for all settings to take effect.",
+		"tr": "Du skal genstarte spillet før alle indstillingerne virker."
+	}
+]
+}

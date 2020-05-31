@@ -1,0 +1,1530 @@
+{
+"authors": {
+	"modified by": [
+		"GunChleoc, 2017-2018 (Transifex)"
+	],
+	"originally created by": "GunChleoc"
+},
+"translated strings": [
+	{
+		"or": "%.3f KiB",
+		"tr": "%.3f KiB"
+	},
+	{
+		"or": "%d other players",
+		"tr": "%d cluicheadair(ean) eile"
+	},
+	{
+		"or": "%d player left",
+		"tr": "Dh’fhalbh %d chluicheadair"
+	},
+	{
+		"or": "%d player not ready",
+		"tr": "Tha %d chluicheadair nach eil deiseil ann"
+	},
+	{
+		"or": "%d players",
+		"tr": "%d cluicheadair(ean)"
+	},
+	{
+		"or": "%d players left",
+		"tr": "Dh’fhalbh %d cluicheadair(ean)"
+	},
+	{
+		"or": "%d players not ready",
+		"tr": "Tha %d cluicheadair(ean) nach eil deiseil ann"
+	},
+	{
+		"or": "%d servers",
+		"tr": "%d frithealaiche(an)"
+	},
+	{
+		"or": "%d servers, %d players",
+		"tr": "%d frithealaiche(an), %d cluicheadair(ean)"
+	},
+	{
+		"or": "%d%% loaded",
+		"tr": "%d%% air a luchdadh"
+	},
+	{
+		"or": "%ds left",
+		"tr": "%dd air fhàgail"
+	},
+	{
+		"or": "%i minute left",
+		"tr": "%i mhionaid air fhàgail"
+	},
+	{
+		"or": "%i minutes left",
+		"tr": "%i mionaid(ean) air fhàgail"
+	},
+	{
+		"or": "%i second left",
+		"tr": "Tha %i diog air fhàgail"
+	},
+	{
+		"or": "%i seconds left",
+		"tr": "Tha %i diog(an) air fhàgail"
+	},
+	{
+		"or": "%s wins!",
+		"tr": "Bhuannaich %s!"
+	},
+	{
+		"or": "'%s' called for vote to kick '%s' (%s)",
+		"tr": "Leig “%s” toirt a’ bhròg air “%s” gu bhòt (%s)"
+	},
+	{
+		"or": "'%s' called for vote to move '%s' to spectators (%s)",
+		"tr": "Leig “%s” gluasad “%s” dha na h-amhairc gu bhòt (%s)"
+	},
+	{
+		"or": "'%s' called vote to change server option '%s' (%s)",
+		"tr": "Leig “%s” atharrachadh air roghainn “%s” an fhrithealaiche gu bhòt (%s)"
+	},
+	{
+		"or": "'%s' entered and joined the blue team",
+		"tr": "Thàinig “%s” a-steach dhan sgioba ghorm"
+	},
+	{
+		"or": "'%s' entered and joined the game",
+		"tr": "Thàinig “%s” a-steach dhan gheama"
+	},
+	{
+		"or": "'%s' entered and joined the red team",
+		"tr": "Thàinig “%s” a-steach dhan sgioba dearg"
+	},
+	{
+		"or": "'%s' entered and joined the spectators",
+		"tr": "Thàinig “%s” a-steach ’na (h-)amharc"
+	},
+	{
+		"or": "'%s' has left the game",
+		"tr": "Dh’fhàg “%s” an geama"
+	},
+	{
+		"or": "'%s' has left the game (%s)",
+		"tr": "Dh’fhàg “%s” an geama (%s)"
+	},
+	{
+		"or": "'%s' initiated a pause",
+		"tr": "Chuir “%s” ’na stad e"
+	},
+	{
+		"or": "'%s' joined the blue team",
+		"tr": "Ghabh “%s” san sgioba ghorm"
+	},
+	{
+		"or": "'%s' joined the game",
+		"tr": "Thàinig %s a-steach dhan geama"
+	},
+	{
+		"or": "'%s' joined the red team",
+		"tr": "Ghabh “%s” san sgioba dearg"
+	},
+	{
+		"or": "'%s' joined the spectators",
+		"tr": "Thàinig %s a-steach ’na (h-)amharc"
+	},
+	{
+		"or": "'%s' was added as a friend",
+		"tr": "Tha “%s” ’nad charaid a-nis"
+	},
+	{
+		"or": "'%s' was muted",
+		"tr": "Chaidh %s a mhùchadh"
+	},
+	{
+		"or": "'%s' was removed as a friend",
+		"tr": "Chan eil “%s” ’nad charaid tuilleadh"
+	},
+	{
+		"or": "'%s' was unmuted",
+		"tr": "Chaidh %s a dhì-mhùchadh"
+	},
+	{
+		"or": "-Page %d-",
+		"tr": "–Duilleag %d–"
+	},
+	{
+		"or": "Abort",
+		"tr": "Sguir dheth"
+	},
+	{
+		"or": "Add",
+		"tr": "Cuir ris"
+	},
+	{
+		"or": "Add clan",
+		"tr": "Cuir cinneadh ris"
+	},
+	{
+		"or": "Add demo marker",
+		"tr": "Cuir comharra demo ris"
+	},
+	{
+		"or": "Add friend",
+		"tr": "Cuir caraid ris"
+	},
+	{
+		"or": "Add friend/clan",
+		"tr": "Cuir caraid/cinneadh ris"
+	},
+	{
+		"or": "Address",
+		"tr": "Seòladh"
+	},
+	{
+		"or": "Admin forced server option '%s' (%s)",
+		"tr": "Dh’èignich an rianaire roghainn “%s” an fhrithealaiche (%s)"
+	},
+	{
+		"or": "Admin forced vote no",
+		"tr": "Dh’èignich rianaire àicheadh a’ bhòtaidh"
+	},
+	{
+		"or": "Admin forced vote yes",
+		"tr": "Dh’èignich rianaire aontachadh a’ bhòtaidh"
+	},
+	{
+		"or": "Admin moved '%s' to spectator (%s)",
+		"tr": "Ghluais an rianaire “%s” dha na h-amhairc (%s)"
+	},
+	{
+		"or": "All",
+		"tr": "Na h-uile"
+	},
+	{
+		"or": "All players were moved to the blue team",
+		"tr": "Chaidh a h-uile cluicheadair a ghluasad dhan sgioba ghorm"
+	},
+	{
+		"or": "All players were moved to the game",
+		"tr": "Chaidh a h-uile cluicheadair a ghluasad dhan gheama"
+	},
+	{
+		"or": "All players were moved to the red team",
+		"tr": "Chaidh a h-uile cluicheadair a ghluasad dhan sgioba dearg"
+	},
+	{
+		"or": "All players were moved to the spectators",
+		"tr": "Chaidh a h-uile cluicheadair ’nan amharc"
+	},
+	{
+		"or": "Alp:",
+		"tr": "Alph:"
+	},
+	{
+		"or": "Always show name plates",
+		"tr": "Seall sanasan ainm an-còmhnaidh"
+	},
+	{
+		"or": "Anti Aliasing",
+		"tr": "Anti Aliasing"
+	},
+	{
+		"or": "Are you sure that you want to delete the demo?",
+		"tr": "A bheil thu cinnteach gu bheil thu airson an demo a sguabadh às?"
+	},
+	{
+		"or": "Are you sure that you want to delete the skin?",
+		"tr": "A bheil thu cinnteach gu bheil thu airson an craiceann a sguabadh às?"
+	},
+	{
+		"or": "Are you sure that you want to quit?",
+		"tr": "A bheil thu cinnteach gu bheil thu airson fàgail?"
+	},
+	{
+		"or": "Are you sure that you want to remove the filter from the server browser?",
+		"tr": "A bheil thu cinnteach gu bheil thu airson a’ chriathrag a thoirt air falbh o brabhsair nam frithealaichean?"
+	},
+	{
+		"or": "Are you sure that you want to remove the player from your friends list?",
+		"tr": "A bheil thu cinnteach gu bheil thu airson an cluicheadair seo a thoirt air falbh o liosta nan caraidean agad?"
+	},
+	{
+		"or": "Are you sure you want to rename the demo?",
+		"tr": "A bheil thu cinnteach gu bheil thu airson ainm ùr a thoirt air an demo?"
+	},
+	{
+		"or": "Are you sure you want to save your skin? If a skin with this name already exists, it will be replaced.",
+		"tr": "A bheil thu cinnteach gu bheil thu airson an craiceann agad a shàbhaladh? Ma tha craiceann air a bheil an t-ainm seo ann mar-thà, thèid am fear seo a chur ’na àite."
+	},
+	{
+		"or": "As this is the first time you launch the game, please enter your nick name below. It's recommended that you check the settings to adjust them to your liking before joining a server.",
+		"tr": "On as e seo a’ chiad turas a chuir thu an geama gu dol, cuir a-steach d’ fhar-ainm gu h-ìosal. Mholamaid gun dearbhaich thu na roghainnean gus an gleusadh mar a thogras tu mus dèid thu a-steach dha fhrithealaiche."
+	},
+	{
+		"or": "Automatically record demos",
+		"tr": "Clàraich demothan gu fèin-obrachail"
+	},
+	{
+		"or": "Automatically take game over screenshot",
+		"tr": "Tog glacadh-sgrìn gu fèin-obrachail air crìoch a’ gheama"
+	},
+	{
+		"or": "Back",
+		"tr": "Air ais"
+	},
+	{
+		"or": "Basic",
+		"tr": "Bunasach"
+	},
+	{
+		"or": "Best spree",
+		"tr": "An splaoid as fheàrr"
+	},
+	{
+		"or": "Blue team",
+		"tr": "An sgioba gorm"
+	},
+	{
+		"or": "Borderless window",
+		"tr": "Uinneag gun iomall"
+	},
+	{
+		"or": "Browser",
+		"tr": "Brabhsair"
+	},
+	{
+		"or": "Call vote",
+		"tr": "Leig gu bhòt"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Casual",
+		"tr": "Furasta"
+	},
+	{
+		"or": "Change settings",
+		"tr": "Atharraich na roghainnean"
+	},
+	{
+		"or": "Chat",
+		"tr": "Cabadaich"
+	},
+	{
+		"or": "Clan",
+		"tr": "Cinneadh"
+	},
+	{
+		"context": "clear gametype filters",
+		"or": "Clear",
+		"tr": "Falamhaich"
+	},
+	{
+		"or": "Click on a player or a flag to follow it",
+		"tr": "Briog air cluicheadair no bratach airson a leantainn"
+	},
+	{
+		"or": "Client",
+		"tr": "Cliant"
+	},
+	{
+		"or": "Close",
+		"tr": "Dùin"
+	},
+	{
+		"or": "Compatible version",
+		"tr": "Tionndadh co-chòrdail"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Competitive",
+		"tr": "Farpaiseach"
+	},
+	{
+		"or": "Configure statboard",
+		"tr": "Rèitich bòrd na stadastaireachd"
+	},
+	{
+		"or": "Connect",
+		"tr": "Ceangail"
+	},
+	{
+		"or": "Connecting to",
+		"tr": "’Gad cheangal gu"
+	},
+	{
+		"or": "Connection Problems...",
+		"tr": "Tha duilgheadas leis a’ cheangal…"
+	},
+	{
+		"or": "Console",
+		"tr": "Consoil"
+	},
+	{
+		"or": "Controls",
+		"tr": "Stiùireadh"
+	},
+	{
+		"or": "Count players only",
+		"tr": "Na cunnt ach cluicheadairean"
+	},
+	{
+		"or": "Country",
+		"tr": "Dùthaich"
+	},
+	{
+		"or": "Country:",
+		"tr": "Dùthaich:"
+	},
+	{
+		"or": "Crc",
+		"tr": "Crc"
+	},
+	{
+		"or": "Created",
+		"tr": "Air a chruthachadh"
+	},
+	{
+		"or": "Current spree",
+		"tr": "An splaoid làithreach"
+	},
+	{
+		"or": "Current: %dx%d (%d:%d)",
+		"tr": "Làithreach: %dx%d (%d:%d)"
+	},
+	{
+		"or": "Custom",
+		"tr": "Gnàthaichte"
+	},
+	{
+		"or": "Custom colors",
+		"tr": "Dathan gnàthaichte"
+	},
+	{
+		"or": "Customize",
+		"tr": "Gnàthaich"
+	},
+	{
+		"or": "Deaths",
+		"tr": "Bàs"
+	},
+	{
+		"or": "Delete",
+		"tr": "Sguab às"
+	},
+	{
+		"or": "Delete demo",
+		"tr": "Sguab às an demo"
+	},
+	{
+		"or": "Delete skin",
+		"tr": "Sguab às an craiceann"
+	},
+	{
+		"or": "Demo details",
+		"tr": "Fiosrachadh a’ demo"
+	},
+	{
+		"or": "Demofile: %s",
+		"tr": "Faidhle demo: %s"
+	},
+	{
+		"or": "Demos",
+		"tr": "Demothan"
+	},
+	{
+		"or": "Detail",
+		"tr": "Mion-fiosrachadh"
+	},
+	{
+		"or": "Difficulty",
+		"tr": "Duilgheas"
+	},
+	{
+		"or": "Difficulty:",
+		"tr": "Duilgheas:"
+	},
+	{
+		"or": "Disconnect",
+		"tr": "Dì-cheangail"
+	},
+	{
+		"or": "Disconnected",
+		"tr": "Gun cheangal"
+	},
+	{
+		"or": "Downloading map",
+		"tr": "A’ luchdadh a-nuas am mapa"
+	},
+	{
+		"or": "Draw!",
+		"tr": "Geama co-ionnann!"
+	},
+	{
+		"or": "Dynamic Camera",
+		"tr": "Camara innsgineach"
+	},
+	{
+		"or": "Editor",
+		"tr": "Deasaiche"
+	},
+	{
+		"or": "Emoticon",
+		"tr": "Samhla-gnùis"
+	},
+	{
+		"or": "Enable colored server broadcasts",
+		"tr": "Cuir an comas craoladh dathte nam frithealaichean"
+	},
+	{
+		"or": "Enter",
+		"tr": "Enter"
+	},
+	{
+		"or": "Error",
+		"tr": "Mearachd"
+	},
+	{
+		"or": "Error loading demo",
+		"tr": "Mearachd le luchdadh a’ demo"
+	},
+	{
+		"or": "FPM",
+		"tr": "FPM"
+	},
+	{
+		"or": "Favorite",
+		"tr": "Annsachd"
+	},
+	{
+		"or": "Favorites",
+		"tr": "Annsachdan"
+	},
+	{
+		"or": "Fire",
+		"tr": "Loisg"
+	},
+	{
+		"or": "Flag captures",
+		"tr": "Glacadh bhrataichean"
+	},
+	{
+		"or": "Flag grabs",
+		"tr": "Togail bhrataichean"
+	},
+	{
+		"or": "Folder",
+		"tr": "Pasgan"
+	},
+	{
+		"or": "Force vote",
+		"tr": "Èignich bhòt"
+	},
+	{
+		"or": "Frags",
+		"tr": "Marbhadh"
+	},
+	{
+		"or": "Frags per minute",
+		"tr": "Marbhadh gach mionaid"
+	},
+	{
+		"or": "Free-View",
+		"tr": "Sealladh saor"
+	},
+	{
+		"or": "Fullscreen",
+		"tr": "Làn-sgrìn"
+	},
+	{
+		"or": "Game",
+		"tr": "Geama"
+	},
+	{
+		"or": "Game info",
+		"tr": "Fiosrachadh mun gheama"
+	},
+	{
+		"or": "Game options",
+		"tr": "Roghainnean a’ gheama"
+	},
+	{
+		"or": "Game over",
+		"tr": "Crìoch a’ gheama"
+	},
+	{
+		"or": "Game paused",
+		"tr": "Tha an geama ’na stad"
+	},
+	{
+		"or": "Game starts in",
+		"tr": "Tòisichidh an geama an ceann"
+	},
+	{
+		"or": "Game type",
+		"tr": "Seòrsa"
+	},
+	{
+		"or": "Game type:",
+		"tr": "Seòrsa a’ gheama:"
+	},
+	{
+		"or": "Game types:",
+		"tr": "Seòrsaichean dhe gheama:"
+	},
+	{
+		"or": "General",
+		"tr": "Coitcheann"
+	},
+	{
+		"or": "Global",
+		"tr": "Coitcheann"
+	},
+	{
+		"context": "Flag grabs",
+		"or": "Grabs",
+		"tr": "Togail"
+	},
+	{
+		"or": "Graphics",
+		"tr": "Grafaigeachd"
+	},
+	{
+		"or": "Grenade",
+		"tr": "Lòinsear dhurcan"
+	},
+	{
+		"or": "Hammer",
+		"tr": "Òrd"
+	},
+	{
+		"or": "Has people playing",
+		"tr": "Tha daoine a’ cluich air"
+	},
+	{
+		"or": "Hide bots",
+		"tr": "Falaich na botaichean"
+	},
+	{
+		"or": "High Detail",
+		"tr": "Grafaigeachd mhionaideach"
+	},
+	{
+		"or": "Hook",
+		"tr": "Greimich"
+	},
+	{
+		"or": "Host address:",
+		"tr": "Seòladh an òstair:"
+	},
+	{
+		"or": "Hue:",
+		"tr": "Tuar:"
+	},
+	{
+		"or": "Ingame mouse sens.",
+		"tr": "Mothalachd luchaige sa gheama"
+	},
+	{
+		"or": "Invalid Demo",
+		"tr": "Demo mì-dhligheach"
+	},
+	{
+		"or": "Join",
+		"tr": "Gabh ann"
+	},
+	{
+		"context": "Join a server",
+		"or": "Join",
+		"tr": "Gabh ann"
+	},
+	{
+		"or": "Join blue",
+		"tr": "Gabh san sgioba ghorm"
+	},
+	{
+		"or": "Join red",
+		"tr": "Gabh san sgioba dearg"
+	},
+	{
+		"or": "Joined",
+		"tr": "A’ cluich"
+	},
+	{
+		"or": "Joined blue",
+		"tr": "Ghabh thu san sgioba ghorm"
+	},
+	{
+		"or": "Joined red",
+		"tr": "Ghabh thu san sgioba dearg"
+	},
+	{
+		"or": "Jump",
+		"tr": "Thoir leum"
+	},
+	{
+		"or": "Kick player",
+		"tr": "Thoir a’ bhròg dhan chluicheadair"
+	},
+	{
+		"or": "Kick voting requires %d players on the server",
+		"tr": "Feumaidh %d cluicheadair(ean) a bhith air an fhrithealaiche mus gabh bhòtadh gus a’ bhròg a thoirt air cuideigin"
+	},
+	{
+		"or": "Language",
+		"tr": "Cànan"
+	},
+	{
+		"or": "Laser",
+		"tr": "Leusair"
+	},
+	{
+		"or": "Length",
+		"tr": "Faide"
+	},
+	{
+		"or": "Lgt:",
+		"tr": "Soill:"
+	},
+	{
+		"or": "Limit Fps",
+		"tr": "Cuingich na FPS"
+	},
+	{
+		"or": "Load the sound system",
+		"tr": "Luchdaich an siostam fuaime"
+	},
+	{
+		"or": "Loading",
+		"tr": "’Ga luchdadh"
+	},
+	{
+		"or": "Local",
+		"tr": "Ionadail"
+	},
+	{
+		"or": "Local server",
+		"tr": "Frithealaiche ionadail"
+	},
+	{
+		"or": "MOTD",
+		"tr": "Teachdaireachd an latha"
+	},
+	{
+		"or": "Map",
+		"tr": "Mapa"
+	},
+	{
+		"or": "Map:",
+		"tr": "Mapa:"
+	},
+	{
+		"or": "Markers",
+		"tr": "Comharran"
+	},
+	{
+		"context": "rounds (scoreboard)",
+		"or": "Match",
+		"tr": "Maids"
+	},
+	{
+		"or": "Max",
+		"tr": "As motha"
+	},
+	{
+		"or": "Max fps",
+		"tr": "Na FPS as motha"
+	},
+	{
+		"or": "Maximum ping:",
+		"tr": "A ping as motha:"
+	},
+	{
+		"or": "Menu background transparency",
+		"tr": "Trìd-shoilleireachd cùlaibh a’ chlàir-taice"
+	},
+	{
+		"or": "Menu mouse sens.",
+		"tr": "Mothalachd luchaige sna clàran-taice"
+	},
+	{
+		"or": "Misc",
+		"tr": "Measgaichte"
+	},
+	{
+		"or": "Move left",
+		"tr": "Gluais dhan taobh chlì"
+	},
+	{
+		"or": "Move player to spectators",
+		"tr": "Dèan amharc dhen chluicheadair"
+	},
+	{
+		"or": "Move right",
+		"tr": "Gluais dhan taobh deas"
+	},
+	{
+		"or": "Movement",
+		"tr": "Gluasad"
+	},
+	{
+		"or": "Mute broadcasts",
+		"tr": "Mùch na craolaidhean"
+	},
+	{
+		"or": "Mute when not active",
+		"tr": "Mùch mur eil e gnìomhach"
+	},
+	{
+		"or": "Name",
+		"tr": "Ainm"
+	},
+	{
+		"context": "Net score",
+		"or": "Net",
+		"tr": "Lom"
+	},
+	{
+		"or": "Net score",
+		"tr": "Sgòr lom"
+	},
+	{
+		"or": "Netversion",
+		"tr": "Tionndadh an lìonraidh"
+	},
+	{
+		"or": "New filter",
+		"tr": "Criathrag ùr"
+	},
+	{
+		"or": "Next weapon",
+		"tr": "An t-ath-arm"
+	},
+	{
+		"or": "Nickname",
+		"tr": "Far-ainm"
+	},
+	{
+		"or": "Nickname is empty.",
+		"tr": "Tha am far-ainm bàn."
+	},
+	{
+		"or": "No",
+		"tr": "Chan eil"
+	},
+	{
+		"context": "Without/None",
+		"or": "No",
+		"tr": "Chan eil"
+	},
+	{
+		"or": "No password",
+		"tr": "Gun fhacal-faire"
+	},
+	{
+		"or": "No servers found",
+		"tr": "Cha deach frithealaiche a lorg"
+	},
+	{
+		"or": "No servers match your filter criteria",
+		"tr": "Chan eil frithealaiche a’ freagairt ris na lorg thu"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Normal",
+		"tr": "Àbhaisteach"
+	},
+	{
+		"or": "Normal:",
+		"tr": "Àbhaisteach:"
+	},
+	{
+		"context": "friends (server browser)",
+		"or": "Offline (%d)",
+		"tr": "Far loidhne (%d)"
+	},
+	{
+		"or": "Ok",
+		"tr": "Ceart ma-thà"
+	},
+	{
+		"or": "Online clanmates (%d)",
+		"tr": "Do cuideachd air loidhne (%d)"
+	},
+	{
+		"or": "Online players (%d)",
+		"tr": "Cluicheadairean air loidhne (%d)"
+	},
+	{
+		"or": "Only %d active players are allowed",
+		"tr": "Chan eil ach %d cluicheadair(ean) gnìomhach ceadaichte"
+	},
+	{
+		"or": "Open",
+		"tr": "Fosgail"
+	},
+	{
+		"or": "Option",
+		"tr": "Roghainn"
+	},
+	{
+		"or": "Other",
+		"tr": "Eile"
+	},
+	{
+		"or": "Parent Folder",
+		"tr": "Pasgan pàraint"
+	},
+	{
+		"or": "Password",
+		"tr": "Facal-faire"
+	},
+	{
+		"or": "Password incorrect",
+		"tr": "Chan eil am facal-faire mar bu chòir"
+	},
+	{
+		"or": "Personal",
+		"tr": "Pearsanta"
+	},
+	{
+		"or": "Ping",
+		"tr": "Ping"
+	},
+	{
+		"or": "Pistol",
+		"tr": "Daga"
+	},
+	{
+		"or": "Play",
+		"tr": "Cluich"
+	},
+	{
+		"context": "DemoBrowser",
+		"or": "Play",
+		"tr": "Cluich"
+	},
+	{
+		"or": "Play background music",
+		"tr": "Cluich ceòl a’ chùlaibh"
+	},
+	{
+		"or": "Player",
+		"tr": "Cluicheadair"
+	},
+	{
+		"or": "Player options",
+		"tr": "Roghainnean a’ chluicheadair"
+	},
+	{
+		"or": "Players",
+		"tr": "Cluich."
+	},
+	{
+		"context": "Playing '(gametype)' on '(map)'",
+		"or": "Playing '%s' on '%s'",
+		"tr": "A’ cluich “%s” air “'%s”"
+	},
+	{
+		"or": "Please balance teams!",
+		"tr": "Cothromaich na sgiobaidhean!"
+	},
+	{
+		"or": "Press Enter to confirm or Esc to cancel",
+		"tr": "Brùth air Enter ‘ga dhearbhadh no air Esc a sgur dheth"
+	},
+	{
+		"or": "Prev. weapon",
+		"tr": "An t-arm roimhe"
+	},
+	{
+		"or": "Quality Textures",
+		"tr": "Innich le càileachd àrd"
+	},
+	{
+		"or": "Quit",
+		"tr": "Fàg an-seo"
+	},
+	{
+		"or": "REC %3d:%02d",
+		"tr": "As luaithe %3d:%02d"
+	},
+	{
+		"or": "Ratio",
+		"tr": "Co-mheas"
+	},
+	{
+		"or": "Ready",
+		"tr": "Deiseil"
+	},
+	{
+		"or": "Reason:",
+		"tr": "Adhbhar:"
+	},
+	{
+		"or": "Recommended",
+		"tr": "Ga mholadh"
+	},
+	{
+		"or": "Record",
+		"tr": "Clàraich"
+	},
+	{
+		"or": "Recorded",
+		"tr": "Air a chlàradh"
+	},
+	{
+		"or": "Red team",
+		"tr": "An sgioba dearg"
+	},
+	{
+		"or": "Refresh",
+		"tr": "Ath-nuadhaich"
+	},
+	{
+		"or": "Refreshing master servers",
+		"tr": "Ag ath-nuadhachadh na prìomh-fhrithealaichean"
+	},
+	{
+		"or": "Remote console",
+		"tr": "Consoil chèin"
+	},
+	{
+		"or": "Remove",
+		"tr": "Thoir air falbh"
+	},
+	{
+		"or": "Remove filter",
+		"tr": "Thoir a’ chriathrag air falbh"
+	},
+	{
+		"or": "Remove friend",
+		"tr": "Thoir an caraid air falbh"
+	},
+	{
+		"or": "Rename",
+		"tr": "Cuir ainm ùr air"
+	},
+	{
+		"or": "Rename demo",
+		"tr": "Cuir ainm ùr air an demo"
+	},
+	{
+		"or": "Reset",
+		"tr": "Ath-shuidhich"
+	},
+	{
+		"or": "Reset filter",
+		"tr": "Ath-shuidhich a’ chriathrag"
+	},
+	{
+		"or": "Resolution",
+		"tr": "Dùmhlachd-bhreacaidh"
+	},
+	{
+		"or": "Respawn",
+		"tr": "Ath-shìol"
+	},
+	{
+		"or": "Round over",
+		"tr": "Tha a’ chuairt seachad"
+	},
+	{
+		"or": "Round over!",
+		"tr": "Tha a’ chuairt seachad!"
+	},
+	{
+		"or": "Sample rate",
+		"tr": "Reat shampallan"
+	},
+	{
+		"or": "Sat:",
+		"tr": "Sàth:"
+	},
+	{
+		"or": "Save",
+		"tr": "Sàbhail"
+	},
+	{
+		"or": "Save skin",
+		"tr": "Sàbhail an craiceann"
+	},
+	{
+		"or": "Score",
+		"tr": "Sgòr"
+	},
+	{
+		"or": "Score limit",
+		"tr": "Crìoch an sgòir"
+	},
+	{
+		"or": "Scoreboard",
+		"tr": "Clàr nan sgòr"
+	},
+	{
+		"or": "Screen",
+		"tr": "Sgrìn"
+	},
+	{
+		"or": "Screen:",
+		"tr": "Sgrìn:"
+	},
+	{
+		"or": "Screenshot",
+		"tr": "Glacadh-sgrìn"
+	},
+	{
+		"or": "Search:",
+		"tr": "Lorg:"
+	},
+	{
+		"or": "Server",
+		"tr": "Frithealaiche"
+	},
+	{
+		"or": "Server address:",
+		"tr": "Seòladh an fhrithealaiche:"
+	},
+	{
+		"or": "Server details",
+		"tr": "Mun fhrithealaiche"
+	},
+	{
+		"or": "Server does not allow voting to kick players",
+		"tr": "Cha cheadaich am frithealaiche bhòt gus a’ bhròg a thoirt dha chluicheadair"
+	},
+	{
+		"or": "Server does not allow voting to move players to spectators",
+		"tr": "Cha cheadaich am frithealaiche bhòt gus cluicheadair a ghluasad dha na h-amhairc"
+	},
+	{
+		"or": "Server filter",
+		"tr": "Criathrag nam frithealaichean"
+	},
+	{
+		"or": "Server info",
+		"tr": "Mun fhrithealaiche"
+	},
+	{
+		"or": "Server not full",
+		"tr": "Chan eil am frithealaiche làn"
+	},
+	{
+		"or": "Servers",
+		"tr": "Frithealaichean"
+	},
+	{
+		"or": "Settings",
+		"tr": "Roghainnean"
+	},
+	{
+		"or": "Shotgun",
+		"tr": "Gunna-froise"
+	},
+	{
+		"or": "Show chat",
+		"tr": "Seall a’ chabadaich"
+	},
+	{
+		"or": "Show chat messages from:",
+		"tr": "Seall teachdaireachdan na cabadaich o:"
+	},
+	{
+		"or": "Show friends only",
+		"tr": "Seall na caraidean a-mhàin"
+	},
+	{
+		"or": "Show ingame HUD",
+		"tr": "Seall HUD sa gheama"
+	},
+	{
+		"or": "Show name plates",
+		"tr": "Seall sanasan nan cluicheadairean"
+	},
+	{
+		"or": "Show social",
+		"tr": "Seall nithean sòisealta"
+	},
+	{
+		"or": "Show user IDs",
+		"tr": "Seall IDan nan cleachdaichean"
+	},
+	{
+		"or": "Size",
+		"tr": "Meud"
+	},
+	{
+		"or": "Skin",
+		"tr": "Craiceann"
+	},
+	{
+		"or": "Skins",
+		"tr": "Craicnean"
+	},
+	{
+		"or": "Skip the main menu",
+		"tr": "Gearr leum seachad air a’ phrìomh chlàr-taice"
+	},
+	{
+		"or": "Sound",
+		"tr": "Fuaim"
+	},
+	{
+		"or": "Sound error",
+		"tr": "Mearachd fuaime"
+	},
+	{
+		"or": "Spectate",
+		"tr": "Amhairc"
+	},
+	{
+		"or": "Spectate next",
+		"tr": "Amhairc an ath-gheama"
+	},
+	{
+		"or": "Spectate previous",
+		"tr": "Amhairc an geama roimhe"
+	},
+	{
+		"or": "Spectating",
+		"tr": "Ag amharc"
+	},
+	{
+		"or": "Spectator mode",
+		"tr": "Modh amhairc"
+	},
+	{
+		"or": "Spectators",
+		"tr": "Amhairc"
+	},
+	{
+		"or": "Spectators aren't allowed to start a vote.",
+		"tr": "Chan fhaod amharc bhòt a thòiseachadh."
+	},
+	{
+		"or": "Spree",
+		"tr": "Splaoid"
+	},
+	{
+		"or": "Standard gametype",
+		"tr": "Geama stannardach"
+	},
+	{
+		"or": "Standard map",
+		"tr": "Mapa stannardach"
+	},
+	{
+		"or": "Statboard",
+		"tr": "Bòrd na stadastaireachd"
+	},
+	{
+		"or": "Stop record",
+		"tr": "Sguir dhen chlàradh"
+	},
+	{
+		"or": "Sudden Death",
+		"tr": "Bàs obann"
+	},
+	{
+		"or": "Suicides",
+		"tr": "Fèin-mhurt"
+	},
+	{
+		"or": "Switch weapon on pickup",
+		"tr": "Cleachd arm a thogas tu sa bhad"
+	},
+	{
+		"or": "Team",
+		"tr": "Sgioba"
+	},
+	{
+		"or": "Team chat",
+		"tr": "Cabadaich an sgioba"
+	},
+	{
+		"or": "Team:",
+		"tr": "Sgioba:"
+	},
+	{
+		"or": "Teams are locked",
+		"tr": "Tha na sgiobaidhean glaiste"
+	},
+	{
+		"or": "Teams are locked. Time to wait before changing team: %02d:%02d",
+		"tr": "Tha na sgiobaidhean glaiste. Ùine ri feitheamh mus gabh an sgioba atharrachadh: %02d:%02d"
+	},
+	{
+		"or": "Teams were locked",
+		"tr": "Chaidh na sgiobaidhean a ghlasadh"
+	},
+	{
+		"or": "Teams were unlocked",
+		"tr": "Chaidh a’ ghlas a thoirt far nan sgiobaidhean"
+	},
+	{
+		"or": "Tee",
+		"tr": "Taoidh"
+	},
+	{
+		"or": "Teeworlds %s is out! Download it at www.teeworlds.com!",
+		"tr": "Chaidh Teeworlds %s fhoillseachadh! Luchdaich a-nuas e air www.teeworlds.com!"
+	},
+	{
+		"or": "Texture",
+		"tr": "Inneach"
+	},
+	{
+		"or": "Texture Compression",
+		"tr": "Dùmhlachadh nan inneach"
+	},
+	{
+		"or": "The audio device couldn't be initialised.",
+		"tr": "Cha b’ urrainn dhuinn uidheam-fuaime a thòiseachadh."
+	},
+	{
+		"or": "The blue flag was captured by '%s'",
+		"tr": "Ghabh “%s” a’ bhratach ghorm"
+	},
+	{
+		"or": "The blue flag was captured by '%s' (%.2f seconds)",
+		"tr": "Ghabh “%s” a’ bhratach ghorm  (%.2f diog(an))"
+	},
+	{
+		"or": "The red flag was captured by '%s'",
+		"tr": "Ghabh “%s” a’ bhratach dhearg"
+	},
+	{
+		"or": "The red flag was captured by '%s' (%.2f seconds)",
+		"tr": "Ghabh “%s” a’ bhratach dhearg (%.2f diog(an))"
+	},
+	{
+		"or": "The server is running a non-standard tuning on a pure game type.",
+		"tr": "Cha am frithealaiche a’ ruith gleus nach eil stannardach air seòrsa geama amh."
+	},
+	{
+		"or": "Theme",
+		"tr": "Ùrlar"
+	},
+	{
+		"or": "There's an unsaved map in the editor, you might want to save it before you quit the game.",
+		"tr": "Tha mapa nach deach a shàbhaladh san deasaiche, dh’fhaoidte gum bu toigh leat a shàbhaladh mus fàg thu an geama."
+	},
+	{
+		"or": "Time limit",
+		"tr": "Crìoch-ama"
+	},
+	{
+		"or": "Time limit: %d min",
+		"tr": "Crìoch-ama: %d mion"
+	},
+	{
+		"or": "Try again",
+		"tr": "Feuch ris a-rithist"
+	},
+	{
+		"or": "Type",
+		"tr": "Seòrsa"
+	},
+	{
+		"or": "Unable to delete the demo",
+		"tr": "Cha b’ urrainn dhuinn an demo a sguabadh às"
+	},
+	{
+		"or": "Unable to delete the skin",
+		"tr": "Cha b’ urrainn dhuinn an craiceann a sguabadh às"
+	},
+	{
+		"or": "Unable to rename the demo",
+		"tr": "Cha b’ urrainn dhuinn ainm ùr a chur air an demo"
+	},
+	{
+		"or": "Use OS mouse acceleration",
+		"tr": "Cleachd luathachadh luchaige an t-siostam-obrachaidh"
+	},
+	{
+		"or": "Use sounds",
+		"tr": "Cleachd fuaimean"
+	},
+	{
+		"or": "Use team colors for name plates",
+		"tr": "Cleachd dathan sgioba air sanasan ainm"
+	},
+	{
+		"or": "V-Sync",
+		"tr": "Sioncronachadh-V"
+	},
+	{
+		"or": "Version",
+		"tr": "Tionndadh"
+	},
+	{
+		"or": "Version:",
+		"tr": "Tionndadh:"
+	},
+	{
+		"or": "Volume",
+		"tr": "Àirde na fuaime"
+	},
+	{
+		"or": "Vote aborted",
+		"tr": "Chaidh sgur dhen bhòtadh"
+	},
+	{
+		"or": "Vote command:",
+		"tr": "Àithne a’ bhòtaidh:"
+	},
+	{
+		"or": "Vote description:",
+		"tr": "Tuairisgeul a’ bhòtaidh:"
+	},
+	{
+		"or": "Vote failed",
+		"tr": "Cha deach leis a’ bhòt"
+	},
+	{
+		"or": "Vote no",
+		"tr": "Bhòt às àicheadh"
+	},
+	{
+		"or": "Vote passed",
+		"tr": "Shoirbhich leis a’ bhòt"
+	},
+	{
+		"or": "Vote yes",
+		"tr": "Bhòt gun aontaich thu"
+	},
+	{
+		"or": "Voting",
+		"tr": "Bhòtadh"
+	},
+	{
+		"or": "Wait for current vote to end before calling a new one.",
+		"tr": "Fuirich gus an dig a’ bhòt làithreach gu crìoch mus tòisich thu tè ùr."
+	},
+	{
+		"or": "Wait for next round",
+		"tr": "Fan gus an ath-chuairt"
+	},
+	{
+		"or": "Warmup",
+		"tr": "Blàthachadh"
+	},
+	{
+		"context": "Watching '(gametype)' on '(map)'",
+		"or": "Watching '%s' on '%s'",
+		"tr": "A’ coimhead air “%s” air “'%s”"
+	},
+	{
+		"or": "Weapon",
+		"tr": "Arm"
+	},
+	{
+		"or": "Weapons stats",
+		"tr": "Stadastaireachd nan arm"
+	},
+	{
+		"or": "Welcome to Teeworlds",
+		"tr": "Fàilte gu Teeworlds"
+	},
+	{
+		"or": "When ready, press <%s>",
+		"tr": "Nuair a bhios tu deiseil, brùth air <%s>"
+	},
+	{
+		"or": "Whisper",
+		"tr": "Cagairt"
+	},
+	{
+		"or": "Yes",
+		"tr": "Tha"
+	},
+	{
+		"context": "With",
+		"or": "Yes",
+		"tr": "Tha"
+	},
+	{
+		"or": "You have to wait %1.0f seconds to change identity.",
+		"tr": "Feumaidh tu feitheamh fad %1.0f diog(an) mus atharraich thu d’ aithne."
+	},
+	{
+		"or": "You must reconnect to change identity.",
+		"tr": "Feumaidh tu ceangal às ùr airson do dhearbh-aithne atharrachadh."
+	},
+	{
+		"or": "You must restart the game for all settings to take effect.",
+		"tr": "Ath-thòisich an geama a chur an sàs nan roghainnean uile."
+	},
+	{
+		"or": "You must wait %d seconds before making another vote",
+		"tr": "Feumaidh tu fuireach fad %d diog(an) mus cruthaich thu bhòt eile"
+	},
+	{
+		"or": "You were moved to the blue team due to team balancing",
+		"tr": "Chaidh do ghluasad dhan sgioba ghorm a chùm cothromachadh nan sgioba"
+	},
+	{
+		"or": "You were moved to the red team due to team balancing",
+		"tr": "Chaidh do ghluasad dhan sgioba dearg a chùm cothromachadh nan sgioba"
+	},
+	{
+		"or": "blue flag",
+		"tr": "bratach ghorm"
+	},
+	{
+		"context": "skins",
+		"or": "body",
+		"tr": "bodhaig"
+	},
+	{
+		"context": "skins",
+		"or": "decoration",
+		"tr": "sgeadachadh"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "everyone",
+		"tr": "na h-uile duine"
+	},
+	{
+		"context": "skins",
+		"or": "eyes",
+		"tr": "sùilean"
+	},
+	{
+		"context": "skins",
+		"or": "feet",
+		"tr": "casan"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "friends only",
+		"tr": "mo charaidean a-mhàin"
+	},
+	{
+		"context": "skins",
+		"or": "hands",
+		"tr": "làmhan"
+	},
+	{
+		"or": "locked",
+		"tr": "glaiste"
+	},
+	{
+		"context": "skins",
+		"or": "marking",
+		"tr": "comharradh"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "no one",
+		"tr": "na seall idir"
+	},
+	{
+		"context": "server browser message",
+		"or": "no players",
+		"tr": "chan eil cluicheadair ann"
+	},
+	{
+		"or": "red flag",
+		"tr": "bratach dhearg"
+	},
+	{
+		"or": "wait for more players",
+		"tr": "fuirich airson barrachd chluicheadairean"
+	}
+]
+}

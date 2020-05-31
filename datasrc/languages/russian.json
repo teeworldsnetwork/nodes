@@ -1,0 +1,1690 @@
+{
+"authors": {
+	"modified by": [
+		"carzil        2011-04-05 19:19:06",
+		"RaZeR[RT]    2011-04-12 17:57:02",
+		"BotanEgg    2011-05-02 19:07:35",
+		"Bananbl4    2011-07-07 02:03:04",
+		"Arion WT    2011-07-07 09:39:05",
+		"Arion WT    2011-08-07 12:16:28",
+		"KraevRoot    2016-01-29 19:13:33",
+		"ArionWT, 2016 (Transifex)",
+		"Baloon, 2014 (Transifex)",
+		"Jane K, 2018 (Transifex)",
+		"maxcroud, 2014 (Transifex)",
+		"CreepDT, 2014 (Transifex)",
+		"vlad nikolaev, 2018 (Transifex)",
+		"Алексей Уваров, 2018 (Transifex)"
+	],
+	"originally created by": "kaddyd"
+},
+"translated strings": [
+	{
+		"or": " (%s seconds faster)",
+		"tr": "(%sсекунд быстрее)"
+	},
+	{
+		"or": "%.3f KiB",
+		"tr": "%.3f КиБ"
+	},
+	{
+		"or": "%d other players",
+		"tr": "%d других игроков"
+	},
+	{
+		"or": "%d player left",
+		"tr": "остался %d игрок"
+	},
+	{
+		"or": "%d player not ready",
+		"tr": "%d игрок не готов"
+	},
+	{
+		"or": "%d players",
+		"tr": "%d игроков"
+	},
+	{
+		"or": "%d players left",
+		"tr": "осталось %d игроков"
+	},
+	{
+		"or": "%d players not ready",
+		"tr": "%d игроков не готово"
+	},
+	{
+		"or": "%d servers",
+		"tr": "%d серверов"
+	},
+	{
+		"or": "%d servers, %d players",
+		"tr": "%d серверов, %d игроков"
+	},
+	{
+		"or": "%d%% loaded",
+		"tr": "%d%% загружено"
+	},
+	{
+		"or": "%ds left",
+		"tr": "осталось %d сек."
+	},
+	{
+		"or": "%i minute left",
+		"tr": "Осталась %i минута!"
+	},
+	{
+		"or": "%i minutes left",
+		"tr": "Осталось %i минут!"
+	},
+	{
+		"or": "%i second left",
+		"tr": "Осталась %i секунда!"
+	},
+	{
+		"or": "%i seconds left",
+		"tr": "Осталось %i секунд!"
+	},
+	{
+		"or": "%s is muted by you",
+		"tr": "%s был заглушен тобой"
+	},
+	{
+		"or": "%s wins!",
+		"tr": "%s победили!"
+	},
+	{
+		"or": "'%s' called for vote to kick '%s' (%s)",
+		"tr": "'%s' голосует за изгнание игрока '%s' (%s)"
+	},
+	{
+		"or": "'%s' called for vote to move '%s' to spectators (%s)",
+		"tr": "'%s' голосует за перемещение '%s' в наблюдатели (%s)"
+	},
+	{
+		"or": "'%s' called vote to change server option '%s' (%s)",
+		"tr": "'%s' голосует за смену параметра сервера '%s' (%s)"
+	},
+	{
+		"or": "'%s' entered and joined the blue team",
+		"tr": "'%s' вошёл и присоединился к синей команде"
+	},
+	{
+		"or": "'%s' entered and joined the game",
+		"tr": "'%s' вошёл и присоединился к игре"
+	},
+	{
+		"or": "'%s' entered and joined the red team",
+		"tr": "'%s' вошёл и присоединился к красной команде"
+	},
+	{
+		"or": "'%s' entered and joined the spectators",
+		"tr": "'%s' вошёл и присоединился к наблюдателям"
+	},
+	{
+		"or": "'%s' finished in: %s",
+		"tr": "'%s' финишировал за: %s"
+	},
+	{
+		"or": "'%s' has left the game",
+		"tr": "'%s' покинул игру"
+	},
+	{
+		"or": "'%s' has left the game (%s)",
+		"tr": "'%s' покинул игру (%s)"
+	},
+	{
+		"or": "'%s' has set a new map record: %s",
+		"tr": "'%s'  поставил(а) новый рекорд на карте: %s"
+	},
+	{
+		"or": "'%s' has set a new personal record: %s",
+		"tr": "'%s' поставил(а) новый персональный рекорд: %s"
+	},
+	{
+		"or": "'%s' initiated a pause",
+		"tr": "'%s' поставил на паузу"
+	},
+	{
+		"or": "'%s' joined the blue team",
+		"tr": "'%s' присоединился к синей команде"
+	},
+	{
+		"or": "'%s' joined the game",
+		"tr": "'%s' присоединился к игре"
+	},
+	{
+		"or": "'%s' joined the red team",
+		"tr": "'%s' присоединился к красной команде"
+	},
+	{
+		"or": "'%s' joined the spectators",
+		"tr": "'%s' присоединился к наблюдателям"
+	},
+	{
+		"or": "'%s' was added as a friend",
+		"tr": "'%s' был добавлен как друг"
+	},
+	{
+		"or": "'%s' was muted",
+		"tr": "'%s' заглушен"
+	},
+	{
+		"or": "'%s' was removed as a friend",
+		"tr": "'%s' был удалён как друг"
+	},
+	{
+		"or": "'%s' was unmuted",
+		"tr": "'%s' разглушен"
+	},
+	{
+		"or": "-Page %d-",
+		"tr": "-Страница %d-"
+	},
+	{
+		"or": "-Page %d/%d-",
+		"tr": "-Страница %d/%d-"
+	},
+	{
+		"or": "Abort",
+		"tr": "Отмена"
+	},
+	{
+		"or": "Add",
+		"tr": "Добавить"
+	},
+	{
+		"or": "Add clan",
+		"tr": "Добавить клан"
+	},
+	{
+		"or": "Add demo marker",
+		"tr": "Добавить метку в демо"
+	},
+	{
+		"or": "Add friend",
+		"tr": "Добавить друга"
+	},
+	{
+		"or": "Add friend/clan",
+		"tr": "Добавить друга/клан"
+	},
+	{
+		"or": "Address",
+		"tr": "Адрес"
+	},
+	{
+		"or": "Admin forced server option '%s' (%s)",
+		"tr": "Администратор изменил параметр '%s' (%s)"
+	},
+	{
+		"or": "Admin forced vote no",
+		"tr": "Администратор проголосовал против"
+	},
+	{
+		"or": "Admin forced vote yes",
+		"tr": "Администратор проголосовал за"
+	},
+	{
+		"or": "Admin moved '%s' to spectator (%s)",
+		"tr": "Администратор перенес '%s' в наблюдатели (%s)"
+	},
+	{
+		"or": "Aim bind",
+		"tr": "Закрепить прицел"
+	},
+	{
+		"or": "All",
+		"tr": "Всё"
+	},
+	{
+		"or": "All players were moved to the blue team",
+		"tr": "Все игроки перемещены в синюю команду"
+	},
+	{
+		"or": "All players were moved to the game",
+		"tr": "Все игроки перемещены в игру"
+	},
+	{
+		"or": "All players were moved to the red team",
+		"tr": "Все игроки перемещены в красную команду"
+	},
+	{
+		"or": "All players were moved to the spectators",
+		"tr": "Все игроки перемещены в наблюдатели"
+	},
+	{
+		"or": "Alp:",
+		"tr": "Прозрачность:"
+	},
+	{
+		"or": "Always show name plates",
+		"tr": "Всегда показывать имена игроков"
+	},
+	{
+		"or": "Anti Aliasing",
+		"tr": "Сглаживание"
+	},
+	{
+		"or": "Are you sure that you want to delete the demo?",
+		"tr": "Вы уверены, что хотите удалить демо?"
+	},
+	{
+		"or": "Are you sure that you want to delete the skin?",
+		"tr": "Вы действительно хотите удалить скин?"
+	},
+	{
+		"or": "Are you sure that you want to quit?",
+		"tr": "Вы действительно хотите выйти?"
+	},
+	{
+		"or": "Are you sure that you want to remove the clan from your friends list?",
+		"tr": "Вы уверены, что хотите удалить клан из списка друзей?"
+	},
+	{
+		"or": "Are you sure that you want to remove the filter from the server browser?",
+		"tr": "Вы действительно хотите удалить фильтр из браузера серверов? "
+	},
+	{
+		"or": "Are you sure that you want to remove the player from your friends list?",
+		"tr": "Вы уверены, что хотите удалить игрока из друзей?"
+	},
+	{
+		"or": "Are you sure you want to rename the demo?",
+		"tr": "Вы действительно хотите переименовать демо?"
+	},
+	{
+		"or": "Are you sure you want to save your skin? If a skin with this name already exists, it will be replaced.",
+		"tr": "Вы действительно хотите сохранить ваш скин? Скин с таким же именем будет заменен."
+	},
+	{
+		"or": "As this is the first time you launch the game, please enter your nick name below. It's recommended that you check the settings to adjust them to your liking before joining a server.",
+		"tr": "Пожалуйста, введите своё имя. Также рекомендуется проверить настройки игры и изменить некоторые из них перед тем, как начать играть."
+	},
+	{
+		"or": "Automatically record demos",
+		"tr": "Автоматически записывать демо"
+	},
+	{
+		"or": "Automatically take game over screenshot",
+		"tr": "Автоматический скриншот в конце игры"
+	},
+	{
+		"or": "Back",
+		"tr": "Назад"
+	},
+	{
+		"or": "Basic",
+		"tr": "Основные"
+	},
+	{
+		"or": "Best spree",
+		"tr": "Лучшая серия"
+	},
+	{
+		"or": "Blue team",
+		"tr": "Синие"
+	},
+	{
+		"or": "Borderless window",
+		"tr": "Окно без рамки"
+	},
+	{
+		"or": "Call vote",
+		"tr": "Голосовать"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Casual",
+		"tr": "Легкая"
+	},
+	{
+		"or": "Change settings",
+		"tr": "Изменить настройки"
+	},
+	{
+		"or": "Chat",
+		"tr": "Чат"
+	},
+	{
+		"or": "Clan",
+		"tr": "Клан"
+	},
+	{
+		"context": "clear gametype filters",
+		"or": "Clear",
+		"tr": "Очистить"
+	},
+	{
+		"or": "Click on a player or a flag to follow it",
+		"tr": "Нажмите рядом с игроком или флагом, чтобы следить за ним"
+	},
+	{
+		"or": "Client",
+		"tr": "Клиент"
+	},
+	{
+		"or": "Close",
+		"tr": "Выйти"
+	},
+	{
+		"or": "Compatible version",
+		"tr": "Совместимая версия"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Competitive",
+		"tr": "Высокая"
+	},
+	{
+		"or": "Configure statboard",
+		"tr": "Настроить табло статистики"
+	},
+	{
+		"or": "Connect",
+		"tr": "Войти"
+	},
+	{
+		"or": "Connecting to",
+		"tr": "Подключение к"
+	},
+	{
+		"or": "Connection Problems...",
+		"tr": "Проблемы с подключением..."
+	},
+	{
+		"or": "Console",
+		"tr": "Консоль"
+	},
+	{
+		"or": "Controls",
+		"tr": "Управление"
+	},
+	{
+		"or": "Count players only",
+		"tr": "Только игроки"
+	},
+	{
+		"or": "Country",
+		"tr": "Страна"
+	},
+	{
+		"or": "Country:",
+		"tr": "Страна:"
+	},
+	{
+		"or": "Crc",
+		"tr": "Crc"
+	},
+	{
+		"or": "Created",
+		"tr": "Создано"
+	},
+	{
+		"or": "Current spree",
+		"tr": "Текущая серия"
+	},
+	{
+		"or": "Current: %dx%d (%d:%d)",
+		"tr": "Текущее: %dx%d (%d:%d)"
+	},
+	{
+		"or": "Custom",
+		"tr": "Свой"
+	},
+	{
+		"or": "Custom colors",
+		"tr": "Свои цвета"
+	},
+	{
+		"or": "Customize",
+		"tr": "Настроить"
+	},
+	{
+		"or": "Deaths",
+		"tr": "Смертей"
+	},
+	{
+		"or": "Delete",
+		"tr": "Удалить"
+	},
+	{
+		"or": "Delete demo",
+		"tr": "Удалить демо"
+	},
+	{
+		"or": "Delete skin",
+		"tr": "Удалить скин"
+	},
+	{
+		"or": "Demo details",
+		"tr": "Подробности демо"
+	},
+	{
+		"or": "Demofile: %s",
+		"tr": "Демо: %s"
+	},
+	{
+		"or": "Demos",
+		"tr": "Демо"
+	},
+	{
+		"or": "Detail",
+		"tr": "Подробности"
+	},
+	{
+		"or": "Device",
+		"tr": "Устройство"
+	},
+	{
+		"or": "Difficulty",
+		"tr": "Сложность"
+	},
+	{
+		"or": "Difficulty:",
+		"tr": "Сложность:"
+	},
+	{
+		"or": "Disable whisper feature",
+		"tr": "Отключить Шепот"
+	},
+	{
+		"or": "Disconnect",
+		"tr": "Отключиться"
+	},
+	{
+		"or": "Disconnected",
+		"tr": "Отключено"
+	},
+	{
+		"or": "Downloading map",
+		"tr": "Загрузка карты"
+	},
+	{
+		"or": "Draw!",
+		"tr": "Ничья!"
+	},
+	{
+		"or": "Dynamic Camera",
+		"tr": "Динамическая камера"
+	},
+	{
+		"or": "Editor",
+		"tr": "Редактор"
+	},
+	{
+		"or": "Emoticon",
+		"tr": "Эмоции"
+	},
+	{
+		"or": "Enable colored server broadcasts",
+		"tr": "Включить цветное вещание"
+	},
+	{
+		"or": "Enable joystick",
+		"tr": "Включить джойстик"
+	},
+	{
+		"or": "Enter",
+		"tr": "Вход"
+	},
+	{
+		"or": "Error",
+		"tr": "Ошибка"
+	},
+	{
+		"or": "Error loading demo",
+		"tr": "Ошибка при загрузке демо"
+	},
+	{
+		"or": "FPM",
+		"tr": "FPM"
+	},
+	{
+		"or": "Favorite",
+		"tr": "Избранный"
+	},
+	{
+		"or": "Favorites",
+		"tr": "Избранные"
+	},
+	{
+		"or": "Fetching server info",
+		"tr": "Сбор информации о сервере"
+	},
+	{
+		"or": "Fire",
+		"tr": "Огонь"
+	},
+	{
+		"or": "Flag captures",
+		"tr": "Захвачено флагов"
+	},
+	{
+		"or": "Flag grabs",
+		"tr": "Подобрано флагов"
+	},
+	{
+		"or": "Folder",
+		"tr": "Каталог"
+	},
+	{
+		"or": "Force vote",
+		"tr": "Форсировать"
+	},
+	{
+		"or": "Frags",
+		"tr": "Убийств"
+	},
+	{
+		"or": "Frags per minute",
+		"tr": "Убийств в минуту"
+	},
+	{
+		"or": "Free-View",
+		"tr": "Свободный обзор"
+	},
+	{
+		"or": "Fullscreen",
+		"tr": "Полноэкранный режим"
+	},
+	{
+		"or": "Game",
+		"tr": "Игра"
+	},
+	{
+		"or": "Game info",
+		"tr": "Информация"
+	},
+	{
+		"or": "Game options",
+		"tr": "Настройки игры"
+	},
+	{
+		"or": "Game over",
+		"tr": "Игра окончена"
+	},
+	{
+		"or": "Game paused",
+		"tr": "Игра приостановлена"
+	},
+	{
+		"or": "Game starts in",
+		"tr": "Игра начнется через"
+	},
+	{
+		"or": "Game type",
+		"tr": "Режим игры"
+	},
+	{
+		"or": "Game type:",
+		"tr": "Режим:"
+	},
+	{
+		"or": "Game types:",
+		"tr": "Режим игры:"
+	},
+	{
+		"or": "General",
+		"tr": "Основные"
+	},
+	{
+		"or": "Global",
+		"tr": "Глобальные"
+	},
+	{
+		"context": "Flag grabs",
+		"or": "Grabs",
+		"tr": "Захвачено"
+	},
+	{
+		"or": "Graphics",
+		"tr": "Графика"
+	},
+	{
+		"or": "Grenade",
+		"tr": "Гранатомёт"
+	},
+	{
+		"or": "Hammer",
+		"tr": "Молот"
+	},
+	{
+		"or": "Has people playing",
+		"tr": "С игроками"
+	},
+	{
+		"or": "Hide bots",
+		"tr": "Скрыть ботов"
+	},
+	{
+		"or": "High Detail",
+		"tr": "Высокая детализация"
+	},
+	{
+		"or": "Hook",
+		"tr": "Крюк"
+	},
+	{
+		"or": "Host address:",
+		"tr": "Адрес:"
+	},
+	{
+		"or": "Hue:",
+		"tr": "Оттенок:"
+	},
+	{
+		"or": "Ingame mouse sens.",
+		"tr": "Чувств. мыши в игре"
+	},
+	{
+		"or": "Invalid Demo",
+		"tr": "Неправильное демо"
+	},
+	{
+		"or": "Join",
+		"tr": "Войти"
+	},
+	{
+		"context": "Join a server",
+		"or": "Join",
+		"tr": "Войти"
+	},
+	{
+		"or": "Join blue",
+		"tr": "Войти за синих"
+	},
+	{
+		"or": "Join red",
+		"tr": "Войти за красных"
+	},
+	{
+		"or": "Joined",
+		"tr": "В игре"
+	},
+	{
+		"or": "Joined blue",
+		"tr": "За синих"
+	},
+	{
+		"or": "Joined red",
+		"tr": "За красных"
+	},
+	{
+		"or": "Joystick",
+		"tr": "Джойстик"
+	},
+	{
+		"or": "Joystick Axis #%d",
+		"tr": "Ось джойстика #%d"
+	},
+	{
+		"or": "Joystick jitter tolerance",
+		"tr": "Мёртвая зона джойстика"
+	},
+	{
+		"or": "Joystick sens.",
+		"tr": "Чувств. джойстика"
+	},
+	{
+		"or": "Jump",
+		"tr": "Прыжок"
+	},
+	{
+		"or": "Kick player",
+		"tr": "Выгнать игрока"
+	},
+	{
+		"or": "Kick voting requires %d players on the server",
+		"tr": "Чтобы выгнать игрока, нужно %d игроков на сервере"
+	},
+	{
+		"or": "Language",
+		"tr": "Язык"
+	},
+	{
+		"or": "Laser",
+		"tr": "Лазер"
+	},
+	{
+		"or": "Length",
+		"tr": "Длительность"
+	},
+	{
+		"or": "Lgt:",
+		"tr": "Яркость:"
+	},
+	{
+		"or": "Limit Fps",
+		"tr": "Ограничить количество кадров в секунду"
+	},
+	{
+		"or": "Load the sound system",
+		"tr": "Загрузить звуковую систему"
+	},
+	{
+		"or": "Local",
+		"tr": "Локальные"
+	},
+	{
+		"or": "Local server",
+		"tr": "Локальный сервер"
+	},
+	{
+		"or": "MOTD",
+		"tr": "Сообщение дня"
+	},
+	{
+		"or": "Map",
+		"tr": "Карта"
+	},
+	{
+		"or": "Map changed to '%s'",
+		"tr": "Смена карты на '%s'"
+	},
+	{
+		"or": "Map record",
+		"tr": "Запись карты"
+	},
+	{
+		"or": "Map:",
+		"tr": "Карта:"
+	},
+	{
+		"or": "Markers",
+		"tr": "Метки"
+	},
+	{
+		"context": "rounds (scoreboard)",
+		"or": "Match",
+		"tr": "Матч"
+	},
+	{
+		"or": "Max",
+		"tr": "Макс."
+	},
+	{
+		"or": "Max fps",
+		"tr": "Число кадров"
+	},
+	{
+		"or": "Maximum ping:",
+		"tr": "Макс. пинг:"
+	},
+	{
+		"or": "Menu background transparency",
+		"tr": "Прозрачность меню"
+	},
+	{
+		"or": "Menu mouse sens.",
+		"tr": "Чувств. мыши в меню"
+	},
+	{
+		"or": "Misc",
+		"tr": "Разное"
+	},
+	{
+		"or": "Mouse",
+		"tr": "Мышь"
+	},
+	{
+		"or": "Move left",
+		"tr": "Влево"
+	},
+	{
+		"or": "Move player to spectators",
+		"tr": "Переместить в наблюдатели"
+	},
+	{
+		"or": "Move right",
+		"tr": "Вправо"
+	},
+	{
+		"or": "Movement",
+		"tr": "Перемещение"
+	},
+	{
+		"or": "Mute broadcasts",
+		"tr": "Заглушить вещание"
+	},
+	{
+		"or": "Mute when not active",
+		"tr": "Выключить звук, когда игра свёрнута."
+	},
+	{
+		"or": "Name",
+		"tr": "Имя"
+	},
+	{
+		"context": "Net score",
+		"or": "Net",
+		"tr": "Сеть"
+	},
+	{
+		"or": "Net score",
+		"tr": "Статистика"
+	},
+	{
+		"or": "Netversion",
+		"tr": "Сетевая версия"
+	},
+	{
+		"or": "New filter",
+		"tr": "Новый фильтр"
+	},
+	{
+		"or": "Next weapon",
+		"tr": "Следующее оружие"
+	},
+	{
+		"or": "Nickname",
+		"tr": "Имя"
+	},
+	{
+		"or": "Nickname is empty.",
+		"tr": "Пустое имя."
+	},
+	{
+		"or": "No",
+		"tr": "Нет"
+	},
+	{
+		"context": "Without/None",
+		"or": "No",
+		"tr": "Нет"
+	},
+	{
+		"or": "No filter category is selected",
+		"tr": "Фильтры не выбраны"
+	},
+	{
+		"or": "No joysticks found. Plug in a joystick and restart the game.",
+		"tr": "Джойстик не найден. Подключите заново устройство и перезапустите игру."
+	},
+	{
+		"or": "No password",
+		"tr": "Без пароля"
+	},
+	{
+		"or": "No servers found",
+		"tr": "Сервера не найдены"
+	},
+	{
+		"or": "No servers match your filter criteria",
+		"tr": "Нет серверов, подходящих под ваш фильтр"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Normal",
+		"tr": "Средняя"
+	},
+	{
+		"or": "Normal:",
+		"tr": "Нормальный:"
+	},
+	{
+		"context": "friends (server browser)",
+		"or": "Offline (%d)",
+		"tr": "Не в сети (%d)"
+	},
+	{
+		"or": "Ok",
+		"tr": "ОК"
+	},
+	{
+		"or": "Online clanmates (%d)",
+		"tr": "Соклановцев в сети (%d)"
+	},
+	{
+		"or": "Online players (%d)",
+		"tr": "Игроков в сети (%d)"
+	},
+	{
+		"or": "Only %d active players are allowed",
+		"tr": "Разрешено только %d активных игроков"
+	},
+	{
+		"or": "Open",
+		"tr": "Открыть"
+	},
+	{
+		"or": "Option",
+		"tr": "Настройки"
+	},
+	{
+		"or": "Other",
+		"tr": "Другие"
+	},
+	{
+		"or": "Parent Folder",
+		"tr": "Родительский каталог"
+	},
+	{
+		"or": "Password",
+		"tr": "Пароль"
+	},
+	{
+		"or": "Password incorrect",
+		"tr": "Неправильный пароль"
+	},
+	{
+		"or": "Personal",
+		"tr": "Персональные"
+	},
+	{
+		"or": "Ping",
+		"tr": "Пинг"
+	},
+	{
+		"or": "Pistol",
+		"tr": "Пистолет"
+	},
+	{
+		"or": "Play",
+		"tr": "Играть"
+	},
+	{
+		"context": "DemoBrowser",
+		"or": "Play",
+		"tr": "Играть"
+	},
+	{
+		"or": "Play background music",
+		"tr": "Включить фоновую музыку"
+	},
+	{
+		"or": "Player",
+		"tr": "Игрок"
+	},
+	{
+		"or": "Player options",
+		"tr": "Настройки игрока"
+	},
+	{
+		"or": "Players",
+		"tr": "Игроки"
+	},
+	{
+		"context": "Playing '(gametype)' on '(map)'",
+		"or": "Playing '%s' on '%s'",
+		"tr": "Играет в '%s' на '%s'"
+	},
+	{
+		"or": "Please balance teams!",
+		"tr": "Сбалансируйте команды!"
+	},
+	{
+		"or": "Press %s to resume chatting",
+		"tr": "Нажмите %sчтобы вернуться к чату"
+	},
+	{
+		"or": "Press Enter to confirm or Esc to cancel",
+		"tr": "Нажмите Enter для подтверждения или Esc для отмены"
+	},
+	{
+		"or": "Press Tab to cycle chat recipients. Whispers aren't encrypted and might be logged by the server.",
+		"tr": "Нажмите клавишу Tab, чтобы зациклить чат. Шепот не зашифрован и может быть занесен в журнал сервером."
+	},
+	{
+		"or": "Press Tab to select or Esc to cancel",
+		"tr": "Нажмите Tab чтобы выбрать или Esc чтобы отменить"
+	},
+	{
+		"or": "Prev. weapon",
+		"tr": "Предыдущее оружие"
+	},
+	{
+		"or": "Quality Textures",
+		"tr": "Качественные текстуры"
+	},
+	{
+		"or": "Quit",
+		"tr": "Выход"
+	},
+	{
+		"or": "REC %3d:%02d",
+		"tr": "REC %3d:%02d"
+	},
+	{
+		"or": "Ratio",
+		"tr": "Соотношение"
+	},
+	{
+		"or": "Ready",
+		"tr": "Готов"
+	},
+	{
+		"or": "Reason:",
+		"tr": "Причина:"
+	},
+	{
+		"or": "Recommended",
+		"tr": "Рекомендуемое"
+	},
+	{
+		"or": "Record",
+		"tr": "Запись"
+	},
+	{
+		"or": "Recorded",
+		"tr": "Записано"
+	},
+	{
+		"or": "Red team",
+		"tr": "Красные"
+	},
+	{
+		"or": "Refresh",
+		"tr": "Обновить"
+	},
+	{
+		"or": "Refreshing master servers",
+		"tr": "Переподключение к мастер-серверу"
+	},
+	{
+		"or": "Remote console",
+		"tr": "Консоль сервера"
+	},
+	{
+		"or": "Remove",
+		"tr": "Удалить"
+	},
+	{
+		"or": "Remove filter",
+		"tr": "Удалить фильтр"
+	},
+	{
+		"or": "Remove friend",
+		"tr": "Удалить друга"
+	},
+	{
+		"or": "Rename",
+		"tr": "Переименов."
+	},
+	{
+		"or": "Rename demo",
+		"tr": "Переименовать демо"
+	},
+	{
+		"or": "Reset",
+		"tr": "Сбросить"
+	},
+	{
+		"or": "Reset filter",
+		"tr": "Сбросить"
+	},
+	{
+		"or": "Resolution",
+		"tr": "Разрешение"
+	},
+	{
+		"or": "Respawn",
+		"tr": "Возрождение"
+	},
+	{
+		"or": "Round over",
+		"tr": "Раунд закончен"
+	},
+	{
+		"or": "Round over!",
+		"tr": "Конец раунда!"
+	},
+	{
+		"or": "Sample rate",
+		"tr": "Частота"
+	},
+	{
+		"or": "Sat:",
+		"tr": "Насыщенность:"
+	},
+	{
+		"or": "Save",
+		"tr": "Сохранить"
+	},
+	{
+		"or": "Save password",
+		"tr": "Сохранить пароль"
+	},
+	{
+		"or": "Save password and server as favorite",
+		"tr": "Сохранить пароль и сервер как любимый"
+	},
+	{
+		"or": "Save skin",
+		"tr": "Сохранить скин"
+	},
+	{
+		"or": "Score",
+		"tr": "Счет"
+	},
+	{
+		"or": "Score limit",
+		"tr": "Максимум очков"
+	},
+	{
+		"or": "Scoreboard",
+		"tr": "Табло счета"
+	},
+	{
+		"or": "Screen",
+		"tr": "Экран"
+	},
+	{
+		"or": "Screen:",
+		"tr": "Экран:"
+	},
+	{
+		"or": "Screenshot",
+		"tr": "Скриншот"
+	},
+	{
+		"or": "Search:",
+		"tr": "Поиск:"
+	},
+	{
+		"or": "Server",
+		"tr": "Сервер"
+	},
+	{
+		"or": "Server address:",
+		"tr": "Адрес сервера:"
+	},
+	{
+		"or": "Server details",
+		"tr": "Подробности"
+	},
+	{
+		"or": "Server does not allow voting to kick players",
+		"tr": "На сервере не разрешено выгонять игроков"
+	},
+	{
+		"or": "Server does not allow voting to move players to spectators",
+		"tr": "На сервере не разрешен перенос игроков в наблюдатели"
+	},
+	{
+		"or": "Server filter",
+		"tr": "Фильтр серверов"
+	},
+	{
+		"or": "Server info",
+		"tr": "Информация"
+	},
+	{
+		"or": "Server not full",
+		"tr": "Незаполненные"
+	},
+	{
+		"or": "Servers",
+		"tr": "Серверы"
+	},
+	{
+		"or": "Settings",
+		"tr": "Настройки"
+	},
+	{
+		"or": "Shotgun",
+		"tr": "Дробовик"
+	},
+	{
+		"or": "Show chat",
+		"tr": "Показать чат"
+	},
+	{
+		"or": "Show chat messages from",
+		"tr": "Показывать сообщения в чате от"
+	},
+	{
+		"or": "Show chat messages from:",
+		"tr": "Сообщения от:"
+	},
+	{
+		"or": "Show friends only",
+		"tr": "Только с друзьями"
+	},
+	{
+		"or": "Show ingame HUD",
+		"tr": "Показывать внутриигровой HUD"
+	},
+	{
+		"or": "Show name plates",
+		"tr": "Показывать имена игроков"
+	},
+	{
+		"or": "Show social",
+		"tr": "Показывать общение в чате"
+	},
+	{
+		"or": "Show user IDs",
+		"tr": "Показывать ID игроков"
+	},
+	{
+		"or": "Size",
+		"tr": "Размер"
+	},
+	{
+		"or": "Skin",
+		"tr": "Скин"
+	},
+	{
+		"or": "Skins",
+		"tr": "Скины"
+	},
+	{
+		"or": "Skip the main menu",
+		"tr": "Пропускать главное меню"
+	},
+	{
+		"or": "Sound",
+		"tr": "Звук"
+	},
+	{
+		"or": "Sound error",
+		"tr": "Звуковая ошибка"
+	},
+	{
+		"or": "Spectate",
+		"tr": "Наблюдать"
+	},
+	{
+		"or": "Spectate next",
+		"tr": "Следить за следующим"
+	},
+	{
+		"or": "Spectate previous",
+		"tr": "Следить за предыдущим"
+	},
+	{
+		"or": "Spectating",
+		"tr": "Наблюдение"
+	},
+	{
+		"or": "Spectator mode",
+		"tr": "Режим наблюдения"
+	},
+	{
+		"or": "Spectators",
+		"tr": "Наблюдатели"
+	},
+	{
+		"or": "Spectators aren't allowed to start a vote.",
+		"tr": "Наблюдателям не разрешено начинать голосование."
+	},
+	{
+		"or": "Spree",
+		"tr": "Серия"
+	},
+	{
+		"or": "Standard gametype",
+		"tr": "Стандартный режим"
+	},
+	{
+		"or": "Standard map",
+		"tr": "Стандартная карта"
+	},
+	{
+		"or": "Statboard",
+		"tr": "Табло статистики"
+	},
+	{
+		"or": "Status",
+		"tr": "Статус"
+	},
+	{
+		"or": "Stop record",
+		"tr": "Стоп"
+	},
+	{
+		"or": "Sudden Death",
+		"tr": "Быстрая смерть"
+	},
+	{
+		"or": "Suicides",
+		"tr": "Самоубийств"
+	},
+	{
+		"or": "Switch weapon on pickup",
+		"tr": "Переключать оружие при подборе"
+	},
+	{
+		"or": "Team",
+		"tr": "Команда"
+	},
+	{
+		"or": "Team chat",
+		"tr": "Командный чат"
+	},
+	{
+		"or": "Team:",
+		"tr": "Команда:"
+	},
+	{
+		"or": "Teams are locked",
+		"tr": "Команды закрыты"
+	},
+	{
+		"or": "Teams are locked. Time to wait before changing team: %02d:%02d",
+		"tr": "Команды закрыты. Время ожидания до смены команд: %02d:%02d"
+	},
+	{
+		"or": "Teams have been balanced",
+		"tr": "Команды отбалансированы"
+	},
+	{
+		"or": "Teams were locked",
+		"tr": "Команды были закрыты"
+	},
+	{
+		"or": "Teams were shuffled",
+		"tr": "Команды были перемешаны"
+	},
+	{
+		"or": "Teams were swapped",
+		"tr": "Смена сторон"
+	},
+	{
+		"or": "Teams were unlocked",
+		"tr": "Команды были открыты"
+	},
+	{
+		"or": "Tee",
+		"tr": "Ти"
+	},
+	{
+		"or": "Teeworlds %s is out! Download it at www.teeworlds.com!",
+		"tr": "Вышла Teeworlds %s! Скачайте на www.teeworlds.com!"
+	},
+	{
+		"or": "Texture",
+		"tr": "Текстуры"
+	},
+	{
+		"or": "Texture Compression",
+		"tr": "Сжатие текстур"
+	},
+	{
+		"or": "The audio device couldn't be initialised.",
+		"tr": "Аудиоустройство не может быть инициализировано."
+	},
+	{
+		"or": "The blue flag was captured by '%s'",
+		"tr": "'%s' захватил синий флаг"
+	},
+	{
+		"or": "The blue flag was captured by '%s' (%.2f seconds)",
+		"tr": "'%s' доставил синий флаг (за %.2f сек.)"
+	},
+	{
+		"or": "The red flag was captured by '%s'",
+		"tr": "'%s' захватил красный флаг"
+	},
+	{
+		"or": "The red flag was captured by '%s' (%.2f seconds)",
+		"tr": "'%s' доставил красный флаг (за %.2f сек.)"
+	},
+	{
+		"or": "The server is running a non-standard tuning on a pure game type.",
+		"tr": "Сервер запущен с нестандартными параметрами в стандартном режиме игры."
+	},
+	{
+		"or": "Theme",
+		"tr": "Тема"
+	},
+	{
+		"or": "There's an unsaved map in the editor, you might want to save it before you quit the game.",
+		"tr": "В редакторе есть несохраненная карта, возможно, вы захотите сохранить ее до того, как выйдете из игры."
+	},
+	{
+		"or": "Time",
+		"tr": "Время"
+	},
+	{
+		"or": "Time limit",
+		"tr": "Ограничение времени"
+	},
+	{
+		"or": "Time limit: %d min",
+		"tr": "Лимит времени: %d мин."
+	},
+	{
+		"or": "Toggle dynamic camera",
+		"tr": "Переключатель динамичной камеры"
+	},
+	{
+		"or": "Toggle sounds",
+		"tr": "Тумблер звука"
+	},
+	{
+		"or": "Try again",
+		"tr": "Повторить"
+	},
+	{
+		"or": "Type",
+		"tr": "Режим"
+	},
+	{
+		"or": "Unable to delete the demo",
+		"tr": "Невозможно удалить демо"
+	},
+	{
+		"or": "Unable to delete the skin",
+		"tr": "Невозможно удалить скин"
+	},
+	{
+		"or": "Unable to rename the demo",
+		"tr": "Невозможно переименовать демо"
+	},
+	{
+		"or": "Use OS mouse acceleration",
+		"tr": "Системное ускорение мыши"
+	},
+	{
+		"or": "Use sounds",
+		"tr": "Включить звук"
+	},
+	{
+		"or": "Use team colors for name plates",
+		"tr": "Командные цвета для имен игроков"
+	},
+	{
+		"or": "V-Sync",
+		"tr": "Вертикальная синхронизация"
+	},
+	{
+		"or": "Version",
+		"tr": "Версия"
+	},
+	{
+		"or": "Version:",
+		"tr": "Версия:"
+	},
+	{
+		"or": "Volume",
+		"tr": "Громкость"
+	},
+	{
+		"or": "Vote aborted",
+		"tr": "Голосование прервано"
+	},
+	{
+		"or": "Vote command:",
+		"tr": "Команда голосования:"
+	},
+	{
+		"or": "Vote description:",
+		"tr": "Описание голосования:"
+	},
+	{
+		"or": "Vote failed",
+		"tr": "Голосование не состоялось"
+	},
+	{
+		"or": "Vote no",
+		"tr": "Против"
+	},
+	{
+		"or": "Vote passed",
+		"tr": "Голосование окончено"
+	},
+	{
+		"or": "Vote yes",
+		"tr": "За"
+	},
+	{
+		"or": "Voting",
+		"tr": "Голосование"
+	},
+	{
+		"or": "Wait for current vote to end before calling a new one.",
+		"tr": "Дождитесь окончания этого голосования, чтобы начать новое."
+	},
+	{
+		"or": "Wait for next round",
+		"tr": "Подождите следующего раунда"
+	},
+	{
+		"or": "Warmup",
+		"tr": "Разминка"
+	},
+	{
+		"context": "Watching '(gametype)' on '(map)'",
+		"or": "Watching '%s' on '%s'",
+		"tr": "  Смотрит '%s' на '%s'"
+	},
+	{
+		"or": "Weapon",
+		"tr": "Оружие"
+	},
+	{
+		"or": "Weapons stats",
+		"tr": "Статистика оружия"
+	},
+	{
+		"or": "Welcome to Teeworlds",
+		"tr": "Добро пожаловать в Teeworlds"
+	},
+	{
+		"or": "When ready, press <%s>",
+		"tr": "Нажмите <%s>, когда будите готовы"
+	},
+	{
+		"or": "Whisper",
+		"tr": "Написать игроку"
+	},
+	{
+		"or": "Yes",
+		"tr": "Да"
+	},
+	{
+		"context": "With",
+		"or": "Yes",
+		"tr": "Да"
+	},
+	{
+		"or": "You have to wait %1.0f seconds to change identity.",
+		"tr": "Подождите %1.0f сек. перед применением настроек."
+	},
+	{
+		"or": "You must reconnect to change identity.",
+		"tr": "Переподключитесь для применения настроек."
+	},
+	{
+		"or": "You must restart the game for all settings to take effect.",
+		"tr": "Перезапустите игру для применения настроек."
+	},
+	{
+		"or": "You must wait %d seconds before making another vote",
+		"tr": "Вы должны подождать %d сек. перед началом другого голосования"
+	},
+	{
+		"or": "You were moved to the blue team due to team balancing",
+		"tr": "Вы перемещены в синюю команду во время балансировки"
+	},
+	{
+		"or": "You were moved to the red team due to team balancing",
+		"tr": "Вы перемещены в красную команду во время балансировки"
+	},
+	{
+		"or": "blue flag",
+		"tr": "Синий флаг"
+	},
+	{
+		"context": "skins",
+		"or": "body",
+		"tr": "тело"
+	},
+	{
+		"context": "skins",
+		"or": "decoration",
+		"tr": "украшение"
+	},
+	{
+		"context": "Show chat messages from",
+		"or": "everyone",
+		"tr": "всех"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "everyone",
+		"tr": "всех"
+	},
+	{
+		"context": "skins",
+		"or": "eyes",
+		"tr": "глаза"
+	},
+	{
+		"context": "skins",
+		"or": "feet",
+		"tr": "ноги"
+	},
+	{
+		"context": "Show chat messages from",
+		"or": "friends only",
+		"tr": "только друзей"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "friends only",
+		"tr": "только друзей"
+	},
+	{
+		"context": "skins",
+		"or": "hands",
+		"tr": "руки"
+	},
+	{
+		"or": "key not found",
+		"tr": "кнопка не найдена"
+	},
+	{
+		"or": "locked",
+		"tr": "закрыто"
+	},
+	{
+		"context": "skins",
+		"or": "marking",
+		"tr": "окрас"
+	},
+	{
+		"context": "Show chat messages from",
+		"or": "no one",
+		"tr": "никого"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "no one",
+		"tr": "никого"
+	},
+	{
+		"context": "server browser message",
+		"or": "no players",
+		"tr": "нет игроков"
+	},
+	{
+		"or": "red flag",
+		"tr": "Красный флаг"
+	},
+	{
+		"or": "wait for more players",
+		"tr": "ожидание игроков"
+	}
+]
+}

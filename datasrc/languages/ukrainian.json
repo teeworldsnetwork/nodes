@@ -1,0 +1,1533 @@
+{
+"authors": {
+	"modified by": [
+		"404_not_found        2011-07-30 19:50:58",
+		"Jane K, 2018 (Transifex)",
+		"K, 2014 (Transifex)",
+		"SNSnoop, 2015 (Transifex)"
+	],
+	"originally created by": ".ua and Ivan"
+},
+"translated strings": [
+	{
+		"or": "%.3f KiB",
+		"tr": "%.3f KiB"
+	},
+	{
+		"or": "%d other players",
+		"tr": "%d інші гравці"
+	},
+	{
+		"or": "%d player left",
+		"tr": "%d гравець залишився"
+	},
+	{
+		"or": "%d player not ready",
+		"tr": "%d гравець не готовий"
+	},
+	{
+		"or": "%d players",
+		"tr": "%d гравці"
+	},
+	{
+		"or": "%d players left",
+		"tr": "%d гравцiв залишилось"
+	},
+	{
+		"or": "%d players not ready",
+		"tr": "%d гравців не готові"
+	},
+	{
+		"or": "%d servers",
+		"tr": "%d сервери"
+	},
+	{
+		"or": "%d servers, %d players",
+		"tr": "%d серверів, %d гравців"
+	},
+	{
+		"or": "%d%% loaded",
+		"tr": "%d%% завантажено"
+	},
+	{
+		"or": "%ds left",
+		"tr": "залишилось %d сек."
+	},
+	{
+		"or": "%i minute left",
+		"tr": "%i хвилин залишилось"
+	},
+	{
+		"or": "%i minutes left",
+		"tr": "%i хвилин залишилося"
+	},
+	{
+		"or": "%i second left",
+		"tr": "%i секунд залишилося"
+	},
+	{
+		"or": "%i seconds left",
+		"tr": "%i секунд до кінця"
+	},
+	{
+		"or": "%s wins!",
+		"tr": "%s перемогли!"
+	},
+	{
+		"or": "'%s' called for vote to kick '%s' (%s)",
+		"tr": "'%s' закликав голосуванням штурхнути з гри '%s' (%s)"
+	},
+	{
+		"or": "'%s' called for vote to move '%s' to spectators (%s)",
+		"tr": "'%s' закликав голосуванням перемістити '%s' до спостерегачів (%s)"
+	},
+	{
+		"or": "'%s' called vote to change server option '%s' (%s)",
+		"tr": "'%s' проголосував за зміну серверного параметру '%s' (%s)"
+	},
+	{
+		"or": "'%s' entered and joined the blue team",
+		"tr": "'%s' приєднався та зайшов до команди синіх"
+	},
+	{
+		"or": "'%s' entered and joined the game",
+		"tr": "'%s' увійшов та приєднався до гри"
+	},
+	{
+		"or": "'%s' entered and joined the red team",
+		"tr": "'%s' приєднався та зайшов до червоної команди"
+	},
+	{
+		"or": "'%s' entered and joined the spectators",
+		"tr": "'%s' увійшов та приєднався до спостерігачів"
+	},
+	{
+		"or": "'%s' has left the game",
+		"tr": "'%s' вийшов з гри"
+	},
+	{
+		"or": "'%s' has left the game (%s)",
+		"tr": "'%s' вийшов з гри (%s)"
+	},
+	{
+		"or": "'%s' initiated a pause",
+		"tr": "'%s' призупинив гру"
+	},
+	{
+		"or": "'%s' joined the blue team",
+		"tr": "'%s' приєднався до команди синіх"
+	},
+	{
+		"or": "'%s' joined the game",
+		"tr": "'%s' приєднався до гри"
+	},
+	{
+		"or": "'%s' joined the red team",
+		"tr": "'%s' приєднався до команди червоних"
+	},
+	{
+		"or": "'%s' joined the spectators",
+		"tr": "'%s' приєднався до спостерігачів"
+	},
+	{
+		"or": "'%s' was added as a friend",
+		"tr": "'%s' додано як друга"
+	},
+	{
+		"or": "'%s' was muted",
+		"tr": "'%s' заборонено використовувати чат"
+	},
+	{
+		"or": "'%s' was removed as a friend",
+		"tr": "'%s' вилучено з друзів"
+	},
+	{
+		"or": "'%s' was unmuted",
+		"tr": "'%s' дозволено використовувати чат"
+	},
+	{
+		"or": "-Page %d-",
+		"tr": "-Сторінка %d-"
+	},
+	{
+		"or": "Abort",
+		"tr": "Скасувати"
+	},
+	{
+		"or": "Add",
+		"tr": "Додати"
+	},
+	{
+		"or": "Add clan",
+		"tr": "Додати клан"
+	},
+	{
+		"or": "Add demo marker",
+		"tr": "Додати демо мітку часу"
+	},
+	{
+		"or": "Add friend",
+		"tr": "Додати друга"
+	},
+	{
+		"or": "Add friend/clan",
+		"tr": "Додати друга/клан"
+	},
+	{
+		"or": "Address",
+		"tr": "Адреса"
+	},
+	{
+		"or": "Admin forced server option '%s' (%s)",
+		"tr": "Адміністратор змінив опцію сервера '%s' (%s)"
+	},
+	{
+		"or": "Admin forced vote no",
+		"tr": "Адміністратор примусово проголосував ні"
+	},
+	{
+		"or": "Admin forced vote yes",
+		"tr": "Адмін примусово проголосував так"
+	},
+	{
+		"or": "Admin moved '%s' to spectator (%s)",
+		"tr": "Адмін перемістив гравця '%s' в спостерагачі (%s)"
+	},
+	{
+		"or": "All",
+		"tr": "Всі"
+	},
+	{
+		"or": "All players were moved to the blue team",
+		"tr": "Всіх гравців було перенесено до команди синіх"
+	},
+	{
+		"or": "All players were moved to the game",
+		"tr": "Всіх гравців було перенесено до гри"
+	},
+	{
+		"or": "All players were moved to the red team",
+		"tr": "Всіх гравців було перенесено до команди червоних"
+	},
+	{
+		"or": "All players were moved to the spectators",
+		"tr": "Всіх гравців було перенесено до спостерігачів"
+	},
+	{
+		"or": "Alp:",
+		"tr": "Прозор.:"
+	},
+	{
+		"or": "Always show name plates",
+		"tr": "Завжди показувати ніки гравців"
+	},
+	{
+		"or": "Anti Aliasing",
+		"tr": "Згладжування"
+	},
+	{
+		"or": "Are you sure that you want to delete the demo?",
+		"tr": "Ви впевнені, що хочете видалити демо?"
+	},
+	{
+		"or": "Are you sure that you want to delete the skin?",
+		"tr": "Ви впевнені, що бажаєте видалити скін?"
+	},
+	{
+		"or": "Are you sure that you want to quit?",
+		"tr": "Ви дійсно бажаєте вийти?"
+	},
+	{
+		"or": "Are you sure that you want to remove the filter from the server browser?",
+		"tr": "Ви впевнені що хочете прибрати фльтр з браузеру серверів?"
+	},
+	{
+		"or": "Are you sure that you want to remove the player from your friends list?",
+		"tr": "Ви впевнені в тому, що хочете видалити гравця зі списку друзів?"
+	},
+	{
+		"or": "Are you sure you want to rename the demo?",
+		"tr": "Ви впевнені, що бажаєте перейменувати демо?"
+	},
+	{
+		"or": "Are you sure you want to save your skin? If a skin with this name already exists, it will be replaced.",
+		"tr": "Ви впевнені, що хочете зберегти ваш скін? Якщо скін з таким ім'ям вже існує - він буде замінений."
+	},
+	{
+		"or": "As this is the first time you launch the game, please enter your nick name below. It's recommended that you check the settings to adjust them to your liking before joining a server.",
+		"tr": "Так як це ваш перший запуск гри, будь ласка, введіть свій нік у полі нижче. Також рекомендуємо перевірити налаштування гри і змінити деякі з них, перед тим, як почати грати."
+	},
+	{
+		"or": "Automatically record demos",
+		"tr": "Автоматичний запис демо"
+	},
+	{
+		"or": "Automatically take game over screenshot",
+		"tr": "Автоматично робити скріншот в кінці гри"
+	},
+	{
+		"or": "Back",
+		"tr": "Назад"
+	},
+	{
+		"or": "Basic",
+		"tr": "Базові"
+	},
+	{
+		"or": "Best spree",
+		"tr": "Найкраща серія"
+	},
+	{
+		"or": "Blue team",
+		"tr": "Сині"
+	},
+	{
+		"or": "Borderless window",
+		"tr": "Вікно без рамки"
+	},
+	{
+		"or": "Browser",
+		"tr": "Браузер"
+	},
+	{
+		"or": "Call vote",
+		"tr": "Голосувати"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Casual",
+		"tr": "Легко"
+	},
+	{
+		"or": "Change settings",
+		"tr": "Змінити налаштування"
+	},
+	{
+		"or": "Chat",
+		"tr": "Чат"
+	},
+	{
+		"or": "Clan",
+		"tr": "Клан"
+	},
+	{
+		"context": "clear gametype filters",
+		"or": "Clear",
+		"tr": "Очистити"
+	},
+	{
+		"or": "Click on a player or a flag to follow it",
+		"tr": "Клікніть на гравця або прапор щоб стежити за ними"
+	},
+	{
+		"or": "Client",
+		"tr": "Клієнт"
+	},
+	{
+		"or": "Close",
+		"tr": "Закрити"
+	},
+	{
+		"or": "Compatible version",
+		"tr": "Сумісна версія"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Competitive",
+		"tr": "Важко"
+	},
+	{
+		"or": "Configure statboard",
+		"tr": "Налаштування вікна статистики"
+	},
+	{
+		"or": "Connect",
+		"tr": "Під’єднатись"
+	},
+	{
+		"or": "Connecting to",
+		"tr": "Підключення до"
+	},
+	{
+		"or": "Connection Problems...",
+		"tr": "Проблеми зі з'єднанням..."
+	},
+	{
+		"or": "Console",
+		"tr": "Консоль"
+	},
+	{
+		"or": "Controls",
+		"tr": "Керування"
+	},
+	{
+		"or": "Count players only",
+		"tr": "Рахувати лише гравців"
+	},
+	{
+		"or": "Country",
+		"tr": "Країна"
+	},
+	{
+		"or": "Country:",
+		"tr": "Країна:"
+	},
+	{
+		"or": "Crc",
+		"tr": "Crc"
+	},
+	{
+		"or": "Created",
+		"tr": "Створено"
+	},
+	{
+		"or": "Current spree",
+		"tr": "Поточна серія"
+	},
+	{
+		"or": "Current: %dx%d (%d:%d)",
+		"tr": "Поточне: %dx%d (%d:%d)"
+	},
+	{
+		"or": "Custom",
+		"tr": "Свій"
+	},
+	{
+		"or": "Custom colors",
+		"tr": "Особистий колір"
+	},
+	{
+		"or": "Customize",
+		"tr": "Налаштувати"
+	},
+	{
+		"or": "Deaths",
+		"tr": "Смерті"
+	},
+	{
+		"or": "Delete",
+		"tr": "Видалити"
+	},
+	{
+		"or": "Delete demo",
+		"tr": "Видалити демо"
+	},
+	{
+		"or": "Delete skin",
+		"tr": "Видалити скін"
+	},
+	{
+		"or": "Demo details",
+		"tr": "Деталі демо "
+	},
+	{
+		"or": "Demofile: %s",
+		"tr": "Файл с демо: %s"
+	},
+	{
+		"or": "Demos",
+		"tr": "Демо"
+	},
+	{
+		"or": "Detail",
+		"tr": "Деталізація"
+	},
+	{
+		"or": "Difficulty",
+		"tr": "Складність"
+	},
+	{
+		"or": "Difficulty:",
+		"tr": "Складність:"
+	},
+	{
+		"or": "Disconnect",
+		"tr": "Від'єднатись"
+	},
+	{
+		"or": "Disconnected",
+		"tr": "Від'єднанно"
+	},
+	{
+		"or": "Downloading map",
+		"tr": "Завантаження карти"
+	},
+	{
+		"or": "Draw!",
+		"tr": "Нічия!"
+	},
+	{
+		"or": "Dynamic Camera",
+		"tr": "Динамічна камера"
+	},
+	{
+		"or": "Editor",
+		"tr": "Редактор"
+	},
+	{
+		"or": "Emoticon",
+		"tr": "Емоція"
+	},
+	{
+		"or": "Enable colored server broadcasts",
+		"tr": "Дозволити кольорове мовлення сервера"
+	},
+	{
+		"or": "Enter",
+		"tr": "Вхід"
+	},
+	{
+		"or": "Error",
+		"tr": "Помилка"
+	},
+	{
+		"or": "Error loading demo",
+		"tr": "Помилка при завантаженні демо"
+	},
+	{
+		"or": "FPM",
+		"tr": "ФЗХ"
+	},
+	{
+		"or": "Favorite",
+		"tr": "Обраний"
+	},
+	{
+		"or": "Favorites",
+		"tr": "Обрані"
+	},
+	{
+		"or": "Fire",
+		"tr": "Постріл"
+	},
+	{
+		"or": "Flag captures",
+		"tr": "Захоплення прапору"
+	},
+	{
+		"or": "Flag grabs",
+		"tr": "Підбирання прапорів"
+	},
+	{
+		"or": "Folder",
+		"tr": "Папка"
+	},
+	{
+		"or": "Force vote",
+		"tr": "Форсувати"
+	},
+	{
+		"or": "Frags",
+		"tr": "Фраги"
+	},
+	{
+		"or": "Frags per minute",
+		"tr": "Фраги за хвилину"
+	},
+	{
+		"or": "Free-View",
+		"tr": "Вільний перегляд"
+	},
+	{
+		"or": "Fullscreen",
+		"tr": "Повноекранний режим"
+	},
+	{
+		"or": "Game",
+		"tr": "Гра"
+	},
+	{
+		"or": "Game info",
+		"tr": "Інфо по грі"
+	},
+	{
+		"or": "Game options",
+		"tr": "Налаштування гри"
+	},
+	{
+		"or": "Game over",
+		"tr": "Гра закінчена"
+	},
+	{
+		"or": "Game paused",
+		"tr": "Гра зупинена"
+	},
+	{
+		"or": "Game starts in",
+		"tr": "Гра почнеться через"
+	},
+	{
+		"or": "Game type",
+		"tr": "Тип гри"
+	},
+	{
+		"or": "Game type:",
+		"tr": "Тип гри:"
+	},
+	{
+		"or": "Game types:",
+		"tr": "Типи гри:"
+	},
+	{
+		"or": "General",
+		"tr": "Основні"
+	},
+	{
+		"or": "Global",
+		"tr": "Загальні"
+	},
+	{
+		"context": "Flag grabs",
+		"or": "Grabs",
+		"tr": "Підбирання"
+	},
+	{
+		"or": "Graphics",
+		"tr": "Графіка"
+	},
+	{
+		"or": "Grenade",
+		"tr": "Ракетниця"
+	},
+	{
+		"or": "Hammer",
+		"tr": "Молоток"
+	},
+	{
+		"or": "Has people playing",
+		"tr": "Сервер не порожній"
+	},
+	{
+		"or": "Hide bots",
+		"tr": "Приховати ботів"
+	},
+	{
+		"or": "High Detail",
+		"tr": "Висока деталізація"
+	},
+	{
+		"or": "Hook",
+		"tr": "Гак"
+	},
+	{
+		"or": "Host address:",
+		"tr": "Адреса:"
+	},
+	{
+		"or": "Hue:",
+		"tr": "Відтінок:"
+	},
+	{
+		"or": "Ingame mouse sens.",
+		"tr": "Чутливість курсору у грі"
+	},
+	{
+		"or": "Invalid Demo",
+		"tr": "Невірне демо"
+	},
+	{
+		"or": "Join",
+		"tr": "Приєднатися"
+	},
+	{
+		"context": "Join a server",
+		"or": "Join",
+		"tr": "Приєднатися"
+	},
+	{
+		"or": "Join blue",
+		"tr": "За синіх"
+	},
+	{
+		"or": "Join red",
+		"tr": "За червоних"
+	},
+	{
+		"or": "Joined",
+		"tr": "Приєднався"
+	},
+	{
+		"or": "Joined blue",
+		"tr": "Приєднався до синіх"
+	},
+	{
+		"or": "Joined red",
+		"tr": "Приєднався до червоних"
+	},
+	{
+		"or": "Jump",
+		"tr": "Стрибок"
+	},
+	{
+		"or": "Kick player",
+		"tr": "Штурхнути гравця з гри "
+	},
+	{
+		"or": "Kick voting requires %d players on the server",
+		"tr": "Штурхнути з гри %d гравців на сервері"
+	},
+	{
+		"or": "Language",
+		"tr": "Мова"
+	},
+	{
+		"or": "Laser",
+		"tr": "Лазер"
+	},
+	{
+		"or": "Length",
+		"tr": "Довжина"
+	},
+	{
+		"or": "Lgt:",
+		"tr": "Яскравість:"
+	},
+	{
+		"or": "Limit Fps",
+		"tr": "Обмежити кількість кадрів у секунду "
+	},
+	{
+		"or": "Load the sound system",
+		"tr": "Завантаження системи звуків"
+	},
+	{
+		"or": "Loading",
+		"tr": "Завантаження"
+	},
+	{
+		"or": "Local",
+		"tr": "Локальні"
+	},
+	{
+		"or": "Local server",
+		"tr": "Локальний сервер"
+	},
+	{
+		"or": "MOTD",
+		"tr": "MOTD"
+	},
+	{
+		"or": "Map",
+		"tr": "Карта"
+	},
+	{
+		"or": "Map:",
+		"tr": "Карта:"
+	},
+	{
+		"or": "Markers",
+		"tr": "Маркери"
+	},
+	{
+		"context": "rounds (scoreboard)",
+		"or": "Match",
+		"tr": "Матч"
+	},
+	{
+		"or": "Max",
+		"tr": "Макс."
+	},
+	{
+		"or": "Max fps",
+		"tr": "Максимальна кількість кадрів у секунду"
+	},
+	{
+		"or": "Maximum ping:",
+		"tr": "Макс. пінг:"
+	},
+	{
+		"or": "Menu background transparency",
+		"tr": "Прозорість фону"
+	},
+	{
+		"or": "Menu mouse sens.",
+		"tr": "Чутливість курсору в меню"
+	},
+	{
+		"or": "Misc",
+		"tr": "Інше"
+	},
+	{
+		"or": "Move left",
+		"tr": "Рух ліворуч"
+	},
+	{
+		"or": "Move player to spectators",
+		"tr": "Перемістити гравця до спостерігачів"
+	},
+	{
+		"or": "Move right",
+		"tr": "Рух праворуч"
+	},
+	{
+		"or": "Movement",
+		"tr": "Переміщення"
+	},
+	{
+		"or": "Mute broadcasts",
+		"tr": "Приглушити мовлення серверу"
+	},
+	{
+		"or": "Mute when not active",
+		"tr": "Глушити звуки, коли гра неактивна"
+	},
+	{
+		"or": "Name",
+		"tr": "Ім'я"
+	},
+	{
+		"context": "Net score",
+		"or": "Net",
+		"tr": "Головне"
+	},
+	{
+		"or": "Net score",
+		"tr": "Чистий рахунок"
+	},
+	{
+		"or": "Netversion",
+		"tr": "Чиста версія"
+	},
+	{
+		"or": "New filter",
+		"tr": "Новий фільтр"
+	},
+	{
+		"or": "Next weapon",
+		"tr": "Наступ. зброя"
+	},
+	{
+		"or": "Nickname",
+		"tr": "Нік"
+	},
+	{
+		"or": "Nickname is empty.",
+		"tr": "Пустий нік."
+	},
+	{
+		"or": "No",
+		"tr": "Ні"
+	},
+	{
+		"context": "Without/None",
+		"or": "No",
+		"tr": "Ні"
+	},
+	{
+		"or": "No password",
+		"tr": "Без пароля"
+	},
+	{
+		"or": "No servers found",
+		"tr": "Сервера не знайдені"
+	},
+	{
+		"or": "No servers match your filter criteria",
+		"tr": "Не знайдено ні одного сервара, який би відповідав вашим критеріям"
+	},
+	{
+		"context": "Server difficulty",
+		"or": "Normal",
+		"tr": "Нормально"
+	},
+	{
+		"or": "Normal:",
+		"tr": "Нормальний:"
+	},
+	{
+		"context": "friends (server browser)",
+		"or": "Offline (%d)",
+		"tr": "Оффлайн (%d)"
+	},
+	{
+		"or": "Ok",
+		"tr": "Ок"
+	},
+	{
+		"or": "Online clanmates (%d)",
+		"tr": "Клан онлайн (%d)"
+	},
+	{
+		"or": "Online players (%d)",
+		"tr": "Гравці онлайн (%d)"
+	},
+	{
+		"or": "Only %d active players are allowed",
+		"tr": "Дозволено лише %d активних гравців"
+	},
+	{
+		"or": "Open",
+		"tr": "Відкрити"
+	},
+	{
+		"or": "Option",
+		"tr": "Опція"
+	},
+	{
+		"or": "Other",
+		"tr": "Інше"
+	},
+	{
+		"or": "Parent Folder",
+		"tr": "Батьківська тека"
+	},
+	{
+		"or": "Password",
+		"tr": "Пароль"
+	},
+	{
+		"or": "Password incorrect",
+		"tr": "пароль введено невірно"
+	},
+	{
+		"or": "Personal",
+		"tr": "Особистість"
+	},
+	{
+		"or": "Ping",
+		"tr": "Пінг"
+	},
+	{
+		"or": "Pistol",
+		"tr": "Пістолет"
+	},
+	{
+		"or": "Play",
+		"tr": "Грати"
+	},
+	{
+		"context": "DemoBrowser",
+		"or": "Play",
+		"tr": "Перегляд"
+	},
+	{
+		"or": "Play background music",
+		"tr": "Грати фонову музику"
+	},
+	{
+		"or": "Player",
+		"tr": "Гравець"
+	},
+	{
+		"or": "Player options",
+		"tr": "Налаштування гравця"
+	},
+	{
+		"or": "Players",
+		"tr": "Гравці"
+	},
+	{
+		"context": "Playing '(gametype)' on '(map)'",
+		"or": "Playing '%s' on '%s'",
+		"tr": "Грає '%s' на '%s'"
+	},
+	{
+		"or": "Please balance teams!",
+		"tr": "Збалансуйте команди!"
+	},
+	{
+		"or": "Press Enter to confirm or Esc to cancel",
+		"tr": "Натисніть Enter щоб підтвердити або Esc щоб скасувати"
+	},
+	{
+		"or": "Prev. weapon",
+		"tr": "Попер. зброя"
+	},
+	{
+		"or": "Quality Textures",
+		"tr": "Якісні текстури"
+	},
+	{
+		"or": "Quit",
+		"tr": "Вихід"
+	},
+	{
+		"or": "REC %3d:%02d",
+		"tr": "REC %3d:%02d"
+	},
+	{
+		"or": "Ratio",
+		"tr": "Співвідношення"
+	},
+	{
+		"or": "Ready",
+		"tr": "Готовність"
+	},
+	{
+		"or": "Reason:",
+		"tr": "Причина:"
+	},
+	{
+		"or": "Recommended",
+		"tr": "Рекомендовано"
+	},
+	{
+		"or": "Record",
+		"tr": "Запис"
+	},
+	{
+		"or": "Recorded",
+		"tr": "Записано"
+	},
+	{
+		"or": "Red team",
+		"tr": "Червоні"
+	},
+	{
+		"or": "Refresh",
+		"tr": "Оновити"
+	},
+	{
+		"or": "Refreshing master servers",
+		"tr": "Оновлення списку майстер-сервера"
+	},
+	{
+		"or": "Remote console",
+		"tr": "Консоль сервера"
+	},
+	{
+		"or": "Remove",
+		"tr": "Видалити"
+	},
+	{
+		"or": "Remove filter",
+		"tr": "Вилучити фільтр"
+	},
+	{
+		"or": "Remove friend",
+		"tr": "Видалити друга"
+	},
+	{
+		"or": "Rename",
+		"tr": "Назва"
+	},
+	{
+		"or": "Rename demo",
+		"tr": "Перейменутвати демо"
+	},
+	{
+		"or": "Reset",
+		"tr": "Скинути"
+	},
+	{
+		"or": "Reset filter",
+		"tr": "Скинути фільтри"
+	},
+	{
+		"or": "Resolution",
+		"tr": "Роздільна здатність екрану"
+	},
+	{
+		"or": "Respawn",
+		"tr": "Респаун"
+	},
+	{
+		"or": "Round over",
+		"tr": "Раунд завершено"
+	},
+	{
+		"or": "Round over!",
+		"tr": "Кінець раунду!"
+	},
+	{
+		"or": "Sample rate",
+		"tr": "Частота"
+	},
+	{
+		"or": "Sat:",
+		"tr": "Контраст.:"
+	},
+	{
+		"or": "Save",
+		"tr": "Зберегти"
+	},
+	{
+		"or": "Save skin",
+		"tr": "Зберегти скін"
+	},
+	{
+		"or": "Score",
+		"tr": "Очки"
+	},
+	{
+		"or": "Score limit",
+		"tr": "Ліміт очок"
+	},
+	{
+		"or": "Scoreboard",
+		"tr": "Хід гри"
+	},
+	{
+		"or": "Screen",
+		"tr": "Екран"
+	},
+	{
+		"or": "Screen:",
+		"tr": "Екран:"
+	},
+	{
+		"or": "Screenshot",
+		"tr": "Скріншот"
+	},
+	{
+		"or": "Search:",
+		"tr": "Пошук:"
+	},
+	{
+		"or": "Server",
+		"tr": "Сервер"
+	},
+	{
+		"or": "Server address:",
+		"tr": "Адреса серверу:"
+	},
+	{
+		"or": "Server details",
+		"tr": "Деталі сервера"
+	},
+	{
+		"or": "Server does not allow voting to kick players",
+		"tr": "Сервер не дозволяє голосуванням штурхати гравців з гри ."
+	},
+	{
+		"or": "Server does not allow voting to move players to spectators",
+		"tr": "Сервер не дозволяє голосуванням переміщати в спостерігачі"
+	},
+	{
+		"or": "Server filter",
+		"tr": "Фільтр серверів"
+	},
+	{
+		"or": "Server info",
+		"tr": "Інформація"
+	},
+	{
+		"or": "Server not full",
+		"tr": "Сервер не заповнений"
+	},
+	{
+		"or": "Servers",
+		"tr": "Сервера"
+	},
+	{
+		"or": "Settings",
+		"tr": "Параметри"
+	},
+	{
+		"or": "Shotgun",
+		"tr": "Дробовик"
+	},
+	{
+		"or": "Show chat",
+		"tr": "Показати чат"
+	},
+	{
+		"or": "Show chat messages from:",
+		"tr": "Відображати повідомлення:"
+	},
+	{
+		"or": "Show friends only",
+		"tr": "Показати лише друзів"
+	},
+	{
+		"or": "Show ingame HUD",
+		"tr": "Відображати ігровий HUD"
+	},
+	{
+		"or": "Show name plates",
+		"tr": "Показувати ніки гравців"
+	},
+	{
+		"or": "Show social",
+		"tr": "Показати імена гравців"
+	},
+	{
+		"or": "Show user IDs",
+		"tr": "Відображати ID гравців"
+	},
+	{
+		"or": "Size",
+		"tr": "Розмір"
+	},
+	{
+		"or": "Skin",
+		"tr": "Скін"
+	},
+	{
+		"or": "Skins",
+		"tr": "Скіни"
+	},
+	{
+		"or": "Skip the main menu",
+		"tr": "Пропустити головне меню"
+	},
+	{
+		"or": "Sound",
+		"tr": "Звук"
+	},
+	{
+		"or": "Sound error",
+		"tr": "Помилка звуку"
+	},
+	{
+		"or": "Spectate",
+		"tr": "Спостерігати"
+	},
+	{
+		"or": "Spectate next",
+		"tr": "Спост. за наст."
+	},
+	{
+		"or": "Spectate previous",
+		"tr": "Спост. за поп."
+	},
+	{
+		"or": "Spectating",
+		"tr": "Спостерігання"
+	},
+	{
+		"or": "Spectator mode",
+		"tr": "Режим спостерігача"
+	},
+	{
+		"or": "Spectators",
+		"tr": "Спостерігачі"
+	},
+	{
+		"or": "Spectators aren't allowed to start a vote.",
+		"tr": "Спостерігачі не мають права голосувати"
+	},
+	{
+		"or": "Spree",
+		"tr": "Серія"
+	},
+	{
+		"or": "Standard gametype",
+		"tr": "Стандартний тип гри"
+	},
+	{
+		"or": "Standard map",
+		"tr": "Стандартна карта"
+	},
+	{
+		"or": "Statboard",
+		"tr": "Статистика"
+	},
+	{
+		"or": "Stop record",
+		"tr": "Зупинити запис"
+	},
+	{
+		"or": "Sudden Death",
+		"tr": "Швидка смерть"
+	},
+	{
+		"or": "Suicides",
+		"tr": "Самовбивства"
+	},
+	{
+		"or": "Switch weapon on pickup",
+		"tr": "Перемикати зброю при підборі"
+	},
+	{
+		"or": "Team",
+		"tr": "Команда"
+	},
+	{
+		"or": "Team chat",
+		"tr": "Командний чат"
+	},
+	{
+		"or": "Team:",
+		"tr": "Команда:"
+	},
+	{
+		"or": "Teams are locked",
+		"tr": "Команди заблоковані"
+	},
+	{
+		"or": "Teams are locked. Time to wait before changing team: %02d:%02d",
+		"tr": "Команди будуть заблоковані. Час очікування перед зміною команди: %02d: %02d"
+	},
+	{
+		"or": "Teams were locked",
+		"tr": "Команди були зачинені"
+	},
+	{
+		"or": "Teams were unlocked",
+		"tr": "Команди були розблоковані"
+	},
+	{
+		"or": "Tee",
+		"tr": "Tee"
+	},
+	{
+		"or": "Teeworlds %s is out! Download it at www.teeworlds.com!",
+		"tr": "Вийшла Teeworlds %s! Завантажуйте на www.teeworlds.com!"
+	},
+	{
+		"or": "Texture",
+		"tr": "Текстура"
+	},
+	{
+		"or": "Texture Compression",
+		"tr": "Стиснення текстур"
+	},
+	{
+		"or": "The audio device couldn't be initialised.",
+		"tr": "Аудіопристрій не може бути ініціалізований."
+	},
+	{
+		"or": "The blue flag was captured by '%s'",
+		"tr": "Синій прапор було захоплено гравцем '%s'"
+	},
+	{
+		"or": "The blue flag was captured by '%s' (%.2f seconds)",
+		"tr": "Синій прапор було захоплено гравцем '%s' (%.2f секунд)"
+	},
+	{
+		"or": "The red flag was captured by '%s'",
+		"tr": "Червоний прапор було захоплено гравцем '%s'"
+	},
+	{
+		"or": "The red flag was captured by '%s' (%.2f seconds)",
+		"tr": "Червоний прапор було захоплено гравцем '%s' (%.2f секунд)"
+	},
+	{
+		"or": "The server is running a non-standard tuning on a pure game type.",
+		"tr": "Сервер запущено з нестандартними налаштуваннями на стандартному типі гри."
+	},
+	{
+		"or": "Theme",
+		"tr": "Тема"
+	},
+	{
+		"or": "There's an unsaved map in the editor, you might want to save it before you quit the game.",
+		"tr": "В редакторі є незбережені зміни на карті, ви можете їх зберегти перед виходом з гри."
+	},
+	{
+		"or": "Time limit",
+		"tr": "Ліміт часу"
+	},
+	{
+		"or": "Time limit: %d min",
+		"tr": "Ліміт часу: %d хв"
+	},
+	{
+		"or": "Try again",
+		"tr": "Спробувати знову"
+	},
+	{
+		"or": "Type",
+		"tr": "Тип"
+	},
+	{
+		"or": "Unable to delete the demo",
+		"tr": "Неможливо видалити демо"
+	},
+	{
+		"or": "Unable to delete the skin",
+		"tr": "Неможливо видалити скін"
+	},
+	{
+		"or": "Unable to rename the demo",
+		"tr": "Неможливо перейменувати демо"
+	},
+	{
+		"or": "Use OS mouse acceleration",
+		"tr": "Використовувати прискорення миші від ОС"
+	},
+	{
+		"or": "Use sounds",
+		"tr": "Використовувати звуки"
+	},
+	{
+		"or": "Use team colors for name plates",
+		"tr": "Використовувати кольори для імен"
+	},
+	{
+		"or": "V-Sync",
+		"tr": "Вертикальна синхронізація"
+	},
+	{
+		"or": "Version",
+		"tr": "Версія"
+	},
+	{
+		"or": "Version:",
+		"tr": "Версія:"
+	},
+	{
+		"or": "Volume",
+		"tr": "Гучність"
+	},
+	{
+		"or": "Vote aborted",
+		"tr": "Голосування скасовано"
+	},
+	{
+		"or": "Vote command:",
+		"tr": "команда голосування:"
+	},
+	{
+		"or": "Vote description:",
+		"tr": "Докладно:"
+	},
+	{
+		"or": "Vote failed",
+		"tr": "Голосування провалено"
+	},
+	{
+		"or": "Vote no",
+		"tr": "Проти"
+	},
+	{
+		"or": "Vote passed",
+		"tr": "Голосування успішне"
+	},
+	{
+		"or": "Vote yes",
+		"tr": "За"
+	},
+	{
+		"or": "Voting",
+		"tr": "Голосування"
+	},
+	{
+		"or": "Wait for current vote to end before calling a new one.",
+		"tr": "Чекайте кінця поточного опитування перед створенням нового."
+	},
+	{
+		"or": "Wait for next round",
+		"tr": "Дочекайтеся наступного раунду."
+	},
+	{
+		"or": "Warmup",
+		"tr": "Розминка"
+	},
+	{
+		"context": "Watching '(gametype)' on '(map)'",
+		"or": "Watching '%s' on '%s'",
+		"tr": "Дивиться '%s' на '%s'"
+	},
+	{
+		"or": "Weapon",
+		"tr": "Зброя"
+	},
+	{
+		"or": "Weapons stats",
+		"tr": "Статистика зброї"
+	},
+	{
+		"or": "Welcome to Teeworlds",
+		"tr": "Ласкаво просимо в Teeworlds!"
+	},
+	{
+		"or": "When ready, press <%s>",
+		"tr": "Коли готові, натиснить <%s>"
+	},
+	{
+		"or": "Whisper",
+		"tr": "Написати гравцю"
+	},
+	{
+		"or": "Yes",
+		"tr": "Так"
+	},
+	{
+		"context": "With",
+		"or": "Yes",
+		"tr": "Так"
+	},
+	{
+		"or": "You have to wait %1.0f seconds to change identity.",
+		"tr": "Зачекайте %1.0f секунд перед зміною особистості."
+	},
+	{
+		"or": "You must reconnect to change identity.",
+		"tr": "Ви маєте перепідключитися для зміни особистості."
+	},
+	{
+		"or": "You must restart the game for all settings to take effect.",
+		"tr": "Перезапустіть гру для застосування змін."
+	},
+	{
+		"or": "You must wait %d seconds before making another vote",
+		"tr": "Ви маєте зачекати %d секунд перед початком нового голосування"
+	},
+	{
+		"or": "You were moved to the blue team due to team balancing",
+		"tr": "Вас було перенесено до команди синіх задля балансу команд"
+	},
+	{
+		"or": "You were moved to the red team due to team balancing",
+		"tr": "Вас було перенесено до команди червоних задля балансу команд"
+	},
+	{
+		"or": "blue flag",
+		"tr": "Синій прапор"
+	},
+	{
+		"context": "skins",
+		"or": "body",
+		"tr": "Тіло"
+	},
+	{
+		"context": "skins",
+		"or": "decoration",
+		"tr": "Оздоблення"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "everyone",
+		"tr": "кожного"
+	},
+	{
+		"context": "skins",
+		"or": "eyes",
+		"tr": "Очі"
+	},
+	{
+		"context": "skins",
+		"or": "feet",
+		"tr": "Ноги"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "friends only",
+		"tr": "тільки від друзів"
+	},
+	{
+		"context": "skins",
+		"or": "hands",
+		"tr": "Руки"
+	},
+	{
+		"or": "locked",
+		"tr": "заблокований"
+	},
+	{
+		"context": "skins",
+		"or": "marking",
+		"tr": "Забарвлення"
+	},
+	{
+		"context": "Show chat messages from:",
+		"or": "no one",
+		"tr": "нікого"
+	},
+	{
+		"context": "server browser message",
+		"or": "no players",
+		"tr": "немає гравців"
+	},
+	{
+		"or": "red flag",
+		"tr": "Червоний прапор"
+	},
+	{
+		"or": "wait for more players",
+		"tr": "очікування ще гравців"
+	}
+]
+}
