@@ -504,7 +504,9 @@ set_src(DEP_RESTCLIENT_SRC GLOB_RECURSE src/engine/external/restclient
   restclient.cpp
 )
 add_library(restclient EXCLUDE_FROM_ALL OBJECT ${DEP_RESTCLIENT_SRC})
-target_link_libraries(restclient ${CURL_LIBRARIES})
+if(TARGET_OS STREQUAL "windows")
+  target_link_libraries(restclient ${CURL_LIBRARIES})
+endif()
 target_include_directories(restclient PRIVATE ${CURL_INCLUDE_DIRS})
 
 list(APPEND TARGETS_DEP json md5 restclient)
