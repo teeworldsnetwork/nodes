@@ -70,6 +70,7 @@ class CGameClient : public IGameClient
 	static void ConchainFriendUpdate(IConsole::IResult *pResult, void *pUserData, IConsole::FCommandCallback pfnCallback, void *pCallbackUserData);
 	static void ConchainBlacklistUpdate(IConsole::IResult *pResult, void *pUserData, IConsole::FCommandCallback pfnCallback, void *pCallbackUserData);
 	static void ConchainXmasHatUpdate(IConsole::IResult *pResult, void *pUserData, IConsole::FCommandCallback pfnCallback, void *pCallbackUserData);
+	static void ConDeconstruct(IConsole::IResult* pResult, void* pUserData);
 
 	void EvolveCharacter(CNetObj_Character *pCharacter, int Tick);
 
@@ -295,6 +296,7 @@ public:
 	void SendKill();
 	void SendReadyChange();
 	void SendSkinChange();
+	void SendDeconstruct();
 
 	// pointers to all systems
 	class CGameConsole *m_pGameConsole;

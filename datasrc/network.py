@@ -525,22 +525,24 @@ Messages = [
                 NetStringStrict("m_Arguments")
 	]),
 
-        ## Nodes
-        NetMessage("Sv_TechlevelUpdate", [
+	## Nodes
+	NetMessage("Sv_TechlevelUpdate", [
 		NetIntRange("m_TechRed", 1, 3),
 		NetIntRange("m_TechBlue", 1, 3),	
 	]),
 
-        NetMessage("Sv_SoundGlobal", [
+	NetMessage("Sv_SoundGlobal", [
 		NetIntRange("m_SoundID", 0, 'NUM_SOUNDS-1'),
 	]),
 
-        NetMessage("Sv_BuildEmoticon", [
+	NetMessage("Sv_BuildEmoticon", [
 		NetIntRange("m_ClientID", 0, 'MAX_CLIENTS-1'),
                 NetIntRange("m_Building", 0, 11),
 	]),
 
-        NetMessage("Cl_BuildBuilding", [
-                NetIntRange("m_Building", 0, 11),
+	NetMessage("Cl_BuildBuilding", [
+		NetIntRange("m_Building", 0, 11),
 	]),
+
+	NetMessage("Cl_Deconstruct", []),
 ]

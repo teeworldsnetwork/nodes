@@ -70,6 +70,7 @@ public:
 
 	void SetOwner(int Owner) { m_Owner = Owner; }
 	void SetSpawnAnim(int SpawnAnim) { m_SpawnAnim = SpawnAnim; }
+	void SetDeconstruction(bool Status) { m_Deconstruction = Status; }
 	void SetSpawnAnimDecay(int SpawnAnimDecay) { m_SpawnAnimDecay = SpawnAnimDecay; }
 };
 

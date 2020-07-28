@@ -1063,3 +1063,29 @@ void CCharacter::BuildingSelect(int Type)
 	m_BuildingType = clamp(Type, 0, 11);
 	m_ActiveWeapon = WEAPON_HAMMER;
 }
+
+void CCharacter::DeconstructBuilding()
+{
+	CBuilding* pBuilding = (CBuilding *)GameServer()->m_World.ClosestEntity(m_Pos, ms_PhysSize, CGameWorld::ENTTYPE_BUILDING, 0x0);
+	if (!pBuilding || pBuilding->Team() != m_pPlayer->GetTeam())
+		return;
+
+	if (m_pPlayer->m_DeconstructTick + Config()->m_SvDeconstructTime * Server()->TickSpeed() > Server()->Tick())
+	{
+		GameServer()->SendChatMessage(m_pPlayer->GetCID(), "Please wait before deconstructing another building");
+		return;
+	}
+
+	if (pBuilding->Owner() >= 0 && pBuilding->Owner() < MAX_CLIENTS && m_pPlayer->GetCID() != pBuilding->Owner() && Config()->m_SvOwnerProtection)
+	{
+		GameServer()->SendChatMessage(m_pPlayer->GetCID(), "You are not allowed to self-destruct this building!");
+	
+		char aBuf[256];
+		str_format(aBuf, sizeof(aBuf), "%s tried to self-destruct without permission", Server()->ClientName(m_pPlayer->GetCID()));
+		GameServer()->SendChat(-1, CHAT_TEAM, pBuilding->Team(), aBuf);
+		return;
+	}
+
+	m_pPlayer->m_DeconstructTick = Server()->Tick();
+	pBuilding->SetDeconstruction(true);
+}

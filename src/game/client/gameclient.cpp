@@ -307,6 +307,7 @@ void CGameClient::OnConsoleInit()
 	Console()->Register("team", "i[team]", CFGFLAG_CLIENT, ConTeam, this, "Switch team");
 	Console()->Register("kill", "", CFGFLAG_CLIENT, ConKill, this, "Kill yourself");
 	Console()->Register("ready_change", "", CFGFLAG_CLIENT, ConReadyChange, this, "Change ready state");
+	Console()->Register("deconstruct", "", CFGFLAG_CLIENT, ConDeconstruct, this, "Deconstruct a building");
 
 	Console()->Chain("add_friend", ConchainFriendUpdate, this);
 	Console()->Chain("remove_friend", ConchainFriendUpdate, this);
@@ -1912,6 +1913,12 @@ void CGameClient::SendSkinChange()
 	m_LastSkinChangeTime = Client()->LocalTime();
 }
 
+void CGameClient::SendDeconstruct()
+{
+	CNetMsg_Cl_Deconstruct Msg;
+	Client()->SendPackMsg(&Msg, MSGFLAG_VITAL);
+}
+
 int CGameClient::GetClientID(const char *pName)
 {
 	for(int i = 0; i < MAX_CLIENTS; i++)
@@ -1999,6 +2006,13 @@ void CGameClient::ConchainXmasHatUpdate(IConsole::IResult *pResult, void *pUserD
 		if(pClient->m_aClients[i].m_Active)
 			pClient->m_aClients[i].UpdateRenderInfo(pClient, i, true);
 	}
+}
+
+void CGameClient::ConDeconstruct(IConsole::IResult* pResult, void* pUserData)
+{
+	CGameClient* pClient = static_cast<CGameClient*>(pUserData);
+	if (pClient->Client()->State() == IClient::STATE_ONLINE)
+		pClient->SendDeconstruct();
 }
 
 IGameClient *CreateGameClient()

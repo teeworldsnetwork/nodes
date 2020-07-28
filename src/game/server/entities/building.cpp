@@ -60,8 +60,8 @@ void CBuilding::Tick()
 	{
 		if (((CGameControllerNODES*)GameServer()->m_pController)->m_aSpawns[m_Team] <= 0)
 			m_Deconstruction = false;
-		else
-			TakeDamage(vec2(0, 0), 1, -1, -1, WEAPON_SELF);
+		else if (!TakeDamage(vec2(0, 0), 1, -1, -1, WEAPON_SELF))
+			return;
 	}
 
 	if (m_Decay > 0)
