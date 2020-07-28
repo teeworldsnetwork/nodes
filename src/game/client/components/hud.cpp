@@ -353,6 +353,52 @@ void CHud::RenderScoreHud()
 	}
 }
 
+void CHud::RenderNodesScoreHud()
+{
+	// render small score hud
+	if (!(m_pClient->m_Snap.m_pGameData->m_GameStateFlags & (GAMESTATEFLAG_ROUNDOVER | GAMESTATEFLAG_GAMEOVER)))
+	{
+		int GameFlags = m_pClient->m_GameInfo.m_GameFlags;
+		float Whole = 300 * Graphics()->ScreenAspect();
+		float StartY = 229.0f;
+		const float TeamOffset = 18.0f;
+
+		if (GameFlags & GAMEFLAG_TEAMS && m_pClient->m_Snap.m_pGameDataTeam)
+		{
+			char aBuildpoints[32];
+			char aTechlevel[8];
+			str_format(aBuildpoints, sizeof(aBuildpoints) / 2, "%d", m_pClient->m_Snap.m_pGameDataTeam->m_TeamscoreRed);
+			str_format(aTechlevel, sizeof(aTechlevel) / 2, "%d", m_pClient->m_Snap.m_pGameDataTeam->m_TeamscoreBlue);
+
+			float BuildpointsWidth = TextRender()->TextWidth(0, 14.0f, aBuildpoints, -1, -1.0f);
+			float TechlevelWidth = TextRender()->TextWidth(0, 14.0f, aTechlevel, -1, -1.0f);
+			float WidthMax = max(max(BuildpointsWidth, TechlevelWidth), TextRender()->TextWidth(0, 14.0f, "100", -1, -1.0f));
+
+			WidthMax += 16.0f; // padding
+
+			// render buildpoints
+			char aLabel[32];
+			str_format(aLabel, sizeof(aLabel), "%s", Localize("Buildpoints"));
+			TextRender()->Text(0, Whole - TextRender()->TextWidth(0, 7.0f, aLabel, -1, -1.0f) - 1.0f, StartY, 7.0f, aLabel, -1.0f);
+			StartY += 10.0f;
+
+			CUIRect Rect = { Whole - WidthMax, StartY, WidthMax, 18.0f };
+			Graphics()->BlendNormal();
+			RenderTools()->DrawUIRect(&Rect, vec4(0.975f, 0.17f, 0.17f, 0.4f), CUI::CORNER_TL, 5.0f);
+			TextRender()->Text(0, Whole - WidthMax + (WidthMax - BuildpointsWidth) / 2, StartY, 14.0f, aBuildpoints, -1.0f);
+
+			// render techlevel
+			Rect.y += TeamOffset;
+			Graphics()->BlendNormal();
+			RenderTools()->DrawUIRect(&Rect, vec4(0.17f, 0.46f, 0.975f, 0.4f), CUI::CORNER_BL, 5.0f);
+			TextRender()->Text(0, Whole - WidthMax + (WidthMax - TechlevelWidth) / 2, StartY + TeamOffset, 14.0f, aTechlevel, -1.0f);
+
+			str_format(aLabel, sizeof(aLabel), "%s", Localize("Techlevel"));
+			TextRender()->Text(0, Whole - TextRender()->TextWidth(0, 7.0f, aLabel, -1, -1.0f) - 1.0f, StartY + TeamOffset + 18.0f, 7.0f, aLabel, -1.0f);
+		}
+	}
+}
+
 void CHud::RenderWarmupTimer()
 {
 	// render warmup timer
@@ -899,7 +945,8 @@ void CHud::OnRender()
 		RenderStartCountdown();
 		RenderDeadNotification();
 		RenderSuddenDeath();
-		RenderScoreHud();
+		// RenderScoreHud();
+		RenderNodesScoreHud();
 		RenderWarmupTimer();
 		RenderFps();
 		if(Client()->State() != IClient::STATE_DEMOPLAYBACK)
