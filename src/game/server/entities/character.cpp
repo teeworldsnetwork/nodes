@@ -391,9 +391,9 @@ void CCharacter::FireWeapon()
 			if (m_NumObjectsHit > 0)
 			{
 				if (m_CrateBuff != CRATE_CONSTRUCTION)
-					m_ReloadTimer = Server()->TickSpeed() / 2;
+					m_ReloadTimer = Server()->TickSpeed() / Config()->m_SvBuildSpeed;
 				else
-					m_ReloadTimer = Server()->TickSpeed() / 4;
+					m_ReloadTimer = Server()->TickSpeed() / (Config()->m_SvBuildSpeed * 2);
 			}
 			else
 				m_ReloadTimer = Server()->TickSpeed() / 3;
