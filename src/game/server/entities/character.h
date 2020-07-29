@@ -145,6 +145,7 @@ public:
 	int Armor() { return m_Armor; }
 	int HookedPlayer() { return m_Core.m_HookedPlayer; }
 
+	void DeconstructBuilding();
 	void BuildingSelect(int Type);
 	void SetFrozen(bool Frozen) { m_Core.m_Frozen = Frozen; }
 	void SetActiveWeapon(int Weapon) { m_ActiveWeapon = Weapon; }

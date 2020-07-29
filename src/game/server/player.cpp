@@ -34,6 +34,7 @@ CPlayer::CPlayer(CGameContext *pGameServer, int ClientID, bool Dummy, bool AsSpe
 	m_DeadSpecMode = false;
 	m_Spawning = 0;
 	m_Rage = 0;
+	m_DeconstructTick = 0;
 }
 
 CPlayer::~CPlayer()

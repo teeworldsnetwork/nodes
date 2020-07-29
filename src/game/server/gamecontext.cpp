@@ -1250,6 +1250,12 @@ void CGameContext::OnMessage(int MsgID, CUnpacker *pUnpacker, int ClientID)
 
 			SendBuildEmoticon(ClientID, Building);
 		}
+		else if (MsgID == NETMSGTYPE_CL_DECONSTRUCT && !m_World.m_Paused)
+		{
+			CCharacter* pOwner = GetPlayerChar(pPlayer->GetCID());
+			if (pOwner)
+				pOwner->DeconstructBuilding();
+		}
 	}
 	else
 	{

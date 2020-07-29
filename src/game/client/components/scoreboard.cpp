@@ -301,8 +301,10 @@ float CScoreboard::RenderScoreboard(float x, float y, float w, int Team, const c
 	{
 		if(m_pClient->m_GameInfo.m_GameFlags&GAMEFLAG_TEAMS)
 		{
-			int Score = Team == TEAM_RED ? m_pClient->m_Snap.m_pGameDataTeam->m_TeamscoreRed : m_pClient->m_Snap.m_pGameDataTeam->m_TeamscoreBlue;
-			str_format(aBuf, sizeof(aBuf), "%d", Score);
+			// disable score in scoreboard cause it's irrelevant in nodes
+			/*int Score = Team == TEAM_RED ? m_pClient->m_Snap.m_pGameDataTeam->m_TeamscoreRed : m_pClient->m_Snap.m_pGameDataTeam->m_TeamscoreBlue;
+			str_format(aBuf, sizeof(aBuf), "%d", Score);*/
+			mem_zero(aBuf, sizeof(aBuf));
 		}
 		else
 		{
@@ -318,6 +320,7 @@ float CScoreboard::RenderScoreboard(float x, float y, float w, int Team, const c
 				str_format(aBuf, sizeof(aBuf), "%d", Score);
 			}
 		}
+
 		if(Align == -1)
 		{
 			tw = TextRender()->TextWidth(0, TitleFontsize, aBuf, -1, -1.0f);

@@ -137,6 +137,8 @@ public:
 	int m_Rage;
 	int m_WantedSpawn;
 
+	int64 m_DeconstructTick;
+
 	bool m_Ported;
 	bool m_SelectSpawn;
 

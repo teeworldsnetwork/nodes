@@ -1009,24 +1009,15 @@ set(EXPECTED_DATA
   mapres/winter_mountains.png
   mapres/winter_mountains2.png
   mapres/winter_mountains3.png
-  maps/ctf1.map
-  maps/ctf2.map
-  maps/ctf3.map
-  maps/ctf4.map
-  maps/ctf5.map
-  maps/ctf6.map
-  maps/ctf7.map
-  maps/ctf8.map
-  maps/dm1.map
-  maps/dm2.map
-  maps/dm3.map
-  maps/dm6.map
-  maps/dm7.map
-  maps/dm8.map
-  maps/dm9.map
-  maps/license.txt
-  maps/lms1.map
-  maps/readme.txt
+  maps/facility.map
+  maps/forestsunly.map
+  maps/hill.map
+  maps/mountain.map
+  maps/nodes1.map
+  maps/nodes2.map
+  maps/piiko_airen1.map
+  maps/pikanodes.map
+  maps/supremacy.map
   nodes/buildings/blue_ammo1.png
   nodes/buildings/blue_ammo2.png
   nodes/buildings/blue_ammo3.png
@@ -1247,7 +1238,7 @@ if(NOT EXISTS ${PROJECT_SOURCE_DIR}/datasrc/languages/index.json)
   endforeach()
 endif()
 
-if(NOT EXISTS ${PROJECT_SOURCE_DIR}/datasrc/maps/dm1.map)
+if(NOT EXISTS ${PROJECT_SOURCE_DIR}/datasrc/maps/hill.map)
   message(WARNING "Missing datasrc/maps submodule. Please download a source release or update your git submodules with `git submodule update --init`")
   foreach(item ${EXPECTED_DATA})
     if(item MATCHES "^maps/")
