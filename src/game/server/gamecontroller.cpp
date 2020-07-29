@@ -391,11 +391,10 @@ void IGameController::OnReset()
 			GameServer()->m_apPlayers[i]->m_RespawnDisabled = false;
 			GameServer()->m_apPlayers[i]->Respawn();
 			GameServer()->m_apPlayers[i]->m_RespawnTick = Server()->Tick()+Server()->TickSpeed()/2;
-			if(m_RoundCount == 0)
-			{
-				GameServer()->m_apPlayers[i]->m_Score = 0;
-				GameServer()->m_apPlayers[i]->m_ScoreStartTick = Server()->Tick();
-			}
+
+			GameServer()->m_apPlayers[i]->m_Score = 0;
+			GameServer()->m_apPlayers[i]->m_ScoreStartTick = Server()->Tick();
+
 			GameServer()->m_apPlayers[i]->m_IsReadyToPlay = true;
 		}
 	}
