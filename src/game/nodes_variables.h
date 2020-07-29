@@ -12,7 +12,8 @@ MACRO_CONFIG_INT(SvEmpDuration, sv_emp_duration, 5, 0, 1000000, CFGFLAG_SAVE | C
 MACRO_CONFIG_INT(SvRageModifier, sv_rage_modifier, 1, 0, 100, CFGFLAG_SAVE | CFGFLAG_SERVER, "Rage points per hit")
 MACRO_CONFIG_INT(SvVeteranTurrets, sv_veteran_turrets, 0, 0, 1, CFGFLAG_SAVE | CFGFLAG_SERVER, "Veteran mode for turrets")
 MACRO_CONFIG_INT(SvScoreTurrets, sv_score_turrets, 1, 0, 1, CFGFLAG_SAVE | CFGFLAG_SERVER, "Players score with turrets")
-MACRO_CONFIG_INT(SvOwnerProtection, sv_owner_protection, 1, 0, 1, CFGFLAG_SERVER, "Team-Buildings self-destruct limited to their owners")
-MACRO_CONFIG_INT(SvDeconstructTime, sv_deconstruct_time, 10, 0, 900, CFGFLAG_SERVER, "Time delay before being able to deconstruct a building again")
+MACRO_CONFIG_INT(SvOwnerProtection, sv_owner_protection, 1, 0, 1, CFGFLAG_SAVE | CFGFLAG_SERVER, "Team-Buildings self-destruct limited to their owners")
+MACRO_CONFIG_INT(SvDeconstructTime, sv_deconstruct_time, 10, 0, 900, CFGFLAG_SAVE | CFGFLAG_SERVER, "Time delay before being able to deconstruct a building again")
+MACRO_CONFIG_INT(SvBuildingsFriendlyFire, sv_buildings_friendly_fire, 1, 0, 1, CFGFLAG_SAVE | CFGFLAG_SERVER, "Friendly fire on buildings")
 
 #endif

@@ -583,7 +583,7 @@ bool CBuilding::TakeDamage(vec2 Force, int Dmg, int From, int PrevFrom, int Weap
 	if (From < 0 && PrevFrom >= 0)
 		From = PrevFrom;
 
-	if (From >= 0 && GameServer()->m_apPlayers[From] && GameServer()->m_apPlayers[From]->GetTeam() == m_Team)
+	if (From >= 0 && GameServer()->m_apPlayers[From] && GameServer()->m_apPlayers[From]->GetTeam() == m_Team && !Config()->m_SvBuildingsFriendlyFire)
 		return false;
 
 	m_DamageTaken++;
