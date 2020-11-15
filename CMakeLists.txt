@@ -216,6 +216,7 @@ function(set_glob VAR GLOBBING EXTS DIRECTORY) # ...
 
   if(NOT FILES STREQUAL GLOB_RESULT)
     message(AUTHOR_WARNING "${VAR} does not contain every file from directory ${DIRECTORY}")
+
     set(LIST_BUT_NOT_GLOB)
     if(POLICY CMP0057)
       cmake_policy(SET CMP0057 NEW)
@@ -1018,6 +1019,7 @@ set(EXPECTED_DATA
   maps/piiko_airen1.map
   maps/pikanodes.map
   maps/supremacy.map
+  nodes/blocks.png
   nodes/buildings/blue_ammo1.png
   nodes/buildings/blue_ammo2.png
   nodes/buildings/blue_ammo3.png
@@ -1045,7 +1047,6 @@ set(EXPECTED_DATA
   nodes/buildings/red_turret1.png
   nodes/buildings/red_turret2.png
   nodes/buildings/turrets.png
-  nodes/blocks.png
   nodes/buildmenu.png
   nodes/fx_bomb.png
   nodes/fx_crate.png
@@ -1055,8 +1056,8 @@ set(EXPECTED_DATA
   nodes/fx_ice_explosion.png
   nodes/gui.png
   nodes/no_power.png
-  nodes/ui/nodes_logo.png
   nodes/ui/nodes_icon.png
+  nodes/ui/nodes_logo.png
   particles.png
   race_flag.png
   skins/beaver.json
@@ -1064,8 +1065,8 @@ set(EXPECTED_DATA
   skins/bluestripe.json
   skins/body/bat.png
   skins/body/bear.png
-  skins/body/bomb.png
   skins/body/beaver.png
+  skins/body/bomb.png
   skins/body/dog.png
   skins/body/force.png
   skins/body/fox.png

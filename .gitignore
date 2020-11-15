@@ -21,18 +21,12 @@ other/freetype
 other/sdl
 Info.plist
 
-crapnet*
-fake_server*
-map_resave*
-map_version*
 mastersrv*
-packetgen*
 teeworlds*
 !teeworlds.manifest
 !teeworlds.rc
 teeworlds_srv*
 testrunner
-versionsrv*
 
 # IDE project files
 .cproject
