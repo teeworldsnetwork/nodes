@@ -11,41 +11,6 @@ CHttpRequest::CHttpRequest()
 
 }
 
-void CHttpRequest::AddString(std::string Name, std::string Value)
-{
-    CParameter Parameter;
-    Parameter.m_Name = Name;
-    Parameter.m_Value = Value;
-    Parameter.m_Type = HTTP_PARAM_STRING;
-
-    m_aData.push_back(Parameter);
-}
-
-void CHttpRequest::AddInteger(std::string Name, int Value)
-{
-    CParameter Parameter;
-    Parameter.m_Name = Name;
-    Parameter.m_Value = std::to_string(Value);
-    Parameter.m_Type = HTTP_PARAM_INTEGER;
-
-    m_aData.push_back(Parameter);
-}
-
-void CHttpRequest::AddArray(std::string Name, std::string Value)
-{
-    std::string JsonData;
-    JsonData.append("[");
-    JsonData.append(Value);
-    JsonData.append("]");
-
-    CParameter Parameter;
-    Parameter.m_Name = Name;
-    Parameter.m_Value = JsonData;
-    Parameter.m_Type = HTTP_PARAM_ARRAY;
-
-    m_aData.push_back(Parameter);
-}
-
 CHttp::CHttp()
 {
 	m_Lock = lock_create();
@@ -99,7 +64,7 @@ void CHttp::WorkerThread(void* pUser)
         pSelf->m_apWorkerRequests.erase(std::find(pSelf->m_apWorkerRequests.begin(), pSelf->m_apWorkerRequests.end(), pRequest));
 
         // do work here
-        if (pRequest->m_aData.empty())
+        if (pRequest->m_Data.empty())
         {
             RestClient::Response Res = RestClient::get(pRequest->m_Url);
 
@@ -109,25 +74,7 @@ void CHttp::WorkerThread(void* pUser)
         }
         else
         {
-            std::string JsonData;
-            JsonData.append("{");
-
-            for (std::vector<CParameter>::iterator it = pRequest->m_aData.begin(); it != pRequest->m_aData.end(); ++it)
-            {
-                char aBuf[256] = { 0 };
-                if((*it).m_Type == CHttpRequest::HTTP_PARAM_ARRAY)
-                    str_format(aBuf, sizeof(aBuf), "\"%s\": %s,", (*it).m_Name.c_str(), (*it).m_Value.c_str());
-                else
-                    str_format(aBuf, sizeof(aBuf), "\"%s\": \"%s\",", (*it).m_Name.c_str(), (*it).m_Value.c_str());
-
-                JsonData.append(aBuf);
-            }
-
-            // remove latest comma
-            JsonData = JsonData.substr(0, JsonData.size() - 1);
-
-            JsonData.append("}");
-            RestClient::Response Res = RestClient::post(pRequest->m_Url, "application/json", JsonData);
+            RestClient::Response Res = RestClient::post(pRequest->m_Url, "application/json", pRequest->m_Data);
 
             //callback
             if (pRequest->m_pCallback)

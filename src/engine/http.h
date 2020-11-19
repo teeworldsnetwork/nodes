@@ -19,20 +19,9 @@ class CHttpRequest
 {
 public:
     CHttpRequest();
-    
-    void AddString(std::string Name, std::string Value);
-    void AddInteger(std::string Name, int Value);
-    void AddArray(std::string Name, std::string Value);
-
-    enum
-    {
-        HTTP_PARAM_STRING = 0,
-        HTTP_PARAM_INTEGER,
-        HTTP_PARAM_ARRAY
-    };
 
     std::string m_Url;
-    std::vector<CParameter> m_aData;
+    std::string m_Data;
 
     void *m_pUser;
     void (*m_pCallback)(void* pUser, int ResponseCode, std::string Response);

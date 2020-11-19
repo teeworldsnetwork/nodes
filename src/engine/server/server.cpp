@@ -25,6 +25,7 @@
 #include <engine/shared/packer.h>
 #include <engine/shared/protocol.h>
 #include <engine/shared/snapshot.h>
+#include <engine/shared/jsonwriter.h>
 
 #include "server.h"
 
@@ -1939,44 +1940,76 @@ void CServer::DoServerRegistration()
 	CHttpRequest* pRequest = m_pHttp->PrepareRequest("https://master.teeworlds.network/");
 	pRequest->m_pUser = this;
 	pRequest->m_pCallback = ServerRegisterCallback;
-	pRequest->AddString("hostname", Config()->m_SvHostname);
-	pRequest->AddInteger("port", Config()->m_SvPort);
-	pRequest->AddString("name", Config()->m_SvName);
-	pRequest->AddString("gamemode", GameServer()->GameType());
-	pRequest->AddString("map", GetMapName());
-	pRequest->AddString("version", GameServer()->Version());
-	pRequest->AddInteger("flags", Flags);
-	pRequest->AddInteger("skill_level", Config()->m_SvSkillLevel);
-	pRequest->AddInteger("players_online", PlayerCount);
-	pRequest->AddInteger("players_max", Config()->m_SvPlayerSlots);
-	pRequest->AddInteger("clients_online", ClientCount);
-	pRequest->AddInteger("clients_max", max(ClientCount, Config()->m_SvMaxClients));
-	pRequest->AddString("modification", "nodes");
 
-	// player list
-	std::string JsonPlayerlist;
-	
+	// build server info
+	IOHANDLE File = io_open("serverinfo-debug.json", IOFLAG_WRITE);
+	if (!File)
+		return;
+
+	CJsonWriter Writer(File);
+
+	Writer.BeginObject();
+	Writer.WriteAttribute("hostname");
+	Writer.WriteStrValue(Config()->m_SvHostname);
+	Writer.WriteAttribute("port");
+	Writer.WriteIntValue(Config()->m_SvPort);
+	Writer.WriteAttribute("name");
+	Writer.WriteStrValue(Config()->m_SvName);
+	Writer.WriteAttribute("gamemode");
+	Writer.WriteStrValue(GameServer()->GameType());
+	Writer.WriteAttribute("map");
+	Writer.WriteStrValue(GetMapName());
+	Writer.WriteAttribute("version");
+	Writer.WriteStrValue(GameServer()->Version());
+	Writer.WriteAttribute("flags");
+	Writer.WriteIntValue(Flags);
+	Writer.WriteAttribute("skill_level");
+	Writer.WriteIntValue(Config()->m_SvSkillLevel);
+	Writer.WriteAttribute("players_online");
+	Writer.WriteIntValue(PlayerCount);
+	Writer.WriteAttribute("players_max");
+	Writer.WriteIntValue(Config()->m_SvPlayerSlots);
+	Writer.WriteAttribute("clients_online");
+	Writer.WriteIntValue(ClientCount);
+	Writer.WriteAttribute("clients_max");
+	Writer.WriteIntValue(max(ClientCount, Config()->m_SvMaxClients));
+	Writer.WriteAttribute("modification");
+	Writer.WriteStrValue("nodes");
+
+	Writer.WriteAttribute("player_list");
+	Writer.BeginArray();
 	for (int i = 0; i < MAX_CLIENTS; i++)
 	{
 		if (m_aClients[i].m_State != CClient::STATE_EMPTY)
 		{
-			char aItem[256];
-			str_format(aItem, sizeof(aItem), "{\"name\": \"%s\", \"clan\": \"%s\", \"country\": %d, \"score\": %d, \"type\": %d, \"team\": %d, \"ping\": %d},", 
-				ClientName(i), 
-				ClientClan(i), 
-				m_aClients[i].m_Country, 
-				m_aClients[i].m_Score, 
-				GameServer()->IsClientPlayer(i) ? 0 : 1,
-				GameServer()->GetTeam(i),
-				m_aClients[i].m_Latency);
-
-			JsonPlayerlist.append(aItem);
+			Writer.BeginObject();
+			Writer.WriteAttribute("name");
+			Writer.WriteStrValue(ClientName(i));
+			Writer.WriteAttribute("clan");
+			Writer.WriteStrValue(ClientClan(i));
+			Writer.WriteAttribute("country");
+			Writer.WriteIntValue(m_aClients[i].m_Country);
+			Writer.WriteAttribute("score");
+			Writer.WriteIntValue(m_aClients[i].m_Score);
+			Writer.WriteAttribute("type");
+			Writer.WriteIntValue(GameServer()->IsClientPlayer(i) ? 0 : 1);
+			Writer.WriteAttribute("team");
+			Writer.WriteIntValue(GameServer()->GetTeam(i));
+			Writer.WriteAttribute("ping");
+			Writer.WriteIntValue(m_aClients[i].m_Latency);
+			Writer.EndObject();
 		}
 	}
+	Writer.EndArray();
+	Writer.EndObject();
+	io_close(File);
 
-	JsonPlayerlist = JsonPlayerlist.substr(0, JsonPlayerlist.size() - 1);
-	pRequest->AddArray("player_list", JsonPlayerlist);
+	char* pOutput = fs_read_str("serverinfo-debug.json");
+	fs_remove("serverinfo-debug.json");
+	std::string JsonServerInfo = std::string(pOutput);
+	mem_free(pOutput);
 
+	pRequest->m_Data = JsonServerInfo;
 	m_pHttp->ExecuteRequest(pRequest);
 
 	m_LastServerRegistration = time_get();
