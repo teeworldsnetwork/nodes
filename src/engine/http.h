@@ -7,14 +7,6 @@
 #include <string>
 #include "kernel.h"
 
-struct CParameter
-{
-    std::string m_Name;
-    std::string m_Value;
-
-    int m_Type;
-};
-
 class CHttpRequest
 {
 public:
