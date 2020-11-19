@@ -1749,44 +1749,45 @@ endif()
 # VARIOUS TARGETS
 ########################################################################
 
-set_src(VERSIONSRV_SRC GLOB src/versionsrv mapversions.h versionsrv.cpp versionsrv.h)
-list(APPEND VERSIONSRV_SRC ${PROJECT_BINARY_DIR}/src/generated/nethash.cpp)
+set_src(VERSIONSRV_SRC GLOB src/versionsrv mapversions.h versionsrv.cpp versionsrv.h)	
+list(APPEND VERSIONSRV_SRC ${PROJECT_BINARY_DIR}/src/generated/nethash.cpp)	
 
-set(TARGET_VERSIONSRV versionsrv)
 
-add_executable(${TARGET_VERSIONSRV} EXCLUDE_FROM_ALL ${VERSIONSRV_SRC} $<TARGET_OBJECTS:engine-shared> ${DEPS})
+set(TARGET_VERSIONSRV versionsrv)	
 
-target_link_libraries(${TARGET_VERSIONSRV} ${LIBS})
+add_executable(${TARGET_VERSIONSRV} EXCLUDE_FROM_ALL ${VERSIONSRV_SRC} $<TARGET_OBJECTS:engine-shared> ${DEPS})	
 
-list(APPEND TARGETS_LINK ${TARGET_VERSIONSRV})
+target_link_libraries(${TARGET_VERSIONSRV} ${LIBS})	
 
-set(TARGETS_TOOLS)
-set_src(TOOLS GLOB src/tools
-  crapnet.cpp
-  fake_server.cpp
-  map_resave.cpp
-  map_version.cpp
-  packetgen.cpp
-)
-foreach(ABS_T ${TOOLS})
-  file(RELATIVE_PATH T "${PROJECT_SOURCE_DIR}/src/tools/" ${ABS_T})
-  if(T MATCHES "\\.cpp$")
-    string(REGEX REPLACE "\\.cpp$" "" TOOL "${T}")
-    add_executable(${TOOL} EXCLUDE_FROM_ALL
-      ${DEPS}
-      src/tools/${TOOL}.cpp
-      ${EXTRA_TOOL_SRC}
-      $<TARGET_OBJECTS:engine-shared>
-    )
-    target_link_libraries(${TOOL} ${LIBS})
-    list(APPEND TARGETS_TOOLS ${TOOL})
-  endif()
-endforeach()
+list(APPEND TARGETS_LINK ${TARGET_VERSIONSRV})	
 
-list(APPEND TARGETS_OWN ${TARGETS_TOOLS})
-list(APPEND TARGETS_LINK ${TARGETS_TOOLS})
+set(TARGETS_TOOLS)	
+set_src(TOOLS GLOB src/tools	
+  crapnet.cpp	
+  fake_server.cpp	
+  map_resave.cpp	
+  map_version.cpp	
+  packetgen.cpp	
+)	
+foreach(ABS_T ${TOOLS})	
+  file(RELATIVE_PATH T "${PROJECT_SOURCE_DIR}/src/tools/" ${ABS_T})	
+  if(T MATCHES "\\.cpp$")	
+    string(REGEX REPLACE "\\.cpp$" "" TOOL "${T}")	
+    add_executable(${TOOL} EXCLUDE_FROM_ALL	
+      ${DEPS}	
+      src/tools/${TOOL}.cpp	
+      ${EXTRA_TOOL_SRC}	
+      $<TARGET_OBJECTS:engine-shared>	
+    )	
+    target_link_libraries(${TOOL} ${LIBS})	
+    list(APPEND TARGETS_TOOLS ${TOOL})	
+  endif()	
+endforeach()	
 
-add_custom_target(tools DEPENDS ${TARGETS_TOOLS})
+list(APPEND TARGETS_OWN ${TARGETS_TOOLS})	
+list(APPEND TARGETS_LINK ${TARGETS_TOOLS})	
+
+add_custom_target(tools DEPENDS ${TARGETS_TOOLS})	
 add_custom_target(everything DEPENDS ${TARGETS_OWN})
 
 ########################################################################
