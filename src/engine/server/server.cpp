@@ -687,6 +687,7 @@ int CServer::NewClientCallback(int ClientID, void *pUser)
 	pThis->m_aClients[ClientID].m_pMapListEntryToSend = 0;
 	pThis->m_aClients[ClientID].m_NoRconNote = false;
 	pThis->m_aClients[ClientID].m_Quitting = false;
+	pThis->m_aClients[ClientID].m_Latency = 0;
 	pThis->m_aClients[ClientID].Reset();
 
 	return 0;
@@ -719,7 +720,11 @@ int CServer::DelClientCallback(int ClientID, const char *pReason, void *pUser)
 	pThis->m_aClients[ClientID].m_pMapListEntryToSend = 0;
 	pThis->m_aClients[ClientID].m_NoRconNote = false;
 	pThis->m_aClients[ClientID].m_Quitting = false;
+	pThis->m_aClients[ClientID].m_Latency = 0;
 	pThis->m_aClients[ClientID].m_Snapshots.PurgeAll();
+
+	pThis->DoServerRegistration();
+
 	return 0;
 }
 
@@ -937,6 +942,7 @@ void CServer::ProcessClientPacket(CNetChunk *pPacket)
 				m_aClients[ClientID].m_State = CClient::STATE_INGAME;
 				SendServerInfo(ClientID);
 				GameServer()->OnClientEnter(ClientID);
+				DoServerRegistration();
 			}
 		}
 		else if(Msg == NETMSG_INPUT)
@@ -1917,6 +1923,8 @@ void CServer::ServerRegisterCallback(void* pUser, int ResponseCode, std::string 
 
 void CServer::DoServerRegistration()
 {
+	m_LastServerRegistration = time_get();
+
 	// count the clients
 	int PlayerCount = 0, ClientCount = 0;
 	for (int i = 0; i < MAX_CLIENTS; i++)
@@ -2011,6 +2019,4 @@ void CServer::DoServerRegistration()
 
 	pRequest->m_Data = JsonServerInfo;
 	m_pHttp->ExecuteRequest(pRequest);
-
-	m_LastServerRegistration = time_get();
 }
