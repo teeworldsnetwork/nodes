@@ -384,13 +384,13 @@ void CHud::RenderNodesScoreHud()
 
 			CUIRect Rect = { Whole - WidthMax, StartY, WidthMax, 18.0f };
 			Graphics()->BlendNormal();
-			RenderTools()->DrawUIRect(&Rect, vec4(0.975f, 0.17f, 0.17f, 0.4f), CUI::CORNER_TL, 5.0f);
+			RenderTools()->DrawUIRect(&Rect, vec4(0.128f, 0.128f, 0.128f, 0.4f), CUI::CORNER_TL, 5.0f);
 			TextRender()->Text(0, Whole - WidthMax + (WidthMax - BuildpointsWidth) / 2, StartY, 14.0f, aBuildpoints, -1.0f);
 
 			// render techlevel
 			Rect.y += TeamOffset;
 			Graphics()->BlendNormal();
-			RenderTools()->DrawUIRect(&Rect, vec4(0.17f, 0.46f, 0.975f, 0.4f), CUI::CORNER_BL, 5.0f);
+			RenderTools()->DrawUIRect(&Rect, vec4(0.128f, 0.128f, 0.128f, 0.4f), CUI::CORNER_BL, 5.0f);
 			TextRender()->Text(0, Whole - WidthMax + (WidthMax - TechlevelWidth) / 2, StartY + TeamOffset, 14.0f, aTechlevel, -1.0f);
 
 			str_format(aLabel, sizeof(aLabel), "%s", Localize("Techlevel"));
