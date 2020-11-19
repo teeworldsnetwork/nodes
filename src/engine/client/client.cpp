@@ -2672,7 +2672,7 @@ int main(int argc, const char **argv) // ignore_convention
 	delete pEngineTextRender;
 	delete pEngineMap;
 	delete pHttp;
-	delete pDiscord;
+	// delete pDiscord;
 
 	return 0;
 }
