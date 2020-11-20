@@ -1767,8 +1767,7 @@ list(APPEND TARGETS_LINK ${TARGET_VERSIONSRV})
 
 set(TARGETS_TOOLS)	
 set_src(TOOLS GLOB src/tools	
-  crapnet.cpp	
-  fake_server.cpp	
+  crapnet.cpp
   map_resave.cpp	
   map_version.cpp	
   packetgen.cpp	

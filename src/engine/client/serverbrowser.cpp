@@ -150,6 +150,7 @@ void CServerBrowser::Set(const NETADDR &Addr, int SetType, int Token, const CSer
 				RemoveRequest(pEntry);
 			}
 		}
+		break;
 	case SET_HTTP:
 		{
 			// internet entry
