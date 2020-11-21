@@ -282,7 +282,6 @@ CBuilding* CGameWorld::IntersectBuilding(vec2 Pos0, vec2 Pos1, float Radius, vec
 {
 	// Find other players
 	float ClosestLen = distance(Pos0, Pos1) * 100.0f;
-	vec2 LineDir = normalize(Pos1 - Pos0);
 	CBuilding* pClosest = 0;
 
 	CBuilding* pBuilding = (CBuilding*)FindFirst(ENTTYPE_BUILDING);
@@ -291,7 +290,6 @@ CBuilding* CGameWorld::IntersectBuilding(vec2 Pos0, vec2 Pos1, float Radius, vec
 		if (pBuilding == pNotThis)
 			continue;
 
-		vec2 Dir = normalize(Pos1 - Pos0);
 		vec2 Pos[4] = {
 				vec2(pBuilding->m_Pos.x - pBuilding->Width() / 2, pBuilding->m_Pos.y + 16),
 				vec2(pBuilding->m_Pos.x - pBuilding->Width() / 2, pBuilding->m_Pos.y - pBuilding->Height() + 16),

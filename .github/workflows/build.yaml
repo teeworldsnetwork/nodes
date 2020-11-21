@@ -1,0 +1,57 @@
+name: Build
+
+on: [push, pull_request]
+
+jobs:
+  build-cmake:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        include:
+        - os: ubuntu-latest
+          cmake-args: -G "Unix Makefiles"
+          build-args: --parallel
+          package-file: twnodes-*-linux_x86_64.tar.xz
+          env:
+            CFLAGS: -Wdeclaration-after-statement -Werror
+            CXXFLAGS: -Werror
+        - os: windows-latest
+          cmake-args: -G "Visual Studio 16 2019" -A x64
+          package-file: twnodes-*-win64.zip
+          env:
+            CFLAGS: /WX
+            CXXFLAGS: /WX
+            LDFLAGS: /WX
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: true
+    - name: Prepare Linux
+      if: contains(matrix.os, 'ubuntu')
+      run: |
+        sudo apt-get update -y
+        sudo apt-get install pkg-config cmake libfreetype6-dev libsdl2-dev libcurl4-openssl-dev libssl-dev -y
+    - name: Build
+      env: ${{ matrix.env }}
+      run: |
+        mkdir release
+        cd release
+        ${{ matrix.cmake-path }}cmake ${{ matrix.cmake-args }} -DCMAKE_BUILD_TYPE=Release -Werror=dev -DDOWNLOAD_GTEST=ON -DCMAKE_RUNTIME_OUTPUT_DIRECTORY_RELEASE=. ..
+        ${{ matrix.cmake-path }}cmake --build . --config Release ${{ matrix.build-args }} --target everything
+    - name: Test release
+      run: |
+        cd release
+        ${{ matrix.cmake-path }}cmake --build . --config Release ${{ matrix.build-args }} --target run_tests
+        ./twnodes_srv shutdown
+    - name: Package
+      run: |
+        cd release
+        ${{ matrix.cmake-path }}cmake --build . --config Release ${{ matrix.build-args }} --target package_default
+        mkdir artifacts
+        mv ${{ matrix.package-file }} artifacts
+    - name: Upload Artifacts
+      uses: actions/upload-artifact@v1
+      with:
+        name: twnodes-${{ matrix.os }}
+        path: release/artifacts

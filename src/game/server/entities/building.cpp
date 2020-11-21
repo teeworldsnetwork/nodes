@@ -253,7 +253,7 @@ void CBuilding::Tick()
 				{
 					m_ReloadTime = m_ReloadTime - ((m_ReloadTime / 10) * 2);
 					m_MaxAimRange += 100;
-					m_VeteranTTLBonus = 1.8;
+					m_VeteranTTLBonus = 1.8f;
 				}
 				else if (m_VeteranShots == 200 && Config()->m_SvVeteranTurrets)
 				{

@@ -1916,7 +1916,6 @@ void CServer::HandleServerRegistration()
 
 void CServer::ServerRegisterCallback(void* pUser, int ResponseCode, std::string Response)
 {
-	CServer* pSelf = (CServer*)pUser;
 	if (ResponseCode != 200)
 		dbg_msg("master", "registration failed (%d): %s", ResponseCode, Response.c_str());
 }

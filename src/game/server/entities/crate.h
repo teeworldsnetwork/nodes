@@ -7,8 +7,6 @@
 
 #include <game/gamecore.h>
 
-static const char* BUF_NAMES[10] = { "", "Health", "Armor", "Construction", "Baseball", "Freeze", "EMP", "Duck", "Boom", "Poison" };
-
 class CCrate : public CEntity
 {
 private:

@@ -285,7 +285,7 @@ bool CGameControllerNODES::BuildBuilding(vec2 Pos, int Type, int Team, int Owner
 	int Techlevel = Type / 4 + 1;
 	if (Techlevel > m_aTechLevel[Team] && !IgnorePower)
 	{
-		dbg_msg("nodes", "Techlevel too low! ClientID: %d, Team: %d, Building: %s, Techlevel: %d/%d", Owner, Team, aBuildingsInfo[Type].m_pName, m_aTechLevel[Team] / Techlevel);
+		dbg_msg("nodes", "Techlevel too low! ClientID: %d, Team: %d, Building: %s, Techlevel: %d/%d", Owner, Team, aBuildingsInfo[Type].m_pName, m_aTechLevel[Team], Techlevel);
 		if (GameServer()->m_apPlayers[Owner])
 			GameServer()->SendChatMessage(Owner, "Your team need need a higher techlevel to build this");
 		return false;
@@ -293,7 +293,7 @@ bool CGameControllerNODES::BuildBuilding(vec2 Pos, int Type, int Team, int Owner
 
 	if (aBuildingsInfo[Type].m_Price > m_aBuildPoints[Team])
 	{
-		dbg_msg("nodes", "Buildpoints too low! ClientID: %d, Team: %d, Building: %s, Buildpoints: %d/%d", Owner, Team, aBuildingsInfo[Type].m_pName, m_aBuildPoints[Team] / aBuildingsInfo[Type].m_Price);
+		dbg_msg("nodes", "Buildpoints too low! ClientID: %d, Team: %d, Building: %s, Buildpoints: %d/%d", Owner, Team, aBuildingsInfo[Type].m_pName, m_aBuildPoints[Team], aBuildingsInfo[Type].m_Price);
 		if (GameServer()->m_apPlayers[Owner])
 			GameServer()->SendChatMessage(Owner, "Your team has insufficient build points");
 		return false;
@@ -308,7 +308,7 @@ bool CGameControllerNODES::BuildBuilding(vec2 Pos, int Type, int Team, int Owner
 		{
 			if (distance(m_apBuildings[t][i]->GetPos(), Pos) < m_apBuildings[t][i]->ms_PhysSize * 2)
 			{
-				dbg_msg("nodes", "Blocked. ClientID: %d, Team: %d, Building: %s, Distance: %.2f, Needed: %.2f", Owner, Team, aBuildingsInfo[Type].m_pName, distance(m_apBuildings[t][i]->GetPos(), Pos), m_apBuildings[t][i]->ms_PhysSize * 2);
+				dbg_msg("nodes", "Blocked. ClientID: %d, Team: %d, Building: %s, Distance: %.2f, Needed: %.2f", Owner, Team, aBuildingsInfo[Type].m_pName, distance(m_apBuildings[t][i]->GetPos(), Pos), m_apBuildings[t][i]->ms_PhysSize * 2.0f);
 				if (GameServer()->m_apPlayers[Owner])
 					GameServer()->SendChatMessage(Owner, "This spot is blocked");
 				return false;
