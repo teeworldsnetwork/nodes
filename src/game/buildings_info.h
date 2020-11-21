@@ -60,16 +60,6 @@ typedef struct
 	int m_ReloadTime;
 } t_BuildingsInfo;
 
-typedef struct
-{
-	const char* m_pName;
-	const char* m_pDesc;
-
-	int m_Price;
-	int m_Techlevel;
-} t_EntsInfo;
-
 extern t_BuildingsInfo aBuildingsInfo[];
-extern t_EntsInfo aEntsInfo[];
 
 #endif
