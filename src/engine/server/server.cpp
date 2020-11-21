@@ -2009,7 +2009,7 @@ void CServer::DoServerRegistration()
 	}
 	Writer.EndArray();
 	Writer.EndObject();
-	io_close(File);
+	// io_close(File);
 
 	char* pOutput = fs_read_str("serverinfo-debug.json");
 	fs_remove("serverinfo-debug.json");
