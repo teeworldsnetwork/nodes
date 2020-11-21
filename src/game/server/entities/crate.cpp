@@ -9,6 +9,8 @@
 #include "character.h"
 #include "crate.h"
 
+static const char* BUF_NAMES[10] = { "", "Health", "Armor", "Construction", "Baseball", "Freeze", "EMP", "Duck", "Boom", "Poison" };
+
 CCrate::CCrate(CGameWorld* pWorld, int Type, vec2 Pos)
 	: CEntity(pWorld, CGameWorld::ENTTYPE_CRATE, Pos, ms_PhysSize)
 {
