@@ -1953,68 +1953,72 @@ void CServer::DoServerRegistration()
 	if (!File)
 		return;
 
-	CJsonWriter Writer(File);
+	CJsonWriter* pWriter = new CJsonWriter(File);
 
-	Writer.BeginObject();
-	Writer.WriteAttribute("hostname");
-	Writer.WriteStrValue(Config()->m_SvHostname);
-	Writer.WriteAttribute("port");
-	Writer.WriteIntValue(Config()->m_SvPort);
-	Writer.WriteAttribute("name");
-	Writer.WriteStrValue(Config()->m_SvName);
-	Writer.WriteAttribute("gamemode");
-	Writer.WriteStrValue(GameServer()->GameType());
-	Writer.WriteAttribute("map");
-	Writer.WriteStrValue(GetMapName());
-	Writer.WriteAttribute("version");
-	Writer.WriteStrValue(GameServer()->Version());
-	Writer.WriteAttribute("flags");
-	Writer.WriteIntValue(Flags);
-	Writer.WriteAttribute("skill_level");
-	Writer.WriteIntValue(Config()->m_SvSkillLevel);
-	Writer.WriteAttribute("players_online");
-	Writer.WriteIntValue(PlayerCount);
-	Writer.WriteAttribute("players_max");
-	Writer.WriteIntValue(Config()->m_SvPlayerSlots);
-	Writer.WriteAttribute("clients_online");
-	Writer.WriteIntValue(ClientCount);
-	Writer.WriteAttribute("clients_max");
-	Writer.WriteIntValue(max(ClientCount, Config()->m_SvMaxClients));
-	Writer.WriteAttribute("modification");
-	Writer.WriteStrValue("nodes");
+	pWriter->BeginObject();
+	pWriter->WriteAttribute("hostname");
+	pWriter->WriteStrValue(Config()->m_SvHostname);
+	pWriter->WriteAttribute("port");
+	pWriter->WriteIntValue(Config()->m_SvPort);
+	pWriter->WriteAttribute("name");
+	pWriter->WriteStrValue(Config()->m_SvName);
+	pWriter->WriteAttribute("gamemode");
+	pWriter->WriteStrValue(GameServer()->GameType());
+	pWriter->WriteAttribute("map");
+	pWriter->WriteStrValue(GetMapName());
+	pWriter->WriteAttribute("version");
+	pWriter->WriteStrValue(GameServer()->Version());
+	pWriter->WriteAttribute("flags");
+	pWriter->WriteIntValue(Flags);
+	pWriter->WriteAttribute("skill_level");
+	pWriter->WriteIntValue(Config()->m_SvSkillLevel);
+	pWriter->WriteAttribute("players_online");
+	pWriter->WriteIntValue(PlayerCount);
+	pWriter->WriteAttribute("players_max");
+	pWriter->WriteIntValue(Config()->m_SvPlayerSlots);
+	pWriter->WriteAttribute("clients_online");
+	pWriter->WriteIntValue(ClientCount);
+	pWriter->WriteAttribute("clients_max");
+	pWriter->WriteIntValue(max(ClientCount, Config()->m_SvMaxClients));
+	pWriter->WriteAttribute("modification");
+	pWriter->WriteStrValue("nodes");
 
-	Writer.WriteAttribute("player_list");
-	Writer.BeginArray();
+	pWriter->WriteAttribute("player_list");
+	pWriter->BeginArray();
 	for (int i = 0; i < MAX_CLIENTS; i++)
 	{
 		if (m_aClients[i].m_State != CClient::STATE_EMPTY)
 		{
-			Writer.BeginObject();
-			Writer.WriteAttribute("name");
-			Writer.WriteStrValue(ClientName(i));
-			Writer.WriteAttribute("clan");
-			Writer.WriteStrValue(ClientClan(i));
-			Writer.WriteAttribute("country");
-			Writer.WriteIntValue(m_aClients[i].m_Country);
-			Writer.WriteAttribute("score");
-			Writer.WriteIntValue(m_aClients[i].m_Score);
-			Writer.WriteAttribute("type");
-			Writer.WriteIntValue(GameServer()->IsClientPlayer(i) ? 0 : 1);
-			Writer.WriteAttribute("team");
-			Writer.WriteIntValue(GameServer()->GetTeam(i));
-			Writer.WriteAttribute("ping");
-			Writer.WriteIntValue(m_aClients[i].m_Latency);
-			Writer.EndObject();
+			pWriter->BeginObject();
+			pWriter->WriteAttribute("name");
+			pWriter->WriteStrValue(ClientName(i));
+			pWriter->WriteAttribute("clan");
+			pWriter->WriteStrValue(ClientClan(i));
+			pWriter->WriteAttribute("country");
+			pWriter->WriteIntValue(m_aClients[i].m_Country);
+			pWriter->WriteAttribute("score");
+			pWriter->WriteIntValue(m_aClients[i].m_Score);
+			pWriter->WriteAttribute("type");
+			pWriter->WriteIntValue(GameServer()->IsClientPlayer(i) ? 0 : 1);
+			pWriter->WriteAttribute("team");
+			pWriter->WriteIntValue(GameServer()->GetTeam(i));
+			pWriter->WriteAttribute("ping");
+			pWriter->WriteIntValue(m_aClients[i].m_Latency);
+			pWriter->EndObject();
 		}
 	}
-	Writer.EndArray();
-	Writer.EndObject();
-	// io_close(File);
+	pWriter->EndArray();
+	pWriter->EndObject();
+
+	delete pWriter;
+	pWriter = 0;
 
 	char* pOutput = fs_read_str("serverinfo-debug.json");
-	fs_remove("serverinfo-debug.json");
 	std::string JsonServerInfo = std::string(pOutput);
 	mem_free(pOutput);
+
+	if (!Config()->m_Debug)
+		fs_remove("serverinfo-debug.json");
 
 	pRequest->m_Data = JsonServerInfo;
 	m_pHttp->ExecuteRequest(pRequest);
