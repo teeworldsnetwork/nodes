@@ -694,7 +694,7 @@ void CServerBrowser::ServerListCallback(void* pUser, int ResponseCode, std::stri
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "port"))
 				{
 					char aPort[8];
-					str_format(aPort, sizeof(aPort), ":%d", pItem->u.integer);
+					str_format(aPort, sizeof(aPort), ":%d", (int)pItem->u.integer);
 					str_append(Info.m_aAddress, aPort, sizeof(Info.m_aAddress));
 				}
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "version"))
@@ -717,7 +717,7 @@ void CServerBrowser::ServerListCallback(void* pUser, int ResponseCode, std::stri
 					str_copy(Info.m_aMap, pItem->u.string.ptr, sizeof(Info.m_aMap));
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "flags"))
 				{
-					int Flags = pItem->u.integer;
+					int Flags = (int)pItem->u.integer;
 					Info.m_Flags = 0;
 					if (Flags & SERVERINFO_FLAG_PASSWORD)
 						Info.m_Flags |= IServerBrowser::FLAG_PASSWORD;
@@ -725,15 +725,15 @@ void CServerBrowser::ServerListCallback(void* pUser, int ResponseCode, std::stri
 						Info.m_Flags |= IServerBrowser::FLAG_TIMESCORE;
 				}
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "skill_level"))
-					Info.m_ServerLevel = clamp<int>(pItem->u.integer, SERVERINFO_LEVEL_MIN, SERVERINFO_LEVEL_MAX);
+					Info.m_ServerLevel = clamp<int>((int)pItem->u.integer, SERVERINFO_LEVEL_MIN, SERVERINFO_LEVEL_MAX);
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "players_online"))
-					Info.m_NumPlayers = pItem->u.integer;
+					Info.m_NumPlayers = (int)pItem->u.integer;
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "players_max"))
-					Info.m_MaxPlayers = pItem->u.integer;
+					Info.m_MaxPlayers = (int)pItem->u.integer;
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "clients_online"))
-					Info.m_NumClients = pItem->u.integer;
+					Info.m_NumClients = (int)pItem->u.integer;
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "clients_max"))
-					Info.m_MaxClients = pItem->u.integer;
+					Info.m_MaxClients = (int)pItem->u.integer;
 				else if (!str_comp_nocase(pEntry->u.object.values[j].name, "player_list"))
 				{
 					for (unsigned int c = 0; c < pItem->u.array.length; c++)
@@ -747,11 +747,11 @@ void CServerBrowser::ServerListCallback(void* pUser, int ResponseCode, std::stri
 							else if (!str_comp_nocase(pClientProp->u.object.values[p].name, "clan"))
 								str_copy(Info.m_aClients[i].m_aClan, pClientProp->u.object.values[p].value->u.string.ptr, sizeof(Info.m_aClients[i].m_aClan));
 							else if (!str_comp_nocase(pClientProp->u.object.values[p].name, "country"))
-								Info.m_aClients[i].m_Country = pClientProp->u.object.values[p].value->u.integer;
+								Info.m_aClients[i].m_Country = (int)pClientProp->u.object.values[p].value->u.integer;
 							else if (!str_comp_nocase(pClientProp->u.object.values[p].name, "score"))
-								Info.m_aClients[i].m_Score = pClientProp->u.object.values[p].value->u.integer;
+								Info.m_aClients[i].m_Score = (int)pClientProp->u.object.values[p].value->u.integer;
 							else if (!str_comp_nocase(pClientProp->u.object.values[p].name, "type"))
-								Info.m_aClients[i].m_PlayerType = pClientProp->u.object.values[p].value->u.integer;
+								Info.m_aClients[i].m_PlayerType = (int)pClientProp->u.object.values[p].value->u.integer;
 						}
 					}
 				}
