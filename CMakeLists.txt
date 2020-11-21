@@ -509,9 +509,6 @@ set_src(DEP_RESTCLIENT_SRC GLOB_RECURSE src/engine/external/restclient
   restclient.cpp
 )
 add_library(restclient EXCLUDE_FROM_ALL OBJECT ${DEP_RESTCLIENT_SRC})
-if(TARGET_OS STREQUAL "windows")
-  target_link_libraries(restclient ${CURL_LIBRARIES})
-endif()
 target_include_directories(restclient PRIVATE ${CURL_INCLUDE_DIRS})
 
 list(APPEND TARGETS_DEP json md5 restclient)
@@ -1363,6 +1360,7 @@ set_src(BASE GLOB_RECURSE src/base
   tl/threading.h
   vmath.h
 )
+
 set_src(ENGINE_INTERFACE GLOB src/engine
   client.h
   config.h
@@ -1465,13 +1463,12 @@ set(GAME_GENERATED_SHARED
 set(DEPS ${DEP_JSON} ${DEP_MD5} ${ZLIB_DEP} ${DEP_RESTCLIENT})
 
 # Libraries
-set(LIBS ${CMAKE_THREAD_LIBS_INIT} ${ZLIB_LIBRARIES} ${CRYPTO_LIBRARIES} ${PLATFORM_LIBS})
+set(LIBS ${CMAKE_THREAD_LIBS_INIT} ${ZLIB_LIBRARIES} ${CRYPTO_LIBRARIES} ${PLATFORM_LIBS} ${CURL_LIBRARIES})
 
 # Targets
 add_library(engine-shared EXCLUDE_FROM_ALL OBJECT ${ENGINE_INTERFACE} ${ENGINE_SHARED} ${ENGINE_GENERATED_SHARED} ${BASE})
 add_library(game-shared EXCLUDE_FROM_ALL OBJECT ${GAME_SHARED} ${GAME_GENERATED_SHARED})
 list(APPEND TARGETS_OWN engine-shared game-shared)
-
 
 ########################################################################
 # CLIENT
@@ -1611,7 +1608,6 @@ if(CLIENT)
   # Libraries
   set(LIBS_CLIENT
     ${LIBS}
-    ${CURL_LIBRARIES}
     ${FREETYPE_LIBRARIES}
     ${PNGLITE_LIBRARIES}
     ${SDL2_LIBRARIES}
@@ -1725,7 +1721,7 @@ else()
 endif()
 
 # Libraries
-set(LIBS_SERVER ${LIBS} ${CURL_LIBRARIES})
+set(LIBS_SERVER ${LIBS})
 
 # Target
 set(TARGET_SERVER ${SERVER_EXECUTABLE})
@@ -1755,23 +1751,21 @@ endif()
 
 set_src(VERSIONSRV_SRC GLOB src/versionsrv mapversions.h versionsrv.cpp versionsrv.h)	
 list(APPEND VERSIONSRV_SRC ${PROJECT_BINARY_DIR}/src/generated/nethash.cpp)	
-
-
 set(TARGET_VERSIONSRV versionsrv)	
 
 add_executable(${TARGET_VERSIONSRV} EXCLUDE_FROM_ALL ${VERSIONSRV_SRC} $<TARGET_OBJECTS:engine-shared> ${DEPS})	
-
 target_link_libraries(${TARGET_VERSIONSRV} ${LIBS})	
-
+list(APPEND TARGETS_OWN ${TARGET_VERSIONSRV})	
 list(APPEND TARGETS_LINK ${TARGET_VERSIONSRV})	
 
-set(TARGETS_TOOLS)	
+set(TARGETS_TOOLS)
 set_src(TOOLS GLOB src/tools	
   crapnet.cpp
   map_resave.cpp	
   map_version.cpp	
   packetgen.cpp	
 )	
+
 foreach(ABS_T ${TOOLS})	
   file(RELATIVE_PATH T "${PROJECT_SOURCE_DIR}/src/tools/" ${ABS_T})	
   if(T MATCHES "\\.cpp$")	
@@ -1785,7 +1779,7 @@ foreach(ABS_T ${TOOLS})
     target_link_libraries(${TOOL} ${LIBS})	
     list(APPEND TARGETS_TOOLS ${TOOL})	
   endif()	
-endforeach()	
+endforeach()
 
 list(APPEND TARGETS_OWN ${TARGETS_TOOLS})	
 list(APPEND TARGETS_LINK ${TARGETS_TOOLS})	
