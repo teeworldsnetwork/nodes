@@ -422,11 +422,8 @@ bool CGameControllerNODES::CanSpawnNodes(class CPlayer* pPlayer, int Team, vec2*
 	Eval.m_FriendlyTeam = Team;
 
 	int BestSpawn = -1;
-	if (pPlayer->m_SelectSpawn)
-	{
-		if (pPlayer->m_WantedSpawn < m_aBuildingsCount[Team] && m_apBuildings[Team][pPlayer->m_WantedSpawn]->Type() == B_SPAWN && m_apBuildings[Team][pPlayer->m_WantedSpawn]->Alive() && m_apBuildings[Team][pPlayer->m_WantedSpawn]->Power())
-			BestSpawn = pPlayer->m_WantedSpawn;
-	}
+	if (pPlayer->m_SelectSpawn && pPlayer->m_WantedSpawn < m_aBuildingsCount[Team] && m_apBuildings[Team][pPlayer->m_WantedSpawn]->Type() == B_SPAWN && m_apBuildings[Team][pPlayer->m_WantedSpawn]->Alive() && m_apBuildings[Team][pPlayer->m_WantedSpawn]->Power())
+		BestSpawn = pPlayer->m_WantedSpawn;
 	else
 	{
 		// find spawn with lowest costs
