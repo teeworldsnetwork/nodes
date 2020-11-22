@@ -588,6 +588,8 @@ void CGameControllerNODES::DoTeamChange(CPlayer* pPlayer, int Team, bool DoChatM
 {
 	IGameController::DoTeamChange(pPlayer, Team, DoChatMsg);
 
+	pPlayer->m_SelectSpawn = false;
+
 	for (int i = 0; i < MAX_CLIENTS; i++)
 	{
 		if (!GameServer()->m_apPlayers[i])

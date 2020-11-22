@@ -689,7 +689,8 @@ bool CBuilding::IsGrounded()
 
 void CBuilding::Snap(int SnappingClient)
 {
-	if (NetworkClipped(SnappingClient, m_Pos) || (!GameServer()->GetPlayerChar(SnappingClient) && GameServer()->m_apPlayers[SnappingClient]->m_SelectSpawn && (m_Type != B_SPAWN || m_Team != GameServer()->m_apPlayers[SnappingClient]->GetTeam())))
+	if (NetworkClipped(SnappingClient, m_Pos) || 
+		(!GameServer()->GetPlayerChar(SnappingClient) && GameServer()->m_apPlayers[SnappingClient]->m_SelectSpawn && (m_Type != B_SPAWN || m_Team != GameServer()->m_apPlayers[SnappingClient]->GetTeam())))
 		return;
 
 	CNetObj_Building* pBuilding = static_cast<CNetObj_Building*>(Server()->SnapNewItem(NETOBJTYPE_BUILDING, GetID(), sizeof(CNetObj_Building)));
