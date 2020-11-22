@@ -337,7 +337,7 @@ void CBuilding::Tick()
 
 	case B_SHIELD:
 	{
-		if (Server()->Tick() % 50 == 0 && m_Power)
+		if (Server()->Tick() % Server()->TickSpeed() == 0 && m_Power)
 		{
 			if (m_Armor < 30)
 				m_Armor++;
@@ -601,7 +601,7 @@ bool CBuilding::TakeDamage(vec2 Force, int Dmg, int From, int PrevFrom, int Weap
 		m_Health -= Dmg;
 
 	m_DamageTakenTick = Server()->Tick();
-	if (m_DamageTick + 150 < Server()->Tick())
+	if (m_DamageTick + (3 * Server()->TickSpeed()) < Server()->Tick())
 	{
 		m_DamageTick = Server()->Tick();
 

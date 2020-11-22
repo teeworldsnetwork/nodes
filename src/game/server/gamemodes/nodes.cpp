@@ -78,12 +78,12 @@ void CGameControllerNODES::Tick()
 		}
 	}
 
-	if (Server()->Tick() % 50 == 0)
+	if (Server()->Tick() % Server()->TickSpeed() == 0)
 	{
 		// handle spawns
 		for (int t = 0; t < NUM_TEAMS; t++)
 		{
-			int Mod = (aReactors[t] ? 150 : 300);
+			int Mod = (aReactors[t] ? (3 * Server()->TickSpeed()) : (6 * Server()->TickSpeed()));
 			if (Server()->Tick() % Mod == 0)
 			{
 				if (m_aSpawnQueueSize[t] > 0)
@@ -98,7 +98,7 @@ void CGameControllerNODES::Tick()
 
 			for (int i = 0; i < m_aSpawnQueueSize[t]; i++)
 			{
-				int SpawnTime = i * (Mod / 50) + (Mod - Server()->Tick() % Mod) / 50;
+				int SpawnTime = i * (Mod / Server()->TickSpeed()) + (Mod - Server()->Tick() % Mod) / Server()->TickSpeed();
 				char aBuf[128];
 				str_format(aBuf, sizeof(aBuf), "Respawn time: %d", SpawnTime);
 				GameServer()->SendBroadcast(aBuf, m_apSpawnQueue[t][i]->GetCID());
@@ -109,7 +109,7 @@ void CGameControllerNODES::Tick()
 		{
 			for (int i = 0; i < m_FalloutCount; i++)
 			{
-				if (m_aFalloutTimes[i] + 20 * 50 < Server()->Tick())
+				if (m_aFalloutTimes[i] + 20 * Server()->TickSpeed() < Server()->Tick())
 				{
 					m_aFallout[i] = m_aFallout[m_FalloutCount - 1];
 					m_aFalloutTimes[i] = m_aFalloutTimes[--m_FalloutCount];
