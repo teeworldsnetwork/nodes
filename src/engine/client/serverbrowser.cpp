@@ -743,16 +743,29 @@ void CServerBrowser::ServerListCallback(void* pUser, int ResponseCode, std::stri
 						for (unsigned int p = 0; p < pClientProp->u.object.length; p++)
 						{
 							if (!str_comp_nocase(pClientProp->u.object.values[p].name, "name"))
-								str_copy(Info.m_aClients[i].m_aName, pClientProp->u.object.values[p].value->u.string.ptr, sizeof(Info.m_aClients[i].m_aName));
+								str_copy(Info.m_aClients[NumClients].m_aName, pClientProp->u.object.values[p].value->u.string.ptr, sizeof(Info.m_aClients[NumClients].m_aName));
 							else if (!str_comp_nocase(pClientProp->u.object.values[p].name, "clan"))
-								str_copy(Info.m_aClients[i].m_aClan, pClientProp->u.object.values[p].value->u.string.ptr, sizeof(Info.m_aClients[i].m_aClan));
+								str_copy(Info.m_aClients[NumClients].m_aClan, pClientProp->u.object.values[p].value->u.string.ptr, sizeof(Info.m_aClients[NumClients].m_aClan));
 							else if (!str_comp_nocase(pClientProp->u.object.values[p].name, "country"))
-								Info.m_aClients[i].m_Country = (int)pClientProp->u.object.values[p].value->u.integer;
+								Info.m_aClients[NumClients].m_Country = (int)pClientProp->u.object.values[p].value->u.integer;
 							else if (!str_comp_nocase(pClientProp->u.object.values[p].name, "score"))
-								Info.m_aClients[i].m_Score = (int)pClientProp->u.object.values[p].value->u.integer;
+								Info.m_aClients[NumClients].m_Score = (int)pClientProp->u.object.values[p].value->u.integer;
 							else if (!str_comp_nocase(pClientProp->u.object.values[p].name, "type"))
-								Info.m_aClients[i].m_PlayerType = (int)pClientProp->u.object.values[p].value->u.integer;
+								Info.m_aClients[NumClients].m_PlayerType = (int)pClientProp->u.object.values[p].value->u.integer;
 						}
+
+						if (Info.m_aClients[NumClients].m_PlayerType & CServerInfo::CClient::PLAYERFLAG_BOT)
+						{
+							if (Info.m_aClients[NumClients].m_PlayerType & CServerInfo::CClient::PLAYERFLAG_SPEC)
+								Info.m_NumBotSpectators++;
+							else
+								Info.m_NumBotPlayers++;
+						}
+
+						if (!(Info.m_aClients[NumClients].m_PlayerType & CServerInfo::CClient::PLAYERFLAG_SPEC))
+							NumPlayers++;
+
+						NumClients++;
 					}
 				}
 			}

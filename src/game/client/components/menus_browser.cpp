@@ -610,7 +610,7 @@ int CMenus::DoBrowserEntry(const void *pID, CUIRect View, const CServerInfo *pEn
 			UI()->DoLabel(&Button, aTemp, 12.0f, CUI::ALIGN_LEFT);
 			Button.x += TextRender()->TextWidth(0, 12.0f, aTemp, -1, -1.0f);
 		}
-		else if(ID == COL_BROWSER_PING)
+		/*else if(ID == COL_BROWSER_PING)
 		{
 			int Ping = pEntry->m_Latency;
 
@@ -647,7 +647,7 @@ int CMenus::DoBrowserEntry(const void *pID, CUIRect View, const CServerInfo *pEn
 			Button.y += 2.0f;
 			Button.w -= 4.0f;
 			UI()->DoLabel(&Button, aTemp, 12.0f, CUI::ALIGN_RIGHT);
-		}
+		}*/
 		else if(ID == COL_BROWSER_GAMETYPE)
 		{
 			// gametype icon
@@ -2226,37 +2226,6 @@ void CMenus::RenderDetailScoreboard(CUIRect View, const CServerInfo *pInfo, int 
 			char aTemp[16];
 			FormatScore(aTemp, sizeof(aTemp), pInfo->m_Flags&IServerBrowser::FLAG_TIMESCORE, &pInfo->m_aClients[i]);
 			TextRender()->SetCursor(&Cursor, Score.x, Score.y + (Score.h - FontSize-2) / 4.0f, FontSize-2, TEXTFLAG_RENDER | TEXTFLAG_STOP_AT_END);
-			Cursor.m_LineWidth = Score.w;
-			TextRender()->TextEx(&Cursor, aTemp, -1);
-		}
-
-		// friend
-		if (UI()->DoButtonLogic(&pInfo->m_aClients[i], &Name))
-		{
-			if (pInfo->m_aClients[i].m_FriendState == CContactInfo::CONTACT_PLAYER)
-				m_pClient->Friends()->RemoveFriend(pInfo->m_aClients[i].m_aName, pInfo->m_aClients[i].m_aClan);
-			else
-				m_pClient->Friends()->AddFriend(pInfo->m_aClients[i].m_aName, pInfo->m_aClients[i].m_aClan);
-			FriendlistOnUpdate();
-			Client()->ServerBrowserUpdate();
-		}
-		Name.VSplitLeft(Name.h - 8.0f, &Icon, &Name);
-		Icon.HMargin(4.0f, &Icon);
-		if (pInfo->m_aClients[i].m_FriendState != CContactInfo::CONTACT_NO)
-			DoIcon(IMAGE_BROWSEICONS, SPRITE_BROWSE_HEART_A, &Icon);
-
-		Name.VSplitLeft(2.0f, 0, &Name);
-		Name.VSplitLeft(25.0f, &Score, &Name);
-		Name.VSplitRight(2 * (Name.h - 8.0f), &Name, &Flag);
-		Flag.HMargin(4.0f, &Flag);
-		Name.HSplitTop(LineHeight * 0.5f, &Name, &Clan);
-
-		// score
-		if (!(pInfo->m_aClients[i].m_PlayerType & CServerInfo::CClient::PLAYERFLAG_SPEC))
-		{
-			char aTemp[16];
-			FormatScore(aTemp, sizeof(aTemp), pInfo->m_Flags & IServerBrowser::FLAG_TIMESCORE, &pInfo->m_aClients[i]);
-			TextRender()->SetCursor(&Cursor, Score.x, Score.y + (Score.h - FontSize) / 4.0f, FontSize, TEXTFLAG_RENDER | TEXTFLAG_STOP_AT_END);
 			Cursor.m_LineWidth = Score.w;
 			TextRender()->TextEx(&Cursor, aTemp, -1);
 		}
