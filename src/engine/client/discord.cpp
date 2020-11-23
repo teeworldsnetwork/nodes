@@ -9,7 +9,7 @@
 
 #include "discord.h"
 
-#define APPLICATION_ID 0 // no application id for open source version
+#define APPLICATION_ID 700594165200977921 // doesn't matter, it's readable via discord anyway
 
 CDiscord::CDiscord()
 {
