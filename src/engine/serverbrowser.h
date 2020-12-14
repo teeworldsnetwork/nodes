@@ -10,6 +10,9 @@
 static const unsigned char SERVERBROWSE_GETINFO[] = { 255, 255, 255, 255, 'g', 'i', 'e', '4' };
 static const unsigned char SERVERBROWSE_INFO[] = { 255, 255, 255, 255, 'i', 'n', 'f', '4' };
 
+static const unsigned char SERVERBROWSE_PING[] = { 255, 255, 255, 255, 'p', 'i', 'n', 'g' };
+static const unsigned char SERVERBROWSE_PONG[] = { 255, 255, 255, 255, 'p', 'o', 'n', 'g' };
+
 /*
 	Structure: CServerInfo
 */
@@ -178,6 +181,8 @@ public:
 	virtual void SetFilter(int Index, const CServerFilterInfo *pFilterInfo) = 0;
 	virtual void GetFilter(int Index, CServerFilterInfo *pFilterInfo) = 0;
 	virtual void RemoveFilter(int Index) = 0;
+
+	virtual void UpdatePing(const NETADDR& Addr) = 0;
 };
 
 #endif

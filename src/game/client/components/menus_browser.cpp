@@ -610,44 +610,47 @@ int CMenus::DoBrowserEntry(const void *pID, CUIRect View, const CServerInfo *pEn
 			UI()->DoLabel(&Button, aTemp, 12.0f, CUI::ALIGN_LEFT);
 			Button.x += TextRender()->TextWidth(0, 12.0f, aTemp, -1, -1.0f);
 		}
-		/*else if(ID == COL_BROWSER_PING)
+		else if(ID == COL_BROWSER_PING && Config()->m_ClPing)
 		{
 			int Ping = pEntry->m_Latency;
 
-			vec4 Color;
-			if(Selected || Inside)
+			if (Ping >= 0)
 			{
-				Color = vec4(TextBaseColor.r, TextBaseColor.g, TextBaseColor.b, TextAlpha);
-			}
-			else
-			{
-				vec4 StartColor;
-				vec4 EndColor;
-				float MixVal;
-				if(Ping <= 125)
+				vec4 Color;
+				if (Selected || Inside)
 				{
-					StartColor = vec4(0.0f, 1.0f, 0.0f, TextAlpha);
-					EndColor = vec4(1.0f, 1.0f, 0.0f, TextAlpha);
-
-					MixVal = (Ping-50.0f)/75.0f;
+					Color = vec4(TextBaseColor.r, TextBaseColor.g, TextBaseColor.b, TextAlpha);
 				}
 				else
 				{
-					StartColor = vec4(1.0f, 1.0f, 0.0f, TextAlpha);
-					EndColor = vec4(1.0f, 0.0f, 0.0f, TextAlpha);
+					vec4 StartColor;
+					vec4 EndColor;
+					float MixVal;
+					if (Ping <= 125)
+					{
+						StartColor = vec4(0.0f, 1.0f, 0.0f, TextAlpha);
+						EndColor = vec4(1.0f, 1.0f, 0.0f, TextAlpha);
 
-					MixVal = (Ping-125.0f)/75.0f;
+						MixVal = (Ping - 50.0f) / 75.0f;
+					}
+					else
+					{
+						StartColor = vec4(1.0f, 1.0f, 0.0f, TextAlpha);
+						EndColor = vec4(1.0f, 0.0f, 0.0f, TextAlpha);
+
+						MixVal = (Ping - 125.0f) / 75.0f;
+					}
+					Color = mix(StartColor, EndColor, MixVal);
 				}
-				Color = mix(StartColor, EndColor, MixVal);
-			}
 
-			str_format(aTemp, sizeof(aTemp), "%d", pEntry->m_Latency);
-			TextRender()->TextColor(Color);
-			TextRender()->TextOutlineColor(TextBaseOutlineColor);
-			Button.y += 2.0f;
-			Button.w -= 4.0f;
-			UI()->DoLabel(&Button, aTemp, 12.0f, CUI::ALIGN_RIGHT);
-		}*/
+				str_format(aTemp, sizeof(aTemp), "%d", pEntry->m_Latency);
+				TextRender()->TextColor(Color);
+				TextRender()->TextOutlineColor(TextBaseOutlineColor);
+				Button.y += 2.0f;
+				Button.w -= 4.0f;
+				UI()->DoLabel(&Button, aTemp, 12.0f, CUI::ALIGN_RIGHT);
+			}
+		}
 		else if(ID == COL_BROWSER_GAMETYPE)
 		{
 			// gametype icon

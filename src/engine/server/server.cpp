@@ -1229,6 +1229,20 @@ void CServer::PumpNetwork()
 				Response.m_DataSize = Packer.Size();
 				m_NetServer.Send(&Response, ResponseToken);
 			}
+
+			// server accepts special requests to allow the client to calculate a ping if wished
+			if (Packet.m_DataSize == int(sizeof(SERVERBROWSE_PING)) &&
+				mem_comp(Packet.m_pData, SERVERBROWSE_PING, sizeof(SERVERBROWSE_PING)) == 0)
+			{
+				CNetChunk Response;
+				mem_zero(&Response, sizeof(Response));
+				Response.m_ClientID = -1;
+				Response.m_Address = Packet.m_Address;
+				Response.m_Flags = NETSENDFLAG_CONNLESS;
+				Response.m_pData = SERVERBROWSE_PONG;
+				Response.m_DataSize = sizeof(SERVERBROWSE_PONG);
+				m_NetServer.Send(&Response, ResponseToken);
+			}
 		}
 		else
 			ProcessClientPacket(&Packet);

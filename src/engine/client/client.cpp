@@ -1064,6 +1064,9 @@ void CClient::ProcessConnlessPacket(CNetChunk *pPacket)
 			m_ServerBrowser.Set(pPacket->m_Address, CServerBrowser::SET_TOKEN, Token, &Info);
 		}
 	}
+
+	if (pPacket->m_DataSize == (int)sizeof(SERVERBROWSE_PONG) && mem_comp(pPacket->m_pData, SERVERBROWSE_PONG, sizeof(SERVERBROWSE_PONG)) == 0 && Config()->m_ClPing)
+		m_ServerBrowser.UpdatePing(pPacket->m_Address);
 }
 
 void CClient::ProcessServerPacket(CNetChunk *pPacket)

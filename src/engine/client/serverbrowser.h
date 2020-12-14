@@ -58,6 +58,8 @@ public:
 	void LoadServerlist();
 	void SaveServerlist();
 
+	void UpdatePing(const NETADDR& Addr);
+
 private:
 	class CNetClient *m_pNetClient;
 	class CConfig *m_pConfig;

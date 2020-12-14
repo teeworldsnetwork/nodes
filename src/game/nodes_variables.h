@@ -4,6 +4,7 @@
 #define GAME_NODES_VARIABLES_H
 #undef GAME_NODES_VARIABLES_H // this file will be included several times
 
+// server
 MACRO_CONFIG_INT(SvStartBuildpoints, sv_start_buildpoints, 1000, 0, 1000000, CFGFLAG_SAVE | CFGFLAG_SERVER, "Buildpoints on game start")
 MACRO_CONFIG_INT(SvBuildDelay, sv_build_delay, 10, 0, 1000000, CFGFLAG_SAVE | CFGFLAG_SERVER, "Time delay before being able to build again")
 MACRO_CONFIG_INT(SvCrateProbability, sv_crate_probability, 50, 0, 1000, CFGFLAG_SAVE | CFGFLAG_SERVER, "Probability per second in permil that a crate is created")
@@ -16,5 +17,8 @@ MACRO_CONFIG_INT(SvOwnerProtection, sv_owner_protection, 1, 0, 1, CFGFLAG_SAVE |
 MACRO_CONFIG_INT(SvDeconstructTime, sv_deconstruct_time, 10, 0, 900, CFGFLAG_SAVE | CFGFLAG_SERVER, "Time delay before being able to deconstruct a building again")
 MACRO_CONFIG_INT(SvBuildingsFriendlyFire, sv_buildings_friendly_fire, 1, 0, 1, CFGFLAG_SAVE | CFGFLAG_SERVER, "Friendly fire on buildings")
 MACRO_CONFIG_INT(SvBuildSpeed, sv_buildspeed, 2, 0, 10, CFGFLAG_SAVE | CFGFLAG_SERVER, "Building speed")
+
+// client
+MACRO_CONFIG_INT(ClPing, cl_ping, 0, 0, 1, CFGFLAG_SAVE | CFGFLAG_CLIENT, "Enable server ping calculation")
 
 #endif

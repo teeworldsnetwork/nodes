@@ -167,8 +167,21 @@ void CServerBrowser::Set(const NETADDR &Addr, int SetType, int Token, const CSer
 			if (pEntry)
 			{
 				SetInfo(Type, pEntry, *pInfo);
-				pEntry->m_Info.m_Latency = 999;
+				pEntry->m_Info.m_Latency = -1;
+				pEntry->m_RequestTime = time_get();
 				// RemoveRequest(pEntry); // needed?
+
+				if (Config()->m_ClPing)
+				{
+					CNetChunk Packet;
+					mem_zero(&Packet, sizeof(Packet));
+					Packet.m_ClientID = -1;
+					Packet.m_Address = Addr;
+					Packet.m_Flags = NETSENDFLAG_CONNLESS;
+					Packet.m_pData = SERVERBROWSE_PING;
+					Packet.m_DataSize = sizeof(SERVERBROWSE_PING);
+					m_pNetClient->Send(&Packet);
+				}
 			}
 		}
 	}
@@ -809,4 +822,30 @@ void CServerBrowser::RequestServerlist()
 	Http()->ExecuteRequest(pRequest);
 
 	m_RefreshingServerlist = true;
+}
+
+void CServerBrowser::UpdatePing(const NETADDR& Addr)
+{
+	int Type;
+	CServerEntry* pEntry = 0;
+
+	// internet entry
+	if (m_RefreshFlags & IServerBrowser::REFRESHFLAG_INTERNET)
+	{
+		Type = IServerBrowser::TYPE_INTERNET;
+		pEntry = Find(Type, Addr);
+		if (pEntry && (pEntry->m_InfoState != CServerEntry::STATE_READY))
+			pEntry = 0;
+	}
+
+	// lan entry
+	if (!pEntry && (m_RefreshFlags & IServerBrowser::REFRESHFLAG_LAN) && m_BroadcastTime + time_freq() >= time_get())
+	{
+		Type = IServerBrowser::TYPE_LAN;
+		pEntry = Find(Type, Addr);
+	}
+
+	// set info
+	if (pEntry)
+		pEntry->m_Info.m_Latency = min(static_cast<int>((time_get() - pEntry->m_RequestTime) * 1000 / time_freq()), 999);
 }
